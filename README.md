@@ -1,29 +1,11 @@
-# How to use module
-
-This module is meant to be used together with SkiROS2. The communication between SkiROS2 and this module is done using ROS action request.
-This module is a ROS action server that will transform the ROS action request (from SkiROS2) into a driver specific request that will actuate the Robotiq 2 fingers gripper. This package uses the robotiq 2 fingers package which uses Modbus RTU protocol and requires a USB connection.
-
-The ROS action definition is stored in fm_gripper_msgs.
-
-In order to be used with SkiROS2:
-
-1. Both the SkiROS2 container and this module (gripper) container should be on the same network (host) in order to communicate.
-2. SkiROS2 should compile the fm_gripper_msgs folder in order to be able to send ROS action request using this action format. For this build the msgs folder directly from the SkiROS2 catkin_ws.
-
-```
-# Inside catkin_ws of SkiROS2
-catkin_make_isolated --pkg fm_gripper_msgs
-source devel_isolated/setup.bash
-
-```
-
-
 # Launch the gripper module
 
 
 ## 1. Build the image
+Navigate to the docker folder and run the script to build the docker image
 
 ```
+cd docker
 ./build_image.sh
 ```
 
@@ -48,12 +30,7 @@ Then source the built packages
 source devel/setup.bash
 ```
 
-## 3. Start the module
-
-This module consists of 2 packages: server and driver
-Both packages are started from the the docker-compose.yaml file.
-
-Before starting the module:
+## 3. Start the gripper driver
 
 1. Plug the usb and check if it is listed as USB0 with the following command
 
@@ -70,11 +47,32 @@ sudo chmod 777 /dev/ttyUSB0
 3. Start the containers
 
 ```
-docker-compose up
+roslaunch fm_gripper_module fm_gripper_module.launch
+```
+
+The Robotiq gripper LED should become blue. You can also see if you receive the gripper status by subscribing to the 'Robotiq2FGripperRobotInput' topic (You need to first enter the container with e.g. docker exec -it frogs_fm_gripper bash)
+
+## 4. run the server node
+in another terminal, open a new session in the running docker container.
+```
+./shell_container.sh
+cd catkin_ws
+source devel/setup.bash
+rosrun fm_gripper_module gripper_action_server.py 
 ```
 
 
-The Robotiq gripper LED should become blue. You can also see if you receive the gripper status by subscribing to the 'Robotiq2FGripperRobotInput' topic (You need to first enter the container with e.g. docker exec -it frogs_fm_gripper bash)
+
+## 5. run the client node
+in another terminal, open a new session in the running docker container.
+```
+./shell_container.sh
+cd catkin_ws
+source devel/setup.bash
+rosrun fm_gripper_module gripper_test_action_client.py 
+```
+
+This will trigger the gripper code in the terminal of the server node.
 
 
 
