@@ -1,0 +1,66 @@
+[rospy.client][INFO] 2022-02-23 12:24:01,393: init_node, name[/gripper_action_server], pid[1566]
+[xmlrpc][INFO] 2022-02-23 12:24:01,394: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:24:01,394: Started XML-RPC server [http://FM00351-u:40243/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:24:01,394: _ready: http://FM00351-u:40243/
+[rospy.init][INFO] 2022-02-23 12:24:01,394: ROS Slave URI: [http://FM00351-u:40243/]
+[rospy.registration][INFO] 2022-02-23 12:24:01,395: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:24:01,396: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:24:01,495: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:24:01,495: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:24:01,497: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:24:01,497: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:24:01,718: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:24:03,304: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:24:03,304: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:24:03,305: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:24:03,327: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:35903/], count 0
+[rospy.internal][INFO] 2022-02-23 12:24:03,328: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:35903/], count 0
+[rosout][INFO] 2022-02-23 12:24:03,368: state: initializing
+[rosout][INFO] 2022-02-23 12:24:03,368: controller is started now
+[rosout][INFO] 2022-02-23 12:24:03,370: -----
+Available commands
+
+r: Reset
+a: Activate
+cal obit cbit width: Calibrate return 1 bit in mm
+c: Close (full speed & force)
+o: Open (full speed & force)
+g: Grap (minimal speed & force)
+GoTo pos speed force
+f x: Set force during trajectory to x
+sin amplitude period duration
+trap height small_b large_b duration
+tri amplitude period duration
+samplePoints t_list pos_list
+fg: Grap with force detection (minimal speed & 1 N force)
+fg x: Grap with x Newton (minimal speed)
+sfg: Grap with force detection (minimal speed & 1 N force)
+sfg x: Grap with x Newton (minimal speed)
+sq x: Squeeze x positions
+fc x: Force control @ x N
+sc x: Slip Control @ x N
+
+[rospy.internal][INFO] 2022-02-23 12:24:03,431: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.core][INFO] 2022-02-23 12:24:22,202: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 12:24:22,207: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:24:22,207: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:24:22,207: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 12:24:22,207: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:24:22,207: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][INFO] 2022-02-23 12:24:22,208: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:35903/
+[rospy.internal][INFO] 2022-02-23 12:24:22,208: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:35903/
+[rospy.impl.masterslave][INFO] 2022-02-23 12:24:22,208: signal-2
+[rosout][ERROR] 2022-02-23 12:24:31,540: Exception in your execute callback: name 's' is not defined
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 38, in execute
+    Robotiq2FGripperSlipController().controller()
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 800, in controller
+    inputs = self.askForInput(self.command)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 773, in askForInput
+    return input(strAskForCommand)
+  File "<string>", line 1, in <module>
+NameError: name 's' is not defined
+
+[rospy.core][INFO] 2022-02-23 12:24:31,643: signal_shutdown [atexit]

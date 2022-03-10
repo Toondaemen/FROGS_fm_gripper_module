@@ -1,0 +1,42 @@
+[rosmaster.main][INFO] 2022-02-23 09:19:13,972: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-02-23 09:19:13,972: Starting ROS Master Node
+[xmlrpc][INFO] 2022-02-23 09:19:13,973: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-02-23 09:19:13,973: Started XML-RPC server [http://FM00351-u:11311/]
+[xmlrpc][INFO] 2022-02-23 09:19:13,973: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-02-23 09:19:13,973: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2022-02-23 09:19:14,000: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 09:19:14,000: +PARAM [/roslaunch/uris/host_fm00351_u__41335] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 09:19:14,270: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 09:19:14,271: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 09:19:14,291: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:45341/
+[rosmaster.master][INFO] 2022-02-23 09:19:14,292: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:45341/
+[rosmaster.master][INFO] 2022-02-23 09:19:14,292: +PUB [/rosout_agg] /rosout http://FM00351-u:45341/
+[rosmaster.master][INFO] 2022-02-23 09:19:14,293: +SUB [/rosout] /rosout http://FM00351-u:45341/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,774: +PUB [/rosout] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,778: +SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,780: +SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,781: +PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,782: publisherUpdate[/rosout] -> http://FM00351-u:45341/ ['http://FM00351-u:45281/']
+[rosmaster.master][INFO] 2022-02-23 09:19:17,785: +SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,792: publisherUpdate[/rosout] -> http://FM00351-u:45341/ ['http://FM00351-u:45281/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 09:19:17,795: -SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,795: -PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,795: -PUB [/rosout] /robotiq2FGripper http://FM00351-u:45281/
+[rosmaster.master][INFO] 2022-02-23 09:19:17,795: -SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper rosrpc://FM00351-u:42557
+[rosmaster.master][INFO] 2022-02-23 09:19:17,795: -SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper rosrpc://FM00351-u:42557
+[rosmaster.master][INFO] 2022-02-23 09:19:17,882: publisherUpdate[/rosout] -> http://FM00351-u:45341/ []
+[rosmaster.master][INFO] 2022-02-23 09:19:17,893: publisherUpdate[/rosout] -> http://FM00351-u:45341/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 09:19:35,993: +PUB [/rosout] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:35,997: +SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:35,999: +SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,001: +PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,004: +SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,007: -SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,008: -PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,008: -PUB [/rosout] /robotiq2FGripper http://FM00351-u:43011/
+[rosmaster.master][INFO] 2022-02-23 09:19:36,008: -SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper rosrpc://FM00351-u:39969
+[rosmaster.master][INFO] 2022-02-23 09:19:36,008: -SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper rosrpc://FM00351-u:39969
+[rosmaster.master][INFO] 2022-02-23 09:19:36,026: publisherUpdate[/rosout] -> http://FM00351-u:45341/ ['http://FM00351-u:43011/']
+[rosmaster.master][INFO] 2022-02-23 09:19:36,034: publisherUpdate[/rosout] -> http://FM00351-u:45341/ ['http://FM00351-u:43011/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 09:19:36,034: publisherUpdate[/rosout] -> http://FM00351-u:45341/ []
+[rosmaster.master][INFO] 2022-02-23 09:19:36,035: publisherUpdate[/rosout] -> http://FM00351-u:45341/ []: sec=0.00, result=[1, '', 0]

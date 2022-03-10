@@ -1,0 +1,119 @@
+[rospy.client][INFO] 2022-03-09 08:49:43,986: init_node, name[/gripper_action_server], pid[622]
+[xmlrpc][INFO] 2022-03-09 08:49:43,987: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-09 08:49:43,987: Started XML-RPC server [http://FM00351-u:34851/]
+[rospy.init][INFO] 2022-03-09 08:49:43,987: ROS Slave URI: [http://FM00351-u:34851/]
+[rospy.impl.masterslave][INFO] 2022-03-09 08:49:43,987: _ready: http://FM00351-u:34851/
+[rospy.registration][INFO] 2022-03-09 08:49:43,988: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-09 08:49:43,988: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-09 08:49:44,087: registered with master
+[rospy.rosout][INFO] 2022-03-09 08:49:44,088: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-09 08:49:44,089: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-09 08:49:44,089: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-09 08:49:44,381: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-09 08:52:28,369: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 08:52:28,369: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 08:52:28,370: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 08:52:28,370: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:45627/], count 0
+[rospy.internal][INFO] 2022-03-09 08:52:28,371: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:45627/], count 0
+[rosout][INFO] 2022-03-09 08:52:28,378: state: initializing
+[rosout][INFO] 2022-03-09 08:52:28,379: controller is started now
+[rospy.internal][INFO] 2022-03-09 08:52:28,447: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.internal][ERROR] 2022-03-09 09:01:58,267: Unable to initiate TCP/IP socket to FM00351-u:35069 (http://FM00351-u:45627/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2022-03-09 09:01:58,267: Unable to initiate TCP/IP socket to FM00351-u:35069 (http://FM00351-u:45627/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-03-09 09:01:58,495: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 09:01:58,718: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 09:01:58,719: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][WARNING] 2022-03-09 09:01:59,276: Unknown error initiating TCP/IP socket to FM00351-u:35069 (http://FM00351-u:45627/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2022-03-09 09:01:59,277: Unknown error initiating TCP/IP socket to FM00351-u:35069 (http://FM00351-u:45627/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 09:01:59,277: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:45627/
+[rospy.internal][INFO] 2022-03-09 09:01:59,277: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:45627/
+[rospy.internal][INFO] 2022-03-09 09:02:05,691: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:41509/], count 0
+[rospy.internal][INFO] 2022-03-09 09:02:05,693: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:41509/], count 0
+[rospy.internal][INFO] 2022-03-09 09:02:05,706: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 09:02:05,708: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 09:02:05,708: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][ERROR] 2022-03-09 09:15:58,809: Unable to initiate TCP/IP socket to FM00351-u:38515 (http://FM00351-u:41509/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2022-03-09 09:15:58,809: Unable to initiate TCP/IP socket to FM00351-u:38515 (http://FM00351-u:41509/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-03-09 09:15:59,095: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 09:15:59,239: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 09:15:59,240: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][WARNING] 2022-03-09 09:15:59,811: Unknown error initiating TCP/IP socket to FM00351-u:38515 (http://FM00351-u:41509/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2022-03-09 09:15:59,812: Unknown error initiating TCP/IP socket to FM00351-u:38515 (http://FM00351-u:41509/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 09:15:59,812: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:41509/
+[rospy.internal][INFO] 2022-03-09 09:15:59,813: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:41509/
+[rospy.core][INFO] 2022-03-09 09:16:01,815: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-09 09:16:01,818: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-09 09:16:01,818: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.impl.masterslave][INFO] 2022-03-09 09:16:01,818: signal-2
+[rosout][ERROR] 2022-03-09 09:16:13,874: Exception in your execute callback: unexpected EOF while parsing (<string>, line 0)
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 38, in execute
+    Robotiq2FGripperSlipController().controller()
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 798, in controller
+    inputs = self.askForInput(self.command)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 771, in askForInput
+    return input(strAskForCommand)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+[rospy.core][INFO] 2022-03-09 09:16:13,978: signal_shutdown [atexit]

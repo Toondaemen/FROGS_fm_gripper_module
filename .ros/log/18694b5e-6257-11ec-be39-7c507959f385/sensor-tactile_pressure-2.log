@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-12-21 12:11:16,159: init_node, name[/sensor/tactile_pressure], pid[117]
+[xmlrpc][INFO] 2021-12-21 12:11:16,168: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 12:11:16,168: Started XML-RPC server [http://FM00351-u:35553/]
+[rospy.impl.masterslave][INFO] 2021-12-21 12:11:16,168: _ready: http://FM00351-u:35553/
+[rospy.init][INFO] 2021-12-21 12:11:16,169: ROS Slave URI: [http://FM00351-u:35553/]
+[rospy.registration][INFO] 2021-12-21 12:11:16,173: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 12:11:16,173: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 12:11:16,270: registered with master
+[rospy.rosout][INFO] 2021-12-21 12:11:16,270: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 12:11:16,273: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 12:11:16,274: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 12:11:16,276: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 12:11:16,279: Connecting to /dev/ttyUSB0 at 57600 baud
+[rospy.internal][INFO] 2021-12-21 12:11:16,552: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-21 12:11:18,385: Requesting topics...
+[rosout][ERROR] 2021-12-21 12:11:33,389: Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+[rosout][INFO] 2021-12-21 12:11:33,392: Requesting topics...
+[rosout][ERROR] 2021-12-21 12:11:48,396: Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+[rosout][INFO] 2021-12-21 12:11:48,399: Requesting topics...
+[rosout][ERROR] 2021-12-21 12:12:03,402: Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+[rosout][INFO] 2021-12-21 12:12:03,403: Requesting topics...
+[rosout][ERROR] 2021-12-21 12:12:18,404: Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+[rosout][INFO] 2021-12-21 12:12:18,406: Requesting topics...
+[rosout][INFO] 2021-12-21 12:12:19,696: Send tx stop request
+[rospy.core][INFO] 2021-12-21 12:12:19,699: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-12-21 12:12:19,702: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-21 12:12:19,702: atexit

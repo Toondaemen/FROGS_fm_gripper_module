@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2022-02-23 10:18:07,150: init_node, name[/Robotiq2FGripperSlipController_9435_1645611487111], pid[9435]
+[xmlrpc][INFO] 2022-02-23 10:18:07,150: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 10:18:07,150: Started XML-RPC server [http://FM00351-u:43965/]
+[rospy.impl.masterslave][INFO] 2022-02-23 10:18:07,150: _ready: http://FM00351-u:43965/
+[rospy.init][INFO] 2022-02-23 10:18:07,151: ROS Slave URI: [http://FM00351-u:43965/]
+[rospy.registration][INFO] 2022-02-23 10:18:07,151: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 10:18:07,152: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 10:18:07,252: registered with master
+[rospy.rosout][INFO] 2022-02-23 10:18:07,252: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 10:18:07,262: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 10:18:07,264: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 10:18:07,474: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 10:18:12,550: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-23 10:18:12,554: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-23 10:18:12,555: atexit

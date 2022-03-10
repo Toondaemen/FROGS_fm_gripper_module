@@ -1,0 +1,68 @@
+[rospy.client][INFO] 2022-03-10 09:54:50,945: init_node, name[/Robotiq2FGripperRtuNode], pid[495]
+[xmlrpc][INFO] 2022-03-10 09:54:50,945: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-10 09:54:50,946: Started XML-RPC server [http://FM00351-u:44707/]
+[rospy.init][INFO] 2022-03-10 09:54:50,946: ROS Slave URI: [http://FM00351-u:44707/]
+[rospy.impl.masterslave][INFO] 2022-03-10 09:54:50,946: _ready: http://FM00351-u:44707/
+[rospy.registration][INFO] 2022-03-10 09:54:50,948: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-10 09:54:50,948: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-10 09:54:51,047: registered with master
+[rospy.rosout][INFO] 2022-03-10 09:54:51,047: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-10 09:54:51,050: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-10 09:54:51,051: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-10 09:54:51,280: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-10 09:55:56,104: topic[/Robotiq2FGripperRobotInput] adding connection to [/fm_gripper_action_server], count 0
+[rospy.internal][INFO] 2022-03-10 09:55:56,111: topic[/Robotiq2FGripperRobotInput] adding connection to [/gripper_action_server], count 1
+[rospy.internal][INFO] 2022-03-10 09:55:56,129: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:37651/], count 0
+[rospy.internal][INFO] 2022-03-10 09:55:56,130: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:43977/], count 1
+[rospy.internal][ERROR] 2022-03-10 09:57:24,279: Unable to initiate TCP/IP socket to FM00351-u:33767 (http://FM00351-u:43977/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-03-10 09:57:24,283: topic[/Robotiq2FGripperRobotInput] removing connection to /fm_gripper_action_server
+[rospy.internal][WARNING] 2022-03-10 09:57:25,281: Unknown error initiating TCP/IP socket to FM00351-u:33767 (http://FM00351-u:43977/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-10 09:57:25,281: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:43977/
+[rospy.internal][INFO] 2022-03-10 09:58:09,518: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:42897/], count 1
+[rospy.internal][INFO] 2022-03-10 09:58:14,792: topic[/Robotiq2FGripperRobotInput] adding connection to [/fm_gripper_action_server], count 1
+[rospy.internal][WARNING] 2022-03-10 09:58:30,994: Unknown error initiating TCP/IP socket to FM00351-u:40809 (http://FM00351-u:42897/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-03-10 09:58:30,994: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:42897/
+[rospy.internal][INFO] 2022-03-10 09:58:31,027: topic[/Robotiq2FGripperRobotInput] removing connection to /fm_gripper_action_server
+[rospy.internal][INFO] 2022-03-10 10:07:40,066: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:38627/], count 1
+[rospy.internal][WARNING] 2022-03-10 10:08:20,117: Unknown error initiating TCP/IP socket to FM00351-u:34169 (http://FM00351-u:38627/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-10 10:08:20,117: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:38627/
+[rospy.internal][INFO] 2022-03-10 10:08:27,478: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:43629/], count 1
+[rospy.internal][INFO] 2022-03-10 10:08:30,740: topic[/Robotiq2FGripperRobotInput] adding connection to [/fm_gripper_action_server], count 1
+[rospy.core][INFO] 2022-03-10 10:10:24,827: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-10 10:10:24,833: topic[/Robotiq2FGripperRobotInput] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-03-10 10:10:24,833: topic[/Robotiq2FGripperRobotInput] removing connection to /fm_gripper_action_server
+[rospy.internal][INFO] 2022-03-10 10:10:24,833: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-03-10 10:10:24,833: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:37651/
+[rospy.internal][INFO] 2022-03-10 10:10:24,834: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:43629/
+[rospy.impl.masterslave][INFO] 2022-03-10 10:10:24,834: signal-2
+[rospy.core][INFO] 2022-03-10 10:10:24,957: signal_shutdown [atexit]

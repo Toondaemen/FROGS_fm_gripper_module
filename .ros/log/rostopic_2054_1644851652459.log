@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2022-02-14 15:14:12,519: init_node, name[/rostopic_2054_1644851652459], pid[2054]
+[xmlrpc][INFO] 2022-02-14 15:14:12,520: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 15:14:12,520: Started XML-RPC server [http://FM00351-u:33829/]
+[rospy.init][INFO] 2022-02-14 15:14:12,520: ROS Slave URI: [http://FM00351-u:33829/]
+[rospy.impl.masterslave][INFO] 2022-02-14 15:14:12,520: _ready: http://FM00351-u:33829/
+[rospy.registration][INFO] 2022-02-14 15:14:12,520: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 15:14:12,521: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 15:14:12,621: registered with master
+[rospy.rosout][INFO] 2022-02-14 15:14:12,621: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 15:14:12,624: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 15:14:12,626: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 15:14:12,688: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:39251/], count 0
+[rospy.internal][INFO] 2022-02-14 15:14:12,879: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 15:25:52,599: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 15:25:52,603: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 15:25:52,604: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:39251/
+[rospy.impl.masterslave][INFO] 2022-02-14 15:25:52,604: signal-2
+[rospy.core][INFO] 2022-02-14 15:25:52,736: signal_shutdown [atexit]

@@ -1,0 +1,119 @@
+[rospy.client][INFO] 2022-02-14 16:31:44,925: init_node, name[/Robotiq2FGripperRtuNode], pid[5199]
+[xmlrpc][INFO] 2022-02-14 16:31:44,925: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:31:44,925: Started XML-RPC server [http://FM00351-u:44677/]
+[rospy.init][INFO] 2022-02-14 16:31:44,925: ROS Slave URI: [http://FM00351-u:44677/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:31:44,925: _ready: http://FM00351-u:44677/
+[xmlrpc][INFO] 2022-02-14 16:31:44,925: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-14 16:31:44,926: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-02-14 16:31:45,026: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:31:45,026: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:31:45,030: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:31:45,032: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-02-14 16:31:45,040: [Errno 2] could not open port __name:=Robotiq2FGripperRtuNode: [Errno 2] No such file or directory: '__name:=Robotiq2FGripperRtuNode'
+[rospy.core][INFO] 2022-02-14 16:31:45,041: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:31:45,044: atexit
+[rospy.client][INFO] 2022-02-14 16:33:15,978: init_node, name[/Robotiq2FGripperRtuNode], pid[5241]
+[xmlrpc][INFO] 2022-02-14 16:33:15,978: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:33:15,978: Started XML-RPC server [http://FM00351-u:44827/]
+[rospy.init][INFO] 2022-02-14 16:33:15,979: ROS Slave URI: [http://FM00351-u:44827/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:33:15,979: _ready: http://FM00351-u:44827/
+[rospy.registration][INFO] 2022-02-14 16:33:15,979: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:33:15,979: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:33:16,079: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:33:16,079: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:33:16,084: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:33:16,085: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-02-14 16:33:16,094: [Errno 2] could not open port __name:=Robotiq2FGripperRtuNode: [Errno 2] No such file or directory: '__name:=Robotiq2FGripperRtuNode'
+[rospy.core][INFO] 2022-02-14 16:33:16,095: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:33:16,098: atexit
+[rospy.client][INFO] 2022-02-14 16:39:18,465: init_node, name[/Robotiq2FGripperRtuNode], pid[5283]
+[xmlrpc][INFO] 2022-02-14 16:39:18,466: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:39:18,466: Started XML-RPC server [http://FM00351-u:34935/]
+[rospy.init][INFO] 2022-02-14 16:39:18,466: ROS Slave URI: [http://FM00351-u:34935/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:39:18,466: _ready: http://FM00351-u:34935/
+[rospy.registration][INFO] 2022-02-14 16:39:18,466: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:39:18,467: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:39:18,566: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:39:18,567: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:39:18,571: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:39:18,573: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 16:39:18,793: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 16:39:20,933: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-14 16:39:20,938: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:39:20,938: atexit
+[rospy.client][INFO] 2022-02-14 16:40:05,077: init_node, name[/Robotiq2FGripperRtuNode], pid[5346]
+[xmlrpc][INFO] 2022-02-14 16:40:05,077: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:40:05,077: Started XML-RPC server [http://FM00351-u:35727/]
+[rospy.init][INFO] 2022-02-14 16:40:05,077: ROS Slave URI: [http://FM00351-u:35727/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:40:05,077: _ready: http://FM00351-u:35727/
+[rospy.registration][INFO] 2022-02-14 16:40:05,078: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:40:05,078: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:40:05,178: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:40:05,178: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:40:05,182: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:40:05,184: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 16:40:05,302: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 16:40:07,552: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-14 16:40:07,557: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:40:07,557: atexit
+[rospy.client][INFO] 2022-02-14 16:41:19,617: init_node, name[/Robotiq2FGripperRtuNode], pid[5390]
+[xmlrpc][INFO] 2022-02-14 16:41:19,617: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:41:19,617: Started XML-RPC server [http://FM00351-u:36249/]
+[rospy.init][INFO] 2022-02-14 16:41:19,618: ROS Slave URI: [http://FM00351-u:36249/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:41:19,618: _ready: http://FM00351-u:36249/
+[rospy.registration][INFO] 2022-02-14 16:41:19,618: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:41:19,618: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:41:19,718: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:41:19,718: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:41:19,723: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:41:19,725: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-02-14 16:41:19,734: [Errno 2] could not open port __name:=Robotiq2FGripperRtuNode: [Errno 2] No such file or directory: '__name:=Robotiq2FGripperRtuNode'
+[rospy.core][INFO] 2022-02-14 16:41:19,734: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:41:19,739: atexit
+[rospy.client][INFO] 2022-02-14 16:41:40,369: init_node, name[/Robotiq2FGripperRtuNode], pid[5432]
+[xmlrpc][INFO] 2022-02-14 16:41:40,369: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:41:40,369: Started XML-RPC server [http://FM00351-u:35547/]
+[rospy.init][INFO] 2022-02-14 16:41:40,369: ROS Slave URI: [http://FM00351-u:35547/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:41:40,369: _ready: http://FM00351-u:35547/
+[rospy.registration][INFO] 2022-02-14 16:41:40,370: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:41:40,370: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:41:40,470: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:41:40,470: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:41:40,475: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:41:40,476: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 16:41:40,707: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 16:41:43,345: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-14 16:41:43,354: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:41:43,354: atexit
+[rospy.client][INFO] 2022-02-14 16:43:00,587: init_node, name[/Robotiq2FGripperRtuNode], pid[5476]
+[xmlrpc][INFO] 2022-02-14 16:43:00,587: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:43:00,588: Started XML-RPC server [http://FM00351-u:36541/]
+[rospy.init][INFO] 2022-02-14 16:43:00,588: ROS Slave URI: [http://FM00351-u:36541/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:43:00,588: _ready: http://FM00351-u:36541/
+[rospy.registration][INFO] 2022-02-14 16:43:00,588: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:43:00,588: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:43:00,688: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:43:00,688: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:43:00,692: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:43:00,694: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 16:43:00,902: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 16:43:05,891: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 16:43:05,893: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:43:05,894: signal-2
+[rospy.core][INFO] 2022-02-14 16:43:06,026: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-02-14 16:44:04,508: init_node, name[/Robotiq2FGripperRtuNode], pid[5520]
+[xmlrpc][INFO] 2022-02-14 16:44:04,508: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:44:04,508: Started XML-RPC server [http://FM00351-u:34135/]
+[rospy.init][INFO] 2022-02-14 16:44:04,509: ROS Slave URI: [http://FM00351-u:34135/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:44:04,509: _ready: http://FM00351-u:34135/
+[rospy.registration][INFO] 2022-02-14 16:44:04,509: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:44:04,509: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:44:04,609: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:44:04,609: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:44:04,614: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:44:04,615: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 16:44:04,826: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 16:44:08,303: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 16:44:08,305: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:44:08,305: signal-2
+[rospy.core][INFO] 2022-02-14 16:44:08,487: signal_shutdown [atexit]

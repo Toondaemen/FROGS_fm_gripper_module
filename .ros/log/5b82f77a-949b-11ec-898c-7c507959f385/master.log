@@ -1,0 +1,84 @@
+[rosmaster.main][INFO] 2022-02-23 11:25:52,451: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-02-23 11:25:52,451: Starting ROS Master Node
+[xmlrpc][INFO] 2022-02-23 11:25:52,452: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-02-23 11:25:52,452: Started XML-RPC server [http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2022-02-23 11:25:52,452: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[xmlrpc][INFO] 2022-02-23 11:25:52,452: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-02-23 11:25:52,467: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:25:52,468: +PARAM [/roslaunch/uris/host_fm00351_u__34817] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:25:52,747: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:25:52,747: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:25:52,753: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:25:52,753: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:25:52,753: +PUB [/rosout_agg] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:25:52,754: +SUB [/rosout] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,342: +PUB [/rosout] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,345: +SERVICE [/Robotiq2FGripperRtuNode/get_loggers] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,345: +SERVICE [/Robotiq2FGripperRtuNode/set_logger_level] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,345: +PUB [/Robotiq2FGripperRobotInput] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,346: +SUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,353: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/']
+[rosmaster.master][INFO] 2022-02-23 11:25:53,363: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:25:53,439: +PUB [/rosout] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,444: +SERVICE [/gripper_action_server/get_loggers] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,445: +SERVICE [/gripper_action_server/set_logger_level] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,449: +PUB [/gripper_action_server/status] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,451: +PUB [/gripper_action_server/result] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,452: +PUB [/gripper_action_server/feedback] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,454: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/', 'http://FM00351-u:44223/']
+[rosmaster.master][INFO] 2022-02-23 11:25:53,456: +SUB [/gripper_action_server/goal] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,459: +SUB [/gripper_action_server/cancel] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:53,473: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/', 'http://FM00351-u:44223/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:25:55,664: +PUB [/rosout] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,666: +SERVICE [/gripper_action_client/get_loggers] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,667: +SERVICE [/gripper_action_client/set_logger_level] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,668: +PUB [/gripper_action_server/goal] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,668: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/', 'http://FM00351-u:44223/', 'http://FM00351-u:44583/']
+[rosmaster.master][INFO] 2022-02-23 11:25:55,669: +PUB [/gripper_action_server/cancel] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,669: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:36039/', 'http://FM00351-u:44223/', 'http://FM00351-u:44583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:25:55,669: publisherUpdate[/gripper_action_server/goal] -> http://FM00351-u:44223/ ['http://FM00351-u:44583/']
+[rosmaster.master][INFO] 2022-02-23 11:25:55,670: +SUB [/gripper_action_server/status] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,671: publisherUpdate[/gripper_action_server/goal] -> http://FM00351-u:44223/ ['http://FM00351-u:44583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:25:55,671: +SUB [/gripper_action_server/result] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,671: publisherUpdate[/gripper_action_server/cancel] -> http://FM00351-u:44223/ ['http://FM00351-u:44583/']
+[rosmaster.master][INFO] 2022-02-23 11:25:55,672: +SUB [/gripper_action_server/feedback] /gripper_action_client http://FM00351-u:44583/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,672: publisherUpdate[/gripper_action_server/cancel] -> http://FM00351-u:44223/ ['http://FM00351-u:44583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:25:55,753: +CACHEDPARAM [/rosout_disable_topics_generation] by /gripper_action_server
+[rosmaster.master][INFO] 2022-02-23 11:25:55,754: +PUB [/Robotiq2FGripperRobotOutput] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:25:55,754: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-02-23 11:25:55,759: publisherUpdate[/Robotiq2FGripperRobotOutput] -> http://FM00351-u:36039/ ['http://FM00351-u:44223/']
+[rosmaster.master][INFO] 2022-02-23 11:25:55,759: publisherUpdate[/Robotiq2FGripperRobotOutput] -> http://FM00351-u:36039/ ['http://FM00351-u:44223/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:24,424: -SUB [/gripper_action_server/goal] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,424: -SUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,424: -SUB [/gripper_action_server/cancel] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/Robotiq2FGripperRobotInput] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/gripper_action_server/feedback] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/rosout] /Robotiq2FGripperRtuNode http://FM00351-u:36039/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/gripper_action_server/status] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -SERVICE [/Robotiq2FGripperRtuNode/get_loggers] /Robotiq2FGripperRtuNode rosrpc://FM00351-u:37001
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/rosout] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -SERVICE [/Robotiq2FGripperRtuNode/set_logger_level] /Robotiq2FGripperRtuNode rosrpc://FM00351-u:37001
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/gripper_action_server/result] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -PUB [/Robotiq2FGripperRobotOutput] /gripper_action_server http://FM00351-u:44223/
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -SERVICE [/gripper_action_server/get_loggers] /gripper_action_server rosrpc://FM00351-u:34879
+[rosmaster.master][INFO] 2022-02-23 11:27:24,425: -SERVICE [/gripper_action_server/set_logger_level] /gripper_action_server rosrpc://FM00351-u:34879
+[rosmaster.master][INFO] 2022-02-23 11:27:24,429: +CACHEDPARAM [/rosout_disable_topics_generation] by /gripper_action_client
+[rosmaster.master][INFO] 2022-02-23 11:27:24,443: publisherUpdate[/gripper_action_server/feedback] -> http://FM00351-u:44583/ []
+[rosmaster.master][INFO] 2022-02-23 11:27:24,444: publisherUpdate[/gripper_action_server/feedback] -> http://FM00351-u:44583/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:24,444: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:44223/', 'http://FM00351-u:44583/']
+[rosmaster.master][INFO] 2022-02-23 11:27:24,444: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:44223/', 'http://FM00351-u:44583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:24,445: publisherUpdate[/gripper_action_server/status] -> http://FM00351-u:44583/ []
+[rosmaster.master][INFO] 2022-02-23 11:27:24,445: publisherUpdate[/gripper_action_server/status] -> http://FM00351-u:44583/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:24,445: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:44583/']
+[rosmaster.master][INFO] 2022-02-23 11:27:24,446: publisherUpdate[/rosout] -> http://FM00351-u:39149/ ['http://FM00351-u:44583/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:24,446: publisherUpdate[/gripper_action_server/result] -> http://FM00351-u:44583/ []
+[rosmaster.master][INFO] 2022-02-23 11:27:24,446: publisherUpdate[/gripper_action_server/result] -> http://FM00351-u:44583/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:27:28,865: +CACHEDPARAM [/rosout_disable_topics_generation] by /gripper_action_server
+[rosmaster.master][INFO] 2022-02-23 11:27:29,156: -PUB [/rosout_agg] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:27:29,157: -SUB [/rosout] /rosout http://FM00351-u:39149/
+[rosmaster.master][INFO] 2022-02-23 11:27:29,157: -SERVICE [/rosout/get_loggers] /rosout rosrpc://FM00351-u:41061
+[rosmaster.master][INFO] 2022-02-23 11:27:29,158: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://FM00351-u:41061
+[rosmaster.master][INFO] 2022-02-23 11:27:29,158: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-02-23 11:27:29,237: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-02-23 11:27:29,237: stopping master...
+[rospy.core][INFO] 2022-02-23 11:27:29,238: signal_shutdown [atexit]

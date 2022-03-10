@@ -1,0 +1,42 @@
+[rosmaster.main][INFO] 2021-12-21 14:22:41,246: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-21 14:22:41,246: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-21 14:22:41,246: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-21 14:22:41,246: Started XML-RPC server [http://FM00351-u:11311/]
+[xmlrpc][INFO] 2021-12-21 14:22:41,247: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-21 14:22:41,247: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2021-12-21 14:22:41,327: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,328: +PARAM [/roslaunch/uris/host_fm00351_u__36435] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,423: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,423: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,423: +PARAM [/baud_pressure] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,423: +PARAM [/port_pressure] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 14:22:41,430: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:22:41,430: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:22:41,431: +PUB [/rosout_agg] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:22:41,431: +SUB [/rosout] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,058: +PUB [/rosout] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,060: +SERVICE [/sensor/process_tactile_pressure/get_loggers] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,061: +SERVICE [/sensor/process_tactile_pressure/set_logger_level] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,061: +SUB [/sensor/pressure_reset] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,062: +SUB [/sensor/pressure_data] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,062: +PUB [/sensor/estimated_ForceAndLoc] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:42,148: publisherUpdate[/rosout] -> http://FM00351-u:40231/ ['http://FM00351-u:36659/']
+[rosmaster.master][INFO] 2021-12-21 14:22:42,168: publisherUpdate[/rosout] -> http://FM00351-u:40231/ ['http://FM00351-u:36659/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 14:22:45,065: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/process_tactile_pressure
+[rosmaster.master][INFO] 2021-12-21 14:22:45,067: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-12-21 14:22:45,069: -SUB [/sensor/pressure_reset] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:45,070: -SUB [/sensor/pressure_data] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:45,070: -PUB [/rosout] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:45,070: -PUB [/sensor/estimated_ForceAndLoc] /sensor/process_tactile_pressure http://FM00351-u:36659/
+[rosmaster.master][INFO] 2021-12-21 14:22:45,070: -SERVICE [/sensor/process_tactile_pressure/get_loggers] /sensor/process_tactile_pressure rosrpc://FM00351-u:45485
+[rosmaster.master][INFO] 2021-12-21 14:22:45,070: -SERVICE [/sensor/process_tactile_pressure/set_logger_level] /sensor/process_tactile_pressure rosrpc://FM00351-u:45485
+[rosmaster.master][INFO] 2021-12-21 14:22:45,074: publisherUpdate[/rosout] -> http://FM00351-u:40231/ []
+[rosmaster.master][INFO] 2021-12-21 14:22:45,075: publisherUpdate[/rosout] -> http://FM00351-u:40231/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 14:24:24,071: -PUB [/rosout_agg] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:24:24,071: -SUB [/rosout] /rosout http://FM00351-u:40231/
+[rosmaster.master][INFO] 2021-12-21 14:24:24,071: -SERVICE [/rosout/get_loggers] /rosout rosrpc://FM00351-u:51627
+[rosmaster.master][INFO] 2021-12-21 14:24:24,072: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://FM00351-u:51627
+[rosmaster.master][INFO] 2021-12-21 14:24:24,072: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-12-21 14:24:24,125: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-12-21 14:24:24,125: stopping master...
+[rospy.core][INFO] 2021-12-21 14:24:24,125: signal_shutdown [atexit]

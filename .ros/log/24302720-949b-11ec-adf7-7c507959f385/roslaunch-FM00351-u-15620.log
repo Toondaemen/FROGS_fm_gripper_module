@@ -1,0 +1,126 @@
+[roslaunch][INFO] 2022-02-23 11:24:19,030: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-02-23 11:24:19,034: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-02-23 11:24:19,034: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'fm_gripper_module', 'fm_gripper_module.launch']
+[roslaunch][INFO] 2022-02-23 11:24:19,034: roslaunch env is {'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'HOME': '/home/ros', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/roslaunch-FM00351-u-15620.log', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2022-02-23 11:24:19,034: starting in server mode
+[roslaunch.parent][INFO] 2022-02-23 11:24:19,034: starting roslaunch parent run
+[roslaunch][INFO] 2022-02-23 11:24:19,034: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-02-23 11:24:19,346: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2022-02-23 11:24:19,346: loading config file /home/ros/catkin_ws/src/fm_gripper_module/launch/fm_gripper_module.launch
+[roslaunch][INFO] 2022-02-23 11:24:19,347: Added node of type [robotiq_2f_gripper_control/Robotiq2FGripperRtuNode.py] in namespace [/]
+[roslaunch][INFO] 2022-02-23 11:24:19,347: Added node of type [fm_gripper_module/gripper_action_server.py] in namespace [/]
+[roslaunch][INFO] 2022-02-23 11:24:19,347: ... selected machine [] for node of type [robotiq_2f_gripper_control/Robotiq2FGripperRtuNode.py]
+[roslaunch][INFO] 2022-02-23 11:24:19,347: ... selected machine [] for node of type [fm_gripper_module/gripper_action_server.py]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,348: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,348: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,348: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-02-23 11:24:19,348: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-02-23 11:24:19,348: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-02-23 11:24:19,348: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-02-23 11:24:19,348: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:24:19,349: Started XML-RPC server [http://FM00351-u:40401/]
+[xmlrpc][INFO] 2022-02-23 11:24:19,349: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-02-23 11:24:19,360: started roslaunch server http://FM00351-u:40401/
+[roslaunch.parent][INFO] 2022-02-23 11:24:19,361: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-02-23 11:24:19,361: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,361: auto-starting new master
+[roslaunch][INFO] 2022-02-23 11:24:19,361: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2022-02-23 11:24:19,361: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,361: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,361: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2022-02-23 11:24:19,361: process[master]: starting os process
+[roslaunch][INFO] 2022-02-23 11:24:19,362: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/master.log']]
+[roslaunch][INFO] 2022-02-23 11:24:19,362: process[master]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 11:24:19,430: process[master]: started with pid [15630]
+[roslaunch][INFO] 2022-02-23 11:24:19,430: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,531: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,632: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,634: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,635: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2022-02-23 11:24:19,636: setting /run_id to 24302720-949b-11ec-adf7-7c507959f385
+[roslaunch][INFO] 2022-02-23 11:24:19,637: setting /roslaunch/uris/host_fm00351_u__40401' to http://FM00351-u:40401/
+[roslaunch][INFO] 2022-02-23 11:24:19,639: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2022-02-23 11:24:19,639: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,639: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/roslaunch-FM00351-u-15620.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-23 11:24:19,848: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2022-02-23 11:24:19,848: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,848: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,848: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2022-02-23 11:24:19,848: ... registered process [rosout-1]
+[roslaunch][INFO] 2022-02-23 11:24:19,848: process[rosout-1]: starting os process
+[roslaunch][INFO] 2022-02-23 11:24:19,848: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/rosout-1.log']]
+[roslaunch][INFO] 2022-02-23 11:24:19,848: process[rosout-1]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 11:24:19,915: process[rosout-1]: started with pid [15641]
+[roslaunch][INFO] 2022-02-23 11:24:19,915: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2022-02-23 11:24:19,916: load_parameters starting ...
+[roslaunch][INFO] 2022-02-23 11:24:19,918: ... load_parameters complete
+[roslaunch][INFO] 2022-02-23 11:24:19,918: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-02-23 11:24:19,919: ... preparing to launch node of type [robotiq_2f_gripper_control/Robotiq2FGripperRtuNode.py]
+[roslaunch][INFO] 2022-02-23 11:24:19,919: create_node_process: package[robotiq_2f_gripper_control] type[Robotiq2FGripperRtuNode.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,919: process[Robotiq2FGripperRtuNode-2]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/roslaunch-FM00351-u-15620.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-23 11:24:19,920: process[Robotiq2FGripperRtuNode-2]: args[[u'/home/ros/catkin_ws/src/robotiq/robotiq_2f_gripper_control/nodes/Robotiq2FGripperRtuNode.py', '/dev/ttyUSB0', u'__name:=Robotiq2FGripperRtuNode']]
+[roslaunch][INFO] 2022-02-23 11:24:19,920: ... created process [Robotiq2FGripperRtuNode-2]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,920: ProcessMonitor.register[Robotiq2FGripperRtuNode-2]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,920: ProcessMonitor.register[Robotiq2FGripperRtuNode-2] complete
+[roslaunch][INFO] 2022-02-23 11:24:19,920: ... registered process [Robotiq2FGripperRtuNode-2]
+[roslaunch][INFO] 2022-02-23 11:24:19,920: process[Robotiq2FGripperRtuNode-2]: starting os process
+[roslaunch][INFO] 2022-02-23 11:24:19,920: process[Robotiq2FGripperRtuNode-2]: start w/ args [[u'/home/ros/catkin_ws/src/robotiq/robotiq_2f_gripper_control/nodes/Robotiq2FGripperRtuNode.py', '/dev/ttyUSB0', u'__name:=Robotiq2FGripperRtuNode', u'__log:=/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/Robotiq2FGripperRtuNode-2.log']]
+[roslaunch][INFO] 2022-02-23 11:24:19,920: process[Robotiq2FGripperRtuNode-2]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 11:24:19,989: process[Robotiq2FGripperRtuNode-2]: started with pid [15644]
+[roslaunch][INFO] 2022-02-23 11:24:19,990: ... successfully launched [Robotiq2FGripperRtuNode-2]
+[roslaunch][INFO] 2022-02-23 11:24:19,990: ... preparing to launch node of type [fm_gripper_module/gripper_action_server.py]
+[roslaunch][INFO] 2022-02-23 11:24:19,990: create_node_process: package[fm_gripper_module] type[gripper_action_server.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-23 11:24:19,990: process[gripper_action_server-3]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/roslaunch-FM00351-u-15620.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-23 11:24:19,991: process[gripper_action_server-3]: args[[u'/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py', u'__name:=gripper_action_server']]
+[roslaunch][INFO] 2022-02-23 11:24:19,991: ... created process [gripper_action_server-3]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,991: ProcessMonitor.register[gripper_action_server-3]
+[roslaunch.pmon][INFO] 2022-02-23 11:24:19,991: ProcessMonitor.register[gripper_action_server-3] complete
+[roslaunch][INFO] 2022-02-23 11:24:19,991: ... registered process [gripper_action_server-3]
+[roslaunch][INFO] 2022-02-23 11:24:19,991: process[gripper_action_server-3]: starting os process
+[roslaunch][INFO] 2022-02-23 11:24:19,991: process[gripper_action_server-3]: start w/ args [[u'/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py', u'__name:=gripper_action_server', u'__log:=/home/ros/.ros/log/24302720-949b-11ec-adf7-7c507959f385/gripper_action_server-3.log']]
+[roslaunch][INFO] 2022-02-23 11:24:19,991: process[gripper_action_server-3]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 11:24:20,063: process[gripper_action_server-3]: started with pid [15649]
+[roslaunch][INFO] 2022-02-23 11:24:20,063: ... successfully launched [gripper_action_server-3]
+[roslaunch][INFO] 2022-02-23 11:24:20,063: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-02-23 11:24:20,063: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140709808490240)>
+[roslaunch.parent][INFO] 2022-02-23 11:24:20,063: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-02-23 11:24:20,063: spin
+[roslaunch.pmon][INFO] 2022-02-23 11:25:48,742: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140709808490240)>
+[roslaunch.pmon][INFO] 2022-02-23 11:25:48,790: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140709808490240)>
+[roslaunch.pmon][INFO] 2022-02-23 11:25:48,791: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140709808490240)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7ff98e51fc50>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff98e9aa210>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff98e51fe50>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff98e51fdd0>]
+[roslaunch.pmon][INFO] 2022-02-23 11:25:48,791: ProcessMonitor exit: killing gripper_action_server-3
+[roslaunch][INFO] 2022-02-23 11:25:48,792: [gripper_action_server-3] killing on exit
+[roslaunch.pmon][INFO] 2022-02-23 11:25:48,793: ProcessMonitor exit: killing Robotiq2FGripperRtuNode-2
+[roslaunch][INFO] 2022-02-23 11:25:48,794: [Robotiq2FGripperRtuNode-2] killing on exit
+[roslaunch][INFO] 2022-02-23 11:25:48,794: process[gripper_action_server-3]: killing os process with pid[15649] pgid[15649]
+[roslaunch][INFO] 2022-02-23 11:25:48,795: process[Robotiq2FGripperRtuNode-2]: killing os process with pid[15644] pgid[15644]
+[roslaunch][INFO] 2022-02-23 11:25:48,796: [gripper_action_server-3] sending SIGINT to pgid [15649]
+[roslaunch][INFO] 2022-02-23 11:25:48,796: [Robotiq2FGripperRtuNode-2] sending SIGINT to pgid [15644]
+[roslaunch][INFO] 2022-02-23 11:25:48,797: [gripper_action_server-3] sent SIGINT to pgid [15649]
+[roslaunch][INFO] 2022-02-23 11:25:48,797: [Robotiq2FGripperRtuNode-2] sent SIGINT to pgid [15644]
+[roslaunch][INFO] 2022-02-23 11:25:48,998: process[gripper_action_server-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2022-02-23 11:25:49,099: process[Robotiq2FGripperRtuNode-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,099: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2022-02-23 11:25:49,099: [rosout-1] killing on exit
+[roslaunch][INFO] 2022-02-23 11:25:49,100: process[rosout-1]: killing os process with pid[15641] pgid[15641]
+[roslaunch][INFO] 2022-02-23 11:25:49,100: [rosout-1] sending SIGINT to pgid [15641]
+[roslaunch][INFO] 2022-02-23 11:25:49,100: [rosout-1] sent SIGINT to pgid [15641]
+[roslaunch][INFO] 2022-02-23 11:25:49,301: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,301: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2022-02-23 11:25:49,301: [master] killing on exit
+[roslaunch][INFO] 2022-02-23 11:25:49,301: process[master]: killing os process with pid[15630] pgid[15630]
+[roslaunch][INFO] 2022-02-23 11:25:49,301: [master] sending SIGINT to pgid [15630]
+[roslaunch][INFO] 2022-02-23 11:25:49,301: [master] sent SIGINT to pgid [15630]
+[roslaunch][INFO] 2022-02-23 11:25:49,502: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,502: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,503: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-02-23 11:25:49,508: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-02-23 11:25:49,509: runner.stop()
+[roslaunch][INFO] 2022-02-23 11:25:49,509: shutting down processing monitor...
+[roslaunch][INFO] 2022-02-23 11:25:49,509: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140709808490240)>
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,509: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140709808490240)>
+[roslaunch][INFO] 2022-02-23 11:25:49,509: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-02-23 11:25:49,509: done
+[roslaunch.pmon][INFO] 2022-02-23 11:25:49,510: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140709808490240)>
+[rospy.core][INFO] 2022-02-23 11:25:49,510: signal_shutdown [atexit]

@@ -1,0 +1,125 @@
+#! /usr/bin/env python
+
+import rospy
+import actionlib
+from actionlib.msg import TestAction, TestFeedback, TestResult
+
+from fm_gripper_msgs.msg import FmGripperAction, FmGripperResult, FmGripperFeedback
+
+from robotiq_2f_gripper_control.msg import Robotiq2FGripper_robot_output  as outputMsg
+from robotiq_2f_gripper_control.msg import Robotiq2FGripper_robot_input  as inputMsg
+from time import sleep
+
+
+class GripperActionServer(object):
+
+
+    def __init__(self):
+
+        # Init server
+        rospy.init_node('fm_gripper_action_server')
+        self.server = actionlib.SimpleActionServer('gripper_action_server', FmGripperAction, execute_cb = self.execute, auto_start = False)
+        self.rate = rospy.Rate(10.0)
+
+        self.feedback = FmGripperFeedback()
+        self.result = FmGripperResult()
+        self.server.start()
+
+        # Gripper command publisher
+        self.pub = rospy.Publisher('Robotiq2FGripperRobotOutput', outputMsg, queue_size=1)
+        self.sub = rospy.Subscriber('Robotiq2FGripperRobotInput', inputMsg, self.callback)
+
+        # Gripper status
+        self.activated = 0
+        self.fault = 0
+        self.status = 0
+
+    def callback(self, msg):
+        self.activated = msg.gACT
+        self.fault = msg.gFLT
+        self.status = msg.gOBJ
+
+    def genCommand(self, distance, velocity, force, calibrate, reset):
+
+        command = outputMsg()
+        command.rACT = 1
+        command.rGTO = 1
+        command.rSP  = velocity  
+        command.rPR  = distance
+        command.rFR  = force  
+
+        if calibrate:    
+            command.rACT = 1
+            command.rGTO = 1
+            command.rATR = 0
+            command.rPR  = 0 
+            command.rSP  = 255  
+            command.rFR  = 150
+
+        if reset:    # if reset, calibrate is overrided 
+            command.rACT = 0
+            command.rGTO = 0
+            command.rATR = 0
+            command.rPR  = 0 
+            command.rSP  = 0  
+            command.rFR  = 0
+                    
+        if command.rPR > 255: command.rPR = 255
+        if command.rPR < 0: command.rPR = 255
+        if command.rSP < 0: command.rSP = 0
+        if command.rSP > 255: command.rSP = 255
+        if command.rFR < 0: command.rFR = 0
+        if command.rFR > 255: command.rFR = 255
+
+        return command
+
+    def execute(self, goal):
+        self.state = 'initializing'
+        rospy.loginfo('state: ' + self.state)
+        distance = goal.distance
+        velocity = goal.velocity
+        force = goal.force
+        calibrate = goal.calibrate 
+        reset = goal.reset
+
+        while (not self.server.is_preempt_requested()) and (not rospy.is_shutdown()):
+
+            command = self.genCommand(distance, velocity, force,  calibrate, reset)
+            print("Sending Command")          
+            self.pub.publish(command)
+            sleep(1) # to avoid passing directly to running = False
+            running = True
+
+            while running:
+                self.feedback.status = self.status
+                self.server.publish_feedback(self.feedback)    
+                self.rate.sleep()
+
+                print("Status = ", self.status)
+
+                if (self.status == 2 or self.status == 3):  #  gOBJ is gripper stop at position or before position (object) 
+                    print("Gripper primitive is terminated")
+                    response = 1
+                    running = False
+                elif (self.fault == 1):      # gFLT = 0 -> no fault | = 1 -> fault
+                    print("Gripper primitive is in fault mode")
+                    response = -1
+                    running = False
+                elif calibrate or reset:
+                    sleep(1)
+                    response = 1
+                    running = False
+                    
+            self.result.result = response 
+            self.server.set_succeeded(self.result)
+            self.state = 'inactive'
+            rospy.loginfo('state: ' + self.state)
+            return 
+
+        self.server.set_preempted()
+        self.state = 'inactive'
+        rospy.loginfo('state: ' + self.state)
+
+if __name__ == '__main__':
+    server = GripperActionServer()
+    rospy.spin()

@@ -1,0 +1,5 @@
+
+
+1644849442.614524638  Node Startup
+1644849644.638311275 INFO /gripper_2f_gripper_action_server [/home/ros/catkin_ws/src/robotiq/robotiq_2f_gripper_action_server/src/robotiq_2f_gripper_action_server_node.cpp:43(main)] [topics: /rosout, /output, /gripper/result, /gripper/feedback, /gripper/status] Robotiq action-server spinning for gripper: gripper
+1644850647.726560115 WARN /robotiq2FGripper [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /Robotiq2FGripperRobotInput, /rosout, /Robotiq2FGripperRobotOutput] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

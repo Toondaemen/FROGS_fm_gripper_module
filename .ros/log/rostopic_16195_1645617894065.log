@@ -1,0 +1,73 @@
+[rospy.client][INFO] 2022-02-23 12:04:54,130: init_node, name[/rostopic_16195_1645617894065], pid[16195]
+[xmlrpc][INFO] 2022-02-23 12:04:54,131: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:04:54,131: Started XML-RPC server [http://FM00351-u:36605/]
+[rospy.init][INFO] 2022-02-23 12:04:54,131: ROS Slave URI: [http://FM00351-u:36605/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:04:54,131: _ready: http://FM00351-u:36605/
+[rospy.registration][INFO] 2022-02-23 12:04:54,132: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:04:54,132: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:04:54,232: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:04:54,232: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:04:54,236: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:04:54,238: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:04:54,301: topic[/rosout] adding connection to [http://FM00351-u:37103/], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:54,302: topic[/rosout] adding connection to [http://FM00351-u:45315/], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:54,303: topic[/rosout] adding connection to [http://FM00351-u:36605/], count 1
+[rospy.internal][INFO] 2022-02-23 12:04:54,306: topic[/rosout] adding connection to [/rostopic_16195_1645617894065], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:54,438: topic[/rosout] adding connection to [/rosout], count 1
+[rospy.internal][INFO] 2022-02-23 12:04:56,567: topic[/rosout] adding connection to [http://FM00351-u:40757/], count 3
+[rospy.internal][WARNING] 2022-02-23 12:05:20,143: Unknown error initiating TCP/IP socket to FM00351-u:38283 (http://FM00351-u:45315/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-02-23 12:05:20,143: topic[/rosout] removing connection to http://FM00351-u:45315/
+[rospy.internal][ERROR] 2022-02-23 12:05:20,144: Unable to initiate TCP/IP socket to FM00351-u:43595 (http://FM00351-u:37103/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-02-23 12:05:21,146: Unknown error initiating TCP/IP socket to FM00351-u:43595 (http://FM00351-u:37103/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 642, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 417, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-23 12:05:21,147: topic[/rosout] removing connection to http://FM00351-u:37103/
+[rospy.internal][INFO] 2022-02-23 12:05:22,194: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2022-02-23 12:05:26,489: Unknown error initiating TCP/IP socket to FM00351-u:39365 (http://FM00351-u:40757/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-23 12:05:26,489: topic[/rosout] removing connection to http://FM00351-u:40757/
+[rospy.core][INFO] 2022-02-23 12:05:43,725: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 12:05:43,730: topic[/rosout] removing connection to /rostopic_16195_1645617894065
+[rospy.internal][INFO] 2022-02-23 12:05:43,731: topic[/rosout] removing connection to http://FM00351-u:36605/
+[rospy.internal][ERROR] 2022-02-23 12:05:43,731: Unable to initiate TCP/IP socket to FM00351-u:44049 (http://FM00351-u:36605/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.impl.masterslave][INFO] 2022-02-23 12:05:43,731: signal-2
+[rospy.core][INFO] 2022-02-23 12:05:43,848: signal_shutdown [atexit]

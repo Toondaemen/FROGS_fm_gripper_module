@@ -1,0 +1,17 @@
+
+
+1640095332.620299335  Node Startup
+1640095332.937267065 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095335.943398952 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095336.262554645 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /sensor/pressure_data, /sensor/estimated_ForceAndLoc, /sensor/pressure_reset, /rosout] pressure data processing package started 
+1640095338.949810981 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095341.953203916 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095344.959283113 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095347.965773105 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095350.972227096 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095353.978801012 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095356.985158920 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095359.991542100 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095362.997939109 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095366.004381895 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+1640095369.010483980 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'

@@ -1,0 +1,5 @@
+<launch>
+  <arg name="debug" default="false"/>
+  <node pkg="module_gripper" type="gripper_action_server" name="frogs"/>
+
+</launch>

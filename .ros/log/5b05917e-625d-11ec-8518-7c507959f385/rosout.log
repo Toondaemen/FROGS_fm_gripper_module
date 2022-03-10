@@ -1,0 +1,8 @@
+
+
+1640091364.647477280  Node Startup
+1640091407.263353109 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyUSB0: [Errno 21] Is a directory: '/dev/ttyUSB0'
+1640091410.266892910 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyUSB0: [Errno 21] Is a directory: '/dev/ttyUSB0'
+1640091410.564313411 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /rosout, /sensor/pressure_data, /sensor/estimated_ForceAndLoc, /sensor/pressure_reset] pressure data processing package started 
+1640091413.276062965 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyUSB0: [Errno 21] Is a directory: '/dev/ttyUSB0'
+1640091416.282505035 ERROR /sensor/tactile_pressure [SerialClient.py:361(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyUSB0: [Errno 21] Is a directory: '/dev/ttyUSB0'

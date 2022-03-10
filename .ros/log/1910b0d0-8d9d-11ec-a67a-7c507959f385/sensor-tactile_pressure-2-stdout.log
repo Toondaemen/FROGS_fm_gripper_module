@@ -1,0 +1,7 @@
+[INFO] [1644846642.485239]: ROS Serial Python Node
+[INFO] [1644846642.487383]: Connecting to /dev/ttyACM0 at 57600 baud
+[INFO] [1644846644.591578]: Requesting topics...
+[INFO] [1644846644.628597]: Note: publish buffer size is 512 bytes
+[INFO] [1644846644.631062]: Setup publisher on Pressure [std_msgs/Float64MultiArray]
+[INFO] [1644846727.420542]: Sending tx stop request
+[INFO] [1644846727.422215]: shutdown hook activated

@@ -1,0 +1,27 @@
+[INFO] [1645615555.752691]: state: initializing
+Advanced 2F Gripper Controller
+-----
+Current command:  rACT = 0, rGTO = 0, rATR = 0, rPR = 0, rSP = 0, rFR = 0
+-----
+Available commands
+
+r: Reset
+a: Activate
+cal obit cbit width: Calibrate return 1 bit in mm
+c: Close (full speed & force)
+o: Open (full speed & force)
+g: Grap (minimal speed & force)
+GoTo pos speed force
+f x: Set force during trajectory to x
+sin amplitude period duration
+trap height small_b large_b duration
+tri amplitude period duration
+samplePoints t_list pos_list
+fg: Grap with force detection (minimal speed & 1 N force)
+fg x: Grap with x Newton (minimal speed)
+sfg: Grap with force detection (minimal speed & 1 N force)
+sfg x: Grap with x Newton (minimal speed)
+sq x: Squeeze x positions
+fc x: Force control @ x N
+sc x: Slip Control @ x N
+-->

@@ -1,0 +1,6 @@
+
+
+1644846605.960918380  Node Startup
+1644846606.366024971 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+1644846609.372076034 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+1644846609.636919498 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /rosout, /sensor/pressure_data, /sensor/estimated_ForceAndLoc, /sensor/pressure_reset] pressure data processing package started 

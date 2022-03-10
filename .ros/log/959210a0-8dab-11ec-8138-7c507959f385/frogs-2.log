@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2022-02-14 15:34:24,178: init_node, name[/frogs], pid[3126]
+[xmlrpc][INFO] 2022-02-14 15:34:24,179: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 15:34:24,179: Started XML-RPC server [http://FM00351-u:39163/]
+[rospy.init][INFO] 2022-02-14 15:34:24,179: ROS Slave URI: [http://FM00351-u:39163/]
+[rospy.impl.masterslave][INFO] 2022-02-14 15:34:24,179: _ready: http://FM00351-u:39163/
+[rospy.registration][INFO] 2022-02-14 15:34:24,180: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 15:34:24,180: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 15:34:24,279: registered with master
+[rospy.rosout][INFO] 2022-02-14 15:34:24,280: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 15:34:24,281: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 15:34:24,281: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 15:34:24,295: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:41721/], count 0
+[rospy.internal][INFO] 2022-02-14 15:34:24,326: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2022-02-14 15:34:24,530: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-14 15:39:46,419: topic[/Robotiq2FGripperRobotOutput] adding connection to [/rostopic_3258_1644853186185], count 1
+[rospy.internal][ERROR] 2022-02-14 15:55:06,264: Unable to initiate TCP/IP socket to FM00351-u:44829 (http://FM00351-u:41721/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-02-14 15:55:06,599: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][WARNING] 2022-02-14 15:55:07,266: Unknown error initiating TCP/IP socket to FM00351-u:44829 (http://FM00351-u:41721/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-02-14 15:55:07,266: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:41721/
+[rospy.internal][INFO] 2022-02-14 16:00:35,306: topic[/Robotiq2FGripperRobotOutput] removing connection to /rostopic_3258_1644853186185
+[rospy.core][INFO] 2022-02-14 16:00:38,902: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 16:00:38,906: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 16:00:38,906: signal-2
+[rospy.core][INFO] 2022-02-14 16:00:39,087: signal_shutdown [atexit]

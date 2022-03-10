@@ -1,0 +1,4 @@
+
+
+1645619297.874206495  Node Startup
+1645619297.635067939 INFO /Robotiq2FGripperSlipController_1907_1645619291032 [Robotiq2FGripperSlipController.py:774(Robotiq2FGripperSlipController.controller)] [topics: /rosout] controller is started now

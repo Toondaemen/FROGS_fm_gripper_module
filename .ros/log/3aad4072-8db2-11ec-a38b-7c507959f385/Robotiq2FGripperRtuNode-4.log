@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2022-02-14 16:29:30,104: init_node, name[/Robotiq2FGripperRtuNode], pid[5021]
+[xmlrpc][INFO] 2022-02-14 16:29:30,104: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:29:30,104: Started XML-RPC server [http://FM00351-u:37817/]
+[rospy.init][INFO] 2022-02-14 16:29:30,104: ROS Slave URI: [http://FM00351-u:37817/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:29:30,104: _ready: http://FM00351-u:37817/
+[rospy.registration][INFO] 2022-02-14 16:29:30,105: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:29:30,105: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:29:30,205: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:29:30,205: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:29:30,209: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:29:30,211: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-02-14 16:29:30,220: [Errno 2] could not open port __name:=Robotiq2FGripperRtuNode: [Errno 2] No such file or directory: '__name:=Robotiq2FGripperRtuNode'
+[rospy.core][INFO] 2022-02-14 16:29:30,220: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:29:30,223: atexit
+[rospy.client][INFO] 2022-02-14 16:30:41,958: init_node, name[/Robotiq2FGripperRtuNode], pid[5112]
+[xmlrpc][INFO] 2022-02-14 16:30:41,958: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 16:30:41,958: Started XML-RPC server [http://FM00351-u:46519/]
+[rospy.init][INFO] 2022-02-14 16:30:41,958: ROS Slave URI: [http://FM00351-u:46519/]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:30:41,958: _ready: http://FM00351-u:46519/
+[rospy.registration][INFO] 2022-02-14 16:30:41,959: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 16:30:41,959: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 16:30:42,059: registered with master
+[rospy.rosout][INFO] 2022-02-14 16:30:42,059: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 16:30:42,063: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 16:30:42,065: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-02-14 16:30:42,074: [Errno 2] could not open port __name:=Robotiq2FGripperRtuNode: [Errno 2] No such file or directory: '__name:=Robotiq2FGripperRtuNode'
+[rospy.core][INFO] 2022-02-14 16:30:42,074: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-14 16:30:42,078: atexit

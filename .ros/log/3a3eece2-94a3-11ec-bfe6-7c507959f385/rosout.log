@@ -1,0 +1,5 @@
+
+
+1645618932.884962615  Node Startup
+1645618955.010600090 INFO /gripper_action_server [gripper_action_server.py:31(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645618955.011567115 INFO /gripper_action_server [Robotiq2FGripperSlipController.py:776(Robotiq2FGripperSlipController.controller)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] controller is started now

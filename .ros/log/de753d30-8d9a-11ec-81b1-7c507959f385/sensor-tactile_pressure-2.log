@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2022-02-14 13:34:45,057: init_node, name[/sensor/tactile_pressure], pid[443]
+[xmlrpc][INFO] 2022-02-14 13:34:45,057: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 13:34:45,058: Started XML-RPC server [http://FM00351-u:39865/]
+[rospy.impl.masterslave][INFO] 2022-02-14 13:34:45,058: _ready: http://FM00351-u:39865/
+[rospy.init][INFO] 2022-02-14 13:34:45,058: ROS Slave URI: [http://FM00351-u:39865/]
+[rospy.registration][INFO] 2022-02-14 13:34:45,058: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 13:34:45,058: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 13:34:45,158: registered with master
+[rospy.rosout][INFO] 2022-02-14 13:34:45,158: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 13:34:45,164: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 13:34:45,165: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-02-14 13:34:45,170: ROS Serial Python Node
+[rosout][INFO] 2022-02-14 13:34:45,172: Connecting to /dev/ttyACM0 at 57600 baud
+[rosout][ERROR] 2022-02-14 13:34:45,174: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rospy.internal][INFO] 2022-02-14 13:34:45,477: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-14 13:34:46,820: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 13:34:46,822: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 13:34:46,822: signal-2
+[rospy.core][INFO] 2022-02-14 13:34:46,927: signal_shutdown [atexit]

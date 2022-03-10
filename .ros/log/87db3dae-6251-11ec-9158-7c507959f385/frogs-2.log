@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2021-12-21 11:31:26,245: init_node, name[/frogs], pid[80]
+[xmlrpc][INFO] 2021-12-21 11:31:26,245: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 11:31:26,246: Started XML-RPC server [http://FM00351-u:40289/]
+[rospy.init][INFO] 2021-12-21 11:31:26,246: ROS Slave URI: [http://FM00351-u:40289/]
+[rospy.impl.masterslave][INFO] 2021-12-21 11:31:26,246: _ready: http://FM00351-u:40289/
+[rospy.registration][INFO] 2021-12-21 11:31:26,247: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 11:31:26,247: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 11:31:26,346: registered with master
+[rospy.rosout][INFO] 2021-12-21 11:31:26,347: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 11:31:26,352: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 11:31:26,353: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 11:31:26,415: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:44009/], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:26,458: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:26,632: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:43,605: topic[/gripper_action_server/feedback] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:43,606: topic[/gripper_action_server/result] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:43,606: topic[/gripper_action_server/status] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:43,637: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:41551/], count 0
+[rospy.internal][INFO] 2021-12-21 11:31:43,638: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:41551/], count 0
+[rosout][INFO] 2021-12-21 11:31:43,656: state: initializing
+[rosout][INFO] 2021-12-21 11:31:44,659: state: inactive
+[rosout][INFO] 2021-12-21 11:31:47,967: state: initializing
+[rosout][INFO] 2021-12-21 11:31:48,970: state: inactive
+[rosout][INFO] 2021-12-21 11:31:52,040: state: initializing
+[rosout][INFO] 2021-12-21 11:31:54,044: state: inactive
+[rosout][INFO] 2021-12-21 11:31:57,553: state: initializing
+[rosout][INFO] 2021-12-21 11:31:59,556: state: inactive
+[rosout][INFO] 2021-12-21 11:32:04,931: state: initializing
+[rosout][INFO] 2021-12-21 11:32:06,935: state: inactive
+[rospy.internal][WARNING] 2021-12-21 11:32:13,858: Unknown error initiating TCP/IP socket to FM00351-u:37849 (http://FM00351-u:41551/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2021-12-21 11:32:13,858: Unknown error initiating TCP/IP socket to FM00351-u:37849 (http://FM00351-u:41551/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-21 11:32:13,858: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:41551/
+[rospy.internal][INFO] 2021-12-21 11:32:13,858: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:41551/
+[rospy.internal][INFO] 2021-12-21 11:32:14,149: topic[/gripper_action_server/feedback] removing connection to /infraflex_robot
+[rospy.internal][INFO] 2021-12-21 11:32:14,149: topic[/gripper_action_server/status] removing connection to /infraflex_robot
+[rospy.internal][INFO] 2021-12-21 11:32:14,150: topic[/gripper_action_server/result] removing connection to /infraflex_robot

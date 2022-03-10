@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2021-12-21 09:53:41,727: init_node, name[/frogs], pid[93]
+[xmlrpc][INFO] 2021-12-21 09:53:41,727: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 09:53:41,727: Started XML-RPC server [http://FM00351-u:35361/]
+[rospy.init][INFO] 2021-12-21 09:53:41,728: ROS Slave URI: [http://FM00351-u:35361/]
+[rospy.impl.masterslave][INFO] 2021-12-21 09:53:41,728: _ready: http://FM00351-u:35361/
+[rospy.registration][INFO] 2021-12-21 09:53:41,728: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 09:53:41,729: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 09:53:41,828: registered with master
+[rospy.rosout][INFO] 2021-12-21 09:53:41,828: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 09:53:41,833: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 09:53:41,835: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 09:53:41,897: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:38911/], count 0
+[rospy.internal][INFO] 2021-12-21 09:53:41,979: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2021-12-21 09:53:42,125: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-21 09:54:39,800: topic[/gripper_action_server/status] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 09:54:39,801: topic[/gripper_action_server/feedback] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 09:54:39,801: topic[/gripper_action_server/result] adding connection to [/infraflex_robot], count 0
+[rospy.internal][INFO] 2021-12-21 09:54:39,896: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:44111/], count 0
+[rospy.internal][INFO] 2021-12-21 09:54:39,897: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:44111/], count 0
+[rosout][INFO] 2021-12-21 09:54:39,918: state: initializing
+[rosout][INFO] 2021-12-21 09:54:41,921: state: inactive
+[rosout][INFO] 2021-12-21 09:54:47,230: state: initializing
+[rosout][INFO] 2021-12-21 09:54:49,234: state: inactive
+[rosout][INFO] 2021-12-21 09:54:57,255: state: initializing
+[rosout][INFO] 2021-12-21 09:54:59,258: state: inactive
+[rosout][INFO] 2021-12-21 09:55:12,894: state: initializing
+[rosout][INFO] 2021-12-21 09:55:14,897: state: inactive
+[rosout][INFO] 2021-12-21 09:55:25,078: state: initializing
+[rosout][INFO] 2021-12-21 09:55:26,081: state: inactive
+[rosout][INFO] 2021-12-21 09:55:30,721: state: initializing
+[rosout][INFO] 2021-12-21 09:55:31,723: state: inactive
+[rosout][INFO] 2021-12-21 09:55:37,897: state: initializing
+[rosout][INFO] 2021-12-21 09:55:38,898: state: inactive
+[rosout][INFO] 2021-12-21 09:55:46,111: state: initializing
+[rosout][INFO] 2021-12-21 09:55:47,113: state: inactive
+[rosout][INFO] 2021-12-21 10:07:27,956: state: initializing
+[rosout][INFO] 2021-12-21 10:07:28,958: state: inactive

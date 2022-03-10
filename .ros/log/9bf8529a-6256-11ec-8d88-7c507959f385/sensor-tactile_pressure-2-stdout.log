@@ -1,0 +1,4 @@
+[INFO] [1640088467.505421]: ROS Serial Python Node
+[INFO] [1640088467.508791]: Connecting to /dev/ttyUSB0 at 57600 baud
+[INFO] [1640088469.615530]: Requesting topics...
+[INFO] [1640088473.870355]: Send tx stop request

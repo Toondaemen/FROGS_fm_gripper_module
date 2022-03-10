@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2022-02-23 12:29:05,546: init_node, name[/Robotiq2FGripperRtuNode], pid[2004]
+[xmlrpc][INFO] 2022-02-23 12:29:05,547: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:29:05,547: Started XML-RPC server [http://FM00351-u:41273/]
+[rospy.init][INFO] 2022-02-23 12:29:05,547: ROS Slave URI: [http://FM00351-u:41273/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:29:05,548: _ready: http://FM00351-u:41273/
+[rospy.registration][INFO] 2022-02-23 12:29:05,548: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:29:05,548: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:29:05,648: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:29:05,648: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:29:05,650: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:29:05,650: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:29:05,664: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:45111/], count 0
+[rospy.internal][INFO] 2022-02-23 12:29:05,696: topic[/Robotiq2FGripperRobotInput] adding connection to [/Robotiq2FGripperSlipController_1907_1645619291032], count 0
+[rospy.internal][INFO] 2022-02-23 12:29:05,885: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:29:12,667: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2022-02-23 12:29:15,373: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2022-02-23 12:29:15,373: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2022-02-23 12:29:15,373: topic[/Robotiq2FGripperRobotInput] removing connection to /Robotiq2FGripperSlipController_1907_1645619291032
+[rospy.internal][INFO] 2022-02-23 12:29:15,374: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:45111/
+[rospy.impl.masterslave][INFO] 2022-02-23 12:29:15,374: signal-2
+[rospy.core][INFO] 2022-02-23 12:29:15,490: signal_shutdown [atexit]

@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2022-02-23 11:08:18,225: init_node, name[/Robotiq2FGripperRtuNode], pid[13642]
+[xmlrpc][INFO] 2022-02-23 11:08:18,225: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:08:18,226: Started XML-RPC server [http://FM00351-u:33803/]
+[rospy.init][INFO] 2022-02-23 11:08:18,226: ROS Slave URI: [http://FM00351-u:33803/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:08:18,226: _ready: http://FM00351-u:33803/
+[rospy.registration][INFO] 2022-02-23 11:08:18,227: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:08:18,227: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:08:18,326: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:08:18,327: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:08:18,331: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:08:18,333: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:08:18,344: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:40653/], count 0
+[rospy.internal][INFO] 2022-02-23 11:08:18,552: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 11:08:30,718: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:08:30,721: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:08:30,721: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:40653/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:08:30,721: signal-2
+[rospy.internal][WARNING] 2022-02-23 11:08:30,721: Unknown error initiating TCP/IP socket to FM00351-u:41517 (http://FM00351-u:40653/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2022-02-23 11:08:30,885: signal_shutdown [atexit]

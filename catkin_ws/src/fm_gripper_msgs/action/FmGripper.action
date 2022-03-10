@@ -1,0 +1,18 @@
+#goal         
+float64 force
+float64 closure
+bool deformable
+bool command_reset
+bool command_activate
+bool command_calibrate
+bool command_open
+bool command_close
+bool command_force_control
+bool command_slip_control
+---
+#result
+int64 result
+---
+#feedback
+float64 status
+

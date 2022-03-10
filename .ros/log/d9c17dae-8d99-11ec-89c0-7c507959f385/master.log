@@ -1,0 +1,60 @@
+[rosmaster.main][INFO] 2022-02-14 13:27:27,070: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-02-14 13:27:27,070: Starting ROS Master Node
+[xmlrpc][INFO] 2022-02-14 13:27:27,071: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-02-14 13:27:27,071: Started XML-RPC server [http://FM00351-u:11311/]
+[xmlrpc][INFO] 2022-02-14 13:27:27,071: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-02-14 13:27:27,071: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2022-02-14 13:27:27,106: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,107: +PARAM [/roslaunch/uris/host_fm00351_u__34885] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,373: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,373: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,373: +PARAM [/baud_pressure] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,373: +PARAM [/port_pressure] by /roslaunch
+[rosmaster.master][INFO] 2022-02-14 13:27:27,378: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,378: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,379: +PUB [/rosout_agg] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,379: +SUB [/rosout] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,775: +PUB [/rosout] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,780: +SERVICE [/sensor/tactile_pressure/get_loggers] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,781: +SERVICE [/sensor/tactile_pressure/set_logger_level] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,781: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/tactile_pressure
+[rosmaster.master][INFO] 2022-02-14 13:27:27,784: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/tactile_pressure
+[rosmaster.master][INFO] 2022-02-14 13:27:27,784: +SERVICE [/sensor/tactile_pressure/reset_arduino] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,785: +PUB [/diagnostics] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:27,785: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/tactile_pressure
+[rosmaster.master][INFO] 2022-02-14 13:27:27,871: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/']
+[rosmaster.master][INFO] 2022-02-14 13:27:27,879: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-14 13:27:28,017: +PUB [/rosout] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,022: +SERVICE [/sensor/process_tactile_pressure/get_loggers] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,023: +SERVICE [/sensor/process_tactile_pressure/set_logger_level] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,027: +SUB [/sensor/pressure_reset] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,030: +SUB [/sensor/pressure_data] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,032: +PUB [/sensor/estimated_ForceAndLoc] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:28,073: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/', 'http://FM00351-u:39511/']
+[rosmaster.master][INFO] 2022-02-14 13:27:28,094: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/', 'http://FM00351-u:39511/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-14 13:27:28,095: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-02-14 13:27:30,787: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/tactile_pressure
+[rosmaster.master][INFO] 2022-02-14 13:27:31,037: +CACHEDPARAM [/rosout_disable_topics_generation] by /sensor/process_tactile_pressure
+[rosmaster.master][INFO] 2022-02-14 13:27:31,041: -SUB [/sensor/pressure_reset] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:31,041: -SUB [/sensor/pressure_data] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:31,041: -PUB [/rosout] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:31,041: -PUB [/sensor/estimated_ForceAndLoc] /sensor/process_tactile_pressure http://FM00351-u:39511/
+[rosmaster.master][INFO] 2022-02-14 13:27:31,042: -SERVICE [/sensor/process_tactile_pressure/get_loggers] /sensor/process_tactile_pressure rosrpc://FM00351-u:33287
+[rosmaster.master][INFO] 2022-02-14 13:27:31,042: -SERVICE [/sensor/process_tactile_pressure/set_logger_level] /sensor/process_tactile_pressure rosrpc://FM00351-u:33287
+[rosmaster.master][INFO] 2022-02-14 13:27:31,080: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/']
+[rosmaster.master][INFO] 2022-02-14 13:27:31,090: publisherUpdate[/rosout] -> http://FM00351-u:39069/ ['http://FM00351-u:37561/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-14 13:27:33,449: -PUB [/diagnostics] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:33,449: -PUB [/rosout] /sensor/tactile_pressure http://FM00351-u:37561/
+[rosmaster.master][INFO] 2022-02-14 13:27:33,449: -SERVICE [/sensor/tactile_pressure/set_logger_level] /sensor/tactile_pressure rosrpc://FM00351-u:37581
+[rosmaster.master][INFO] 2022-02-14 13:27:33,449: -SERVICE [/sensor/tactile_pressure/reset_arduino] /sensor/tactile_pressure rosrpc://FM00351-u:37581
+[rosmaster.master][INFO] 2022-02-14 13:27:33,449: -SERVICE [/sensor/tactile_pressure/get_loggers] /sensor/tactile_pressure rosrpc://FM00351-u:37581
+[rosmaster.master][INFO] 2022-02-14 13:27:33,492: publisherUpdate[/rosout] -> http://FM00351-u:39069/ []
+[rosmaster.master][INFO] 2022-02-14 13:27:33,494: publisherUpdate[/rosout] -> http://FM00351-u:39069/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-14 13:27:33,694: -PUB [/rosout_agg] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:33,694: -SUB [/rosout] /rosout http://FM00351-u:39069/
+[rosmaster.master][INFO] 2022-02-14 13:27:33,695: -SERVICE [/rosout/get_loggers] /rosout rosrpc://FM00351-u:45597
+[rosmaster.master][INFO] 2022-02-14 13:27:33,695: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://FM00351-u:45597
+[rosmaster.master][INFO] 2022-02-14 13:27:33,695: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-02-14 13:27:33,748: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-02-14 13:27:33,749: stopping master...
+[rospy.core][INFO] 2022-02-14 13:27:33,749: signal_shutdown [atexit]

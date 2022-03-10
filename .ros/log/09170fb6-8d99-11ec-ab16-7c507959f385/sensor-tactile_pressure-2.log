@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2022-02-14 13:21:37,599: init_node, name[/sensor/tactile_pressure], pid[1152]
+[xmlrpc][INFO] 2022-02-14 13:21:37,599: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 13:21:37,600: Started XML-RPC server [http://FM00351-u:35563/]
+[rospy.init][INFO] 2022-02-14 13:21:37,600: ROS Slave URI: [http://FM00351-u:35563/]
+[rospy.impl.masterslave][INFO] 2022-02-14 13:21:37,600: _ready: http://FM00351-u:35563/
+[xmlrpc][INFO] 2022-02-14 13:21:37,600: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-14 13:21:37,600: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-02-14 13:21:37,700: registered with master
+[rospy.rosout][INFO] 2022-02-14 13:21:37,700: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 13:21:37,706: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 13:21:37,707: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-02-14 13:21:37,712: ROS Serial Python Node
+[rosout][INFO] 2022-02-14 13:21:37,715: Connecting to /dev/ttyACM0 at 57600 baud
+[rosout][ERROR] 2022-02-14 13:21:37,717: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rospy.internal][INFO] 2022-02-14 13:21:38,016: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-02-14 13:21:40,720: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:21:43,727: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:21:46,736: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rospy.core][INFO] 2022-02-14 13:21:47,075: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 13:21:47,077: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 13:21:47,077: signal-2
+[rospy.core][INFO] 2022-02-14 13:21:47,209: signal_shutdown [atexit]

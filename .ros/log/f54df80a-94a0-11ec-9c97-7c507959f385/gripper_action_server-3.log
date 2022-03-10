@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2022-02-23 12:05:58,779: init_node, name[/gripper_action_server], pid[16488]
+[xmlrpc][INFO] 2022-02-23 12:05:58,780: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:05:58,780: Started XML-RPC server [http://FM00351-u:39915/]
+[rospy.init][INFO] 2022-02-23 12:05:58,781: ROS Slave URI: [http://FM00351-u:39915/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:05:58,781: _ready: http://FM00351-u:39915/
+[rospy.registration][INFO] 2022-02-23 12:05:58,782: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:05:58,782: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:05:58,881: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:05:58,882: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:05:58,886: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:05:58,887: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:05:59,153: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:06:04,668: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:41823/], count 0
+[rospy.internal][INFO] 2022-02-23 12:06:04,669: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:41823/], count 0
+[rospy.internal][INFO] 2022-02-23 12:06:04,685: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:06:04,685: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:06:04,686: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rosout][INFO] 2022-02-23 12:06:04,706: state: initializing
+[rosout][INFO] 2022-02-23 12:06:04,708: controller is started now
+[rosout][INFO] 2022-02-23 12:06:04,712: -----
+Available commands
+
+r: Reset
+a: Activate
+cal obit cbit width: Calibrate return 1 bit in mm
+c: Close (full speed & force)
+o: Open (full speed & force)
+g: Grap (minimal speed & force)
+GoTo pos speed force
+f x: Set force during trajectory to x
+sin amplitude period duration
+trap height small_b large_b duration
+tri amplitude period duration
+samplePoints t_list pos_list
+fg: Grap with force detection (minimal speed & 1 N force)
+fg x: Grap with x Newton (minimal speed)
+sfg: Grap with force detection (minimal speed & 1 N force)
+sfg x: Grap with x Newton (minimal speed)
+sq x: Squeeze x positions
+fc x: Force control @ x N
+sc x: Slip Control @ x N
+-->
+[rospy.internal][INFO] 2022-02-23 12:06:04,790: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0

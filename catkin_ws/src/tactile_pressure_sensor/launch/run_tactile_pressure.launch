@@ -1,0 +1,27 @@
+<launch>
+    <!-- DEMO PARAM-->
+    <param name="port_pressure" type="str" value='/dev/ttyACM0' />
+    <param name="baud_pressure" type="str" value='57600' />
+
+
+    <!-- Tactile Pressure SOURCE/SNSORS-->
+    <node pkg="rosserial_arduino" type="serial_node.py" name="tactile_pressure" ns="sensor" output="log">
+        <!-- param -->
+        <!-- input -->
+        <!-- output -->        
+        <remap from="/sensor/Pressure"     to="/sensor/pressure_data" />
+    </node>
+    
+    <!-- Process the Data from the pressure Sensor-->
+    <node pkg="tactile_pressure_sensor" type="pressure_LocAndForceEstimation.py" name="process_tactile_pressure" ns="sensor" output="log">
+        <!-- param -->
+        <!-- input -->
+        <remap from="/sensor/pressure_data"     to="/sensor/pressure_data" />
+        <!-- output -->    
+        <remap from="estimated_ForceAndLoc"     to="/sensor/estimated_ForceAndLoc" />
+    </node>
+
+
+
+
+</launch>

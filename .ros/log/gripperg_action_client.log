@@ -1,0 +1,230 @@
+[rospy.client][INFO] 2022-02-23 11:12:07,635: init_node, name[/gripperg_action_client], pid[15195]
+[xmlrpc][INFO] 2022-02-23 11:12:07,636: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:12:07,636: Started XML-RPC server [http://FM00351-u:35183/]
+[rospy.init][INFO] 2022-02-23 11:12:07,636: ROS Slave URI: [http://FM00351-u:35183/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:12:07,636: _ready: http://FM00351-u:35183/
+[rospy.registration][INFO] 2022-02-23 11:12:07,637: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:12:07,637: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:12:07,737: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:12:07,737: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:12:07,741: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:12:07,743: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2022-02-23 11:12:07,747: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:12:07,750: atexit
+[rospy.client][INFO] 2022-02-23 11:14:03,051: init_node, name[/gripperg_action_client], pid[15212]
+[xmlrpc][INFO] 2022-02-23 11:14:03,051: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:14:03,055: Started XML-RPC server [http://FM00351-u:36529/]
+[rospy.init][INFO] 2022-02-23 11:14:03,056: ROS Slave URI: [http://FM00351-u:36529/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:14:03,056: _ready: http://FM00351-u:36529/
+[rospy.registration][INFO] 2022-02-23 11:14:03,057: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:14:03,057: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:14:03,156: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:14:03,157: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:14:03,161: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:14:03,162: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:14:03,416: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 11:15:53,054: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:15:53,059: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-23 11:15:53,059: signal-2
+[rospy.core][INFO] 2022-02-23 11:15:53,224: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-02-23 11:16:02,377: init_node, name[/gripperg_action_client], pid[15270]
+[xmlrpc][INFO] 2022-02-23 11:16:02,378: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-02-23 11:16:02,379: ROS Slave URI: [http://FM00351-u:38733/]
+[xmlrpc][INFO] 2022-02-23 11:16:02,379: Started XML-RPC server [http://FM00351-u:38733/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:16:02,379: _ready: http://FM00351-u:38733/
+[rospy.registration][INFO] 2022-02-23 11:16:02,380: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:16:02,380: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:16:02,479: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:16:02,480: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:16:02,483: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:16:02,485: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:16:02,548: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:16:02,549: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:16:02,551: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:16:02,556: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:16:02,556: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.core][INFO] 2022-02-23 11:16:02,573: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-23 11:16:02,575: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:16:02,575: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:16:02,575: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:34465/
+[rospy.internal][INFO] 2022-02-23 11:16:02,575: topic[/gripper_action_server/status] removing connection to http://FM00351-u:34465/
+[rospy.internal][INFO] 2022-02-23 11:16:02,576: topic[/gripper_action_server/result] removing connection to http://FM00351-u:34465/
+[rospy.internal][WARNING] 2022-02-23 11:16:02,576: Unknown error initiating TCP/IP socket to FM00351-u:46421 (http://FM00351-u:34465/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2022-02-23 11:16:02,576: Unknown error initiating TCP/IP socket to FM00351-u:46421 (http://FM00351-u:34465/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2022-02-23 11:16:02,576: Unknown error initiating TCP/IP socket to FM00351-u:46421 (http://FM00351-u:34465/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-02-23 11:16:02,577: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2022-02-23 11:16:02,577: atexit
+[rospy.client][INFO] 2022-02-23 11:18:06,336: init_node, name[/gripperg_action_client], pid[15309]
+[xmlrpc][INFO] 2022-02-23 11:18:06,337: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:18:06,337: Started XML-RPC server [http://FM00351-u:43349/]
+[rospy.init][INFO] 2022-02-23 11:18:06,337: ROS Slave URI: [http://FM00351-u:43349/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:18:06,337: _ready: http://FM00351-u:43349/
+[rospy.registration][INFO] 2022-02-23 11:18:06,338: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:18:06,338: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:18:06,438: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:18:06,438: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:18:06,442: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:18:06,444: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:18:06,504: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:18:06,504: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:18:06,505: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:34465/], count 0
+[rospy.internal][INFO] 2022-02-23 11:18:06,541: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:18:06,542: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.core][INFO] 2022-02-23 11:18:06,574: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-23 11:18:06,576: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:18:06,576: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:18:06,577: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:34465/
+[rospy.internal][INFO] 2022-02-23 11:18:06,578: topic[/gripper_action_server/status] removing connection to http://FM00351-u:34465/
+[rospy.internal][INFO] 2022-02-23 11:18:06,578: topic[/gripper_action_server/result] removing connection to http://FM00351-u:34465/
+[rospy.internal][WARNING] 2022-02-23 11:18:06,578: Unknown error initiating TCP/IP socket to FM00351-u:46421 (http://FM00351-u:34465/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2022-02-23 11:18:06,579: Unknown error initiating TCP/IP socket to FM00351-u:46421 (http://FM00351-u:34465/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-02-23 11:18:06,579: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2022-02-23 11:18:06,579: atexit
+[rospy.client][INFO] 2022-02-23 11:21:46,507: init_node, name[/gripperg_action_client], pid[15406]
+[xmlrpc][INFO] 2022-02-23 11:21:46,507: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:21:46,508: Started XML-RPC server [http://FM00351-u:44809/]
+[rospy.init][INFO] 2022-02-23 11:21:46,508: ROS Slave URI: [http://FM00351-u:44809/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:21:46,508: _ready: http://FM00351-u:44809/
+[rospy.registration][INFO] 2022-02-23 11:21:46,509: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:21:46,509: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:21:46,608: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:21:46,609: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:21:46,610: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:21:46,611: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:21:46,627: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:37535/], count 0
+[rospy.internal][INFO] 2022-02-23 11:21:46,627: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:37535/], count 0
+[rospy.internal][INFO] 2022-02-23 11:21:46,628: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:37535/], count 0
+[rospy.internal][INFO] 2022-02-23 11:21:46,674: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:21:46,674: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.core][INFO] 2022-02-23 11:21:46,694: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-23 11:21:46,696: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:21:46,696: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:21:46,697: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:37535/
+[rospy.topics][ERROR] 2022-02-23 11:21:46,697: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2022-02-23 11:21:46,697: Unknown error initiating TCP/IP socket to FM00351-u:36709 (http://FM00351-u:37535/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2022-02-23 11:21:46,697: topic[/gripper_action_server/status] removing connection to http://FM00351-u:37535/
+[rospy.internal][INFO] 2022-02-23 11:21:46,698: topic[/gripper_action_server/result] removing connection to http://FM00351-u:37535/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:21:46,698: atexit
+[rospy.client][INFO] 2022-02-23 11:23:13,496: init_node, name[/gripperg_action_client], pid[15504]
+[xmlrpc][INFO] 2022-02-23 11:23:13,497: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:23:13,497: Started XML-RPC server [http://FM00351-u:39325/]
+[rospy.init][INFO] 2022-02-23 11:23:13,497: ROS Slave URI: [http://FM00351-u:39325/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:23:13,497: _ready: http://FM00351-u:39325/
+[rospy.registration][INFO] 2022-02-23 11:23:13,498: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:23:13,499: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:23:13,598: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:23:13,598: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:23:13,600: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:23:13,601: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:23:13,614: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:23:13,615: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:23:13,615: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:23:13,694: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:23:13,694: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:23:13,885: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 11:23:45,645: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:23:45,652: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:23:45,652: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:23:45,652: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:23:45,652: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:36873/
+[rospy.internal][INFO] 2022-02-23 11:23:45,653: topic[/gripper_action_server/status] removing connection to http://FM00351-u:36873/
+[rospy.internal][INFO] 2022-02-23 11:23:45,653: topic[/gripper_action_server/result] removing connection to http://FM00351-u:36873/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:23:45,653: signal-2
+[rospy.core][INFO] 2022-02-23 11:23:45,769: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-02-23 11:24:11,394: init_node, name[/gripperg_action_client], pid[15569]
+[xmlrpc][INFO] 2022-02-23 11:24:11,394: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:24:11,395: Started XML-RPC server [http://FM00351-u:41467/]
+[rospy.init][INFO] 2022-02-23 11:24:11,395: ROS Slave URI: [http://FM00351-u:41467/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:24:11,395: _ready: http://FM00351-u:41467/
+[rospy.registration][INFO] 2022-02-23 11:24:11,396: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:24:11,396: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:24:11,495: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:24:11,496: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:24:11,500: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:24:11,501: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:24:11,542: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:11,543: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:11,564: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:11,565: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:11,567: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:36873/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:11,712: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 11:24:13,191: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:24:13,196: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:24:13,196: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:24:13,196: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:24:13,196: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:36873/
+[rospy.internal][INFO] 2022-02-23 11:24:13,197: topic[/gripper_action_server/status] removing connection to http://FM00351-u:36873/
+[rospy.internal][INFO] 2022-02-23 11:24:13,197: topic[/gripper_action_server/result] removing connection to http://FM00351-u:36873/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:24:13,197: signal-2
+[rospy.core][INFO] 2022-02-23 11:24:13,330: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-02-23 11:24:23,687: init_node, name[/gripperg_action_client], pid[15668]
+[xmlrpc][INFO] 2022-02-23 11:24:23,688: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:24:23,688: Started XML-RPC server [http://FM00351-u:42277/]
+[rospy.init][INFO] 2022-02-23 11:24:23,688: ROS Slave URI: [http://FM00351-u:42277/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:24:23,688: _ready: http://FM00351-u:42277/
+[rospy.registration][INFO] 2022-02-23 11:24:23,689: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:24:23,689: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:24:23,788: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:24:23,789: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:24:23,790: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:24:23,790: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:24:23,806: topic[/gripper_action_server/feedback] adding connection to [http://FM00351-u:33673/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:23,806: topic[/gripper_action_server/result] adding connection to [http://FM00351-u:33673/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:23,807: topic[/gripper_action_server/status] adding connection to [http://FM00351-u:33673/], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:23,886: topic[/gripper_action_server/cancel] adding connection to [/gripper_action_server], count 0
+[rospy.internal][INFO] 2022-02-23 11:24:23,887: topic[/gripper_action_server/goal] adding connection to [/gripper_action_server], count 0
+[rospy.core][INFO] 2022-02-23 11:24:23,927: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-23 11:24:23,929: topic[/gripper_action_server/goal] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:24:23,929: topic[/gripper_action_server/cancel] removing connection to /gripper_action_server
+[rospy.internal][INFO] 2022-02-23 11:24:23,929: topic[/gripper_action_server/feedback] removing connection to http://FM00351-u:33673/
+[rospy.internal][INFO] 2022-02-23 11:24:23,929: topic[/gripper_action_server/status] removing connection to http://FM00351-u:33673/
+[rospy.internal][INFO] 2022-02-23 11:24:23,930: topic[/gripper_action_server/result] removing connection to http://FM00351-u:33673/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:24:23,930: atexit

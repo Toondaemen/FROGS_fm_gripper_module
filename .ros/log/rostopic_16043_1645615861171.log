@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2022-02-23 11:31:01,235: init_node, name[/rostopic_16043_1645615861171], pid[16043]
+[xmlrpc][INFO] 2022-02-23 11:31:01,235: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:31:01,236: Started XML-RPC server [http://FM00351-u:43125/]
+[rospy.init][INFO] 2022-02-23 11:31:01,236: ROS Slave URI: [http://FM00351-u:43125/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:31:01,236: _ready: http://FM00351-u:43125/
+[xmlrpc][INFO] 2022-02-23 11:31:01,237: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-23 11:31:01,237: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-02-23 11:31:01,337: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:31:01,337: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:31:01,341: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:31:01,343: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:31:01,407: topic[/rosout] adding connection to [http://FM00351-u:33577/], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:01,408: topic[/rosout] adding connection to [http://FM00351-u:40441/], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:01,410: topic[/rosout] adding connection to [http://FM00351-u:43125/], count 1
+[rospy.internal][INFO] 2022-02-23 11:31:01,413: topic[/rosout] adding connection to [/rostopic_16043_1645615861171], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:01,544: topic[/rosout] adding connection to [/rosout], count 1
+[rospy.internal][INFO] 2022-02-23 11:31:10,677: topic[/rosout] adding connection to [http://FM00351-u:41623/], count 3
+[rospy.core][INFO] 2022-02-23 11:36:02,409: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:36:02,413: topic[/rosout] removing connection to /rostopic_16043_1645615861171
+[rospy.internal][INFO] 2022-02-23 11:36:02,414: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:36:02,414: topic[/rosout] removing connection to http://FM00351-u:33577/
+[rospy.internal][INFO] 2022-02-23 11:36:02,415: topic[/rosout] removing connection to http://FM00351-u:40441/
+[rospy.internal][INFO] 2022-02-23 11:36:02,415: topic[/rosout] removing connection to http://FM00351-u:43125/
+[rospy.internal][INFO] 2022-02-23 11:36:02,415: topic[/rosout] removing connection to http://FM00351-u:41623/
+[rospy.internal][ERROR] 2022-02-23 11:36:02,415: Unable to initiate TCP/IP socket to FM00351-u:33465 (http://FM00351-u:43125/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-02-23 11:36:02,416: Unknown error initiating TCP/IP socket to FM00351-u:45057 (http://FM00351-u:40441/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-02-23 11:36:02,416: Unknown error initiating TCP/IP socket to FM00351-u:36043 (http://FM00351-u:41623/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-02-23 11:36:02,417: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2022-02-23 11:36:02,417: signal-2
+[rospy.core][INFO] 2022-02-23 11:36:02,533: signal_shutdown [atexit]

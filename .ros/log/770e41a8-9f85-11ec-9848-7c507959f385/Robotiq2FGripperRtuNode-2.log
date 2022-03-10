@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2022-03-09 08:46:53,208: init_node, name[/Robotiq2FGripperRtuNode], pid[551]
+[xmlrpc][INFO] 2022-03-09 08:46:53,208: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-09 08:46:53,209: Started XML-RPC server [http://FM00351-u:34771/]
+[rospy.init][INFO] 2022-03-09 08:46:53,209: ROS Slave URI: [http://FM00351-u:34771/]
+[rospy.impl.masterslave][INFO] 2022-03-09 08:46:53,209: _ready: http://FM00351-u:34771/
+[rospy.registration][INFO] 2022-03-09 08:46:53,209: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-09 08:46:53,209: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-09 08:46:53,309: registered with master
+[rospy.rosout][INFO] 2022-03-09 08:46:53,309: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-09 08:46:53,311: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-09 08:46:53,312: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[pymodbus.client.sync][ERROR] 2022-03-09 08:46:53,317: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rospy.core][INFO] 2022-03-09 08:46:53,318: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2022-03-09 08:46:53,321: atexit

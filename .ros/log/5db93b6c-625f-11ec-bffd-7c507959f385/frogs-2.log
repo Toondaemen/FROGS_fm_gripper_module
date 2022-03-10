@@ -1,0 +1,12 @@
+[rospy.client][INFO] 2021-12-21 13:10:28,370: init_node, name[/frogs], pid[80]
+[xmlrpc][INFO] 2021-12-21 13:10:28,370: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 13:10:28,370: Started XML-RPC server [http://FM00351-u:38751/]
+[rospy.init][INFO] 2021-12-21 13:10:28,371: ROS Slave URI: [http://FM00351-u:38751/]
+[rospy.impl.masterslave][INFO] 2021-12-21 13:10:28,371: _ready: http://FM00351-u:38751/
+[rospy.registration][INFO] 2021-12-21 13:10:28,371: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 13:10:28,371: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 13:10:28,471: registered with master
+[rospy.rosout][INFO] 2021-12-21 13:10:28,471: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 13:10:28,475: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 13:10:28,476: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 13:10:28,698: topic[/rosout] adding connection to [/rosout], count 0

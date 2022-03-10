@@ -1,0 +1,57 @@
+[roslaunch][INFO] 2022-02-23 09:31:26,544: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-02-23 09:31:26,547: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-02-23 09:31:26,547: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2022-02-23 09:31:26,547: roslaunch env is {'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'HOME': '/home/ros', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/5f78fa74-948b-11ec-89e7-7c507959f385/roslaunch-FM00351-u-3339.log', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roscore', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2022-02-23 09:31:26,547: starting in server mode
+[roslaunch.parent][INFO] 2022-02-23 09:31:26,547: starting roslaunch parent run
+[roslaunch][INFO] 2022-02-23 09:31:26,548: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-02-23 09:31:26,851: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2022-02-23 09:31:26,851: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-02-23 09:31:26,851: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-02-23 09:31:26,851: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-02-23 09:31:26,851: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-02-23 09:31:26,851: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-02-23 09:31:26,852: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-02-23 09:31:26,852: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 09:31:26,852: Started XML-RPC server [http://FM00351-u:40035/]
+[xmlrpc][INFO] 2022-02-23 09:31:26,852: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-02-23 09:31:26,863: started roslaunch server http://FM00351-u:40035/
+[roslaunch.parent][INFO] 2022-02-23 09:31:26,863: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-02-23 09:31:26,864: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:26,865: auto-starting new master
+[roslaunch][INFO] 2022-02-23 09:31:26,865: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2022-02-23 09:31:26,865: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2022-02-23 09:31:26,865: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2022-02-23 09:31:26,865: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2022-02-23 09:31:26,865: process[master]: starting os process
+[roslaunch][INFO] 2022-02-23 09:31:26,865: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/ros/.ros/log/5f78fa74-948b-11ec-89e7-7c507959f385/master.log']]
+[roslaunch][INFO] 2022-02-23 09:31:26,865: process[master]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 09:31:26,932: process[master]: started with pid [3349]
+[roslaunch][INFO] 2022-02-23 09:31:26,932: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:27,033: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:27,134: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:27,135: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:27,136: ROS_MASTER_URI=http://FM00351-u:11311/
+[roslaunch][INFO] 2022-02-23 09:31:27,137: setting /run_id to 5f78fa74-948b-11ec-89e7-7c507959f385
+[roslaunch][INFO] 2022-02-23 09:31:27,138: setting /roslaunch/uris/host_fm00351_u__40035' to http://FM00351-u:40035/
+[roslaunch][INFO] 2022-02-23 09:31:27,139: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2022-02-23 09:31:27,140: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-23 09:31:27,140: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/5f78fa74-948b-11ec-89e7-7c507959f385/roslaunch-FM00351-u-3339.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roscore', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros', 'ROS_MASTER_URI': 'http://FM00351-u:11311/', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-23 09:31:27,344: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2022-02-23 09:31:27,344: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2022-02-23 09:31:27,344: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2022-02-23 09:31:27,344: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2022-02-23 09:31:27,344: ... registered process [rosout-1]
+[roslaunch][INFO] 2022-02-23 09:31:27,344: process[rosout-1]: starting os process
+[roslaunch][INFO] 2022-02-23 09:31:27,345: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ros/.ros/log/5f78fa74-948b-11ec-89e7-7c507959f385/rosout-1.log']]
+[roslaunch][INFO] 2022-02-23 09:31:27,345: process[rosout-1]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-23 09:31:27,411: process[rosout-1]: started with pid [3360]
+[roslaunch][INFO] 2022-02-23 09:31:27,412: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2022-02-23 09:31:27,412: load_parameters starting ...
+[roslaunch][INFO] 2022-02-23 09:31:27,415: ... load_parameters complete
+[roslaunch][INFO] 2022-02-23 09:31:27,415: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-02-23 09:31:27,415: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-02-23 09:31:27,416: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140174462859008)>
+[roslaunch.parent][INFO] 2022-02-23 09:31:27,416: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-02-23 09:31:27,416: spin

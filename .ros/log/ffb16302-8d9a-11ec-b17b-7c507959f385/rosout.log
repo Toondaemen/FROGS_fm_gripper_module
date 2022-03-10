@@ -1,0 +1,6 @@
+
+
+1644845740.518972492  Node Startup
+1644845740.923141002 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644845743.925929069 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644845744.191445350 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /rosout, /sensor/estimated_ForceAndLoc, /sensor/pressure_data, /sensor/pressure_reset] pressure data processing package started 

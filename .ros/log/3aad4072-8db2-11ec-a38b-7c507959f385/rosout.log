@@ -1,0 +1,62 @@
+
+
+1644855717.904891912  Node Startup
+1644855732.806526899 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644855735.812612056 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856169.736871004 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856169.849467039 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856171.843450069 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856172.855321884 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856173.128579378 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /sensor/estimated_ForceAndLoc, /sensor/pressure_data, /sensor/pressure_reset, /rosout] pressure data processing package started 
+1644856175.861792087 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856178.290524005 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856178.291023969 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856241.575922966 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856241.689109086 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856243.683058977 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856244.693890094 ERROR /sensor/tactile_pressure [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644856245.004855632 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /rosout, /sensor/pressure_reset, /sensor/estimated_ForceAndLoc, /sensor/pressure_data] pressure data processing package started 
+1644856246.124927997 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856246.125750064 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856304.780327081 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856306.887058019 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856321.890933990 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856321.893511056 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856322.883675098 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856322.884192943 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856395.831095933 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856397.379396915 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856397.380804061 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856758.321106910 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856760.427500009 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856773.797317981 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856773.797806978 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856804.931065082 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856807.037657976 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856807.053020000 WARN /serial_node [SerialClient.py:548(SerialClient.run)] [topics: /diagnostics, /rosout] Last read step: syncflag
+1644856807.055363893 WARN /serial_node [SerialClient.py:549(SerialClient.run)] [topics: /diagnostics, /rosout] Run loop error: Serial Port read failure: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+1644856807.057576894 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856822.041637897 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856822.044060945 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856837.047363996 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856837.049958944 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856852.053767919 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856852.055932998 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856854.210110902 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856854.212502956 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856879.473236083 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856881.580405950 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856896.584202051 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856896.587541103 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856897.166282892 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856897.167397975 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856900.223161935 INFO /serial_node [serial_node.py:93(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1644856902.329559087 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856917.333400011 ERROR /serial_node [SerialClient.py:464(SerialClient.run)] [topics: /diagnostics, /rosout] Unable to sync with device; possible link problem or link software version mismatch such as hydro rosserial_python with groovy Arduino
+1644856917.335944890 INFO /serial_node [SerialClient.py:408(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1644856921.419344902 INFO /serial_node [SerialClient.py:425(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Sending tx stop request
+1644856921.420922994 INFO /serial_node [SerialClient.py:355(SerialClient.shutdown)] [topics: /diagnostics, /rosout] shutdown hook activated
+1644856980.438649892 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0/: [Errno 21] Is a directory: '/dev/ttyACM0/'
+1644856983.444499969 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0/: [Errno 21] Is a directory: '/dev/ttyACM0/'
+1644857044.361093997 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+1644857047.365838050 ERROR /serial_node [SerialClient.py:377(SerialClient.__init__)] [topics: /diagnostics, /rosout] Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'

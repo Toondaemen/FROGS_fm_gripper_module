@@ -1,0 +1,17 @@
+
+
+1645615303.468306821  Node Startup
+1645615306.684412002 INFO /gripper_action_server [gripper_action_server.py:31(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645615306.685682058 ERROR /gripper_action_server [simple_action_server.py:298(SimpleActionServer.executeLoop)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Exception in your execute callback: rospy.init_node() has already been called with different arguments: ('fm_gripper_action_server', ['/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py', '__name:=gripper_action_server', '__log:=/home/ros/.ros/log/c6f00e0e-949a-11ec-ab3d-7c507959f385/gripper_action_server-3.log'], False, None, False, False)
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 38, in execute
+    my_node = Robotiq2FGripperSlipController()
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 68, in __init__
+    rospy.init_node("Robotiq2FGripperSlipController", anonymous=True)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 274, in init_node
+    raise rospy.exceptions.ROSException("rospy.init_node() has already been called with different arguments: "+str(_init_node_args))
+ROSException: rospy.init_node() has already been called with different arguments: ('fm_gripper_action_server', ['/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py', '__name:=gripper_action_server', '__log:=/home/ros/.ros/log/c6f00e0e-949a-11ec-ab3d-7c507959f385/gripper_action_server-3.log'], False, None, False, False)
+
+1645615306.878009080 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

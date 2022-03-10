@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2021-12-21 13:29:41,250: init_node, name[/rostopic_285_1640093381237], pid[285]
+[xmlrpc][INFO] 2021-12-21 13:29:41,251: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 13:29:41,251: Started XML-RPC server [http://FM00351-u:40037/]
+[rospy.init][INFO] 2021-12-21 13:29:41,251: ROS Slave URI: [http://FM00351-u:40037/]
+[rospy.impl.masterslave][INFO] 2021-12-21 13:29:41,251: _ready: http://FM00351-u:40037/
+[xmlrpc][INFO] 2021-12-21 13:29:41,251: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-21 13:29:41,251: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-12-21 13:29:41,351: registered with master
+[rospy.rosout][INFO] 2021-12-21 13:29:41,351: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 13:29:41,352: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 13:29:41,353: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 13:29:41,367: topic[/rosout] adding connection to [http://FM00351-u:41241/], count 0
+[rospy.internal][INFO] 2021-12-21 13:29:41,367: topic[/rosout] adding connection to [http://FM00351-u:40037/], count 0
+[rospy.internal][INFO] 2021-12-21 13:29:41,367: topic[/rosout] adding connection to [http://FM00351-u:38229/], count 0
+[rospy.internal][INFO] 2021-12-21 13:29:41,368: topic[/rosout] adding connection to [/rostopic_285_1640093381237], count 0
+[rospy.internal][INFO] 2021-12-21 13:29:41,600: topic[/rosout] adding connection to [/rosout], count 1
+[rospy.core][INFO] 2021-12-21 13:29:43,748: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-21 13:29:43,750: topic[/rosout] removing connection to /rostopic_285_1640093381237
+[rospy.internal][INFO] 2021-12-21 13:29:43,750: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-21 13:29:43,750: topic[/rosout] removing connection to http://FM00351-u:41241/
+[rospy.internal][INFO] 2021-12-21 13:29:43,750: topic[/rosout] removing connection to http://FM00351-u:40037/
+[rospy.internal][INFO] 2021-12-21 13:29:43,751: topic[/rosout] removing connection to http://FM00351-u:38229/
+[rospy.impl.masterslave][INFO] 2021-12-21 13:29:43,751: signal-2
+[rospy.internal][ERROR] 2021-12-21 13:29:43,751: Unable to initiate TCP/IP socket to FM00351-u:43497 (http://FM00351-u:40037/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2021-12-21 13:29:43,883: signal_shutdown [atexit]

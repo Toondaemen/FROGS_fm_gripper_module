@@ -1,0 +1,5 @@
+
+
+1645615552.753717426  Node Startup
+1645615555.753700017 INFO /gripper_action_server [gripper_action_server.py:31(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645615644.429668903 WARN /gripper_action_client [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

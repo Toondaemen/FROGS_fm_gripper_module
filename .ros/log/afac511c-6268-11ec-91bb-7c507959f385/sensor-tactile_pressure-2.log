@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2021-12-21 14:17:11,339: init_node, name[/sensor/tactile_pressure], pid[124]
+[xmlrpc][INFO] 2021-12-21 14:17:11,348: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 14:17:11,349: Started XML-RPC server [http://FM00351-u:32891/]
+[rospy.init][INFO] 2021-12-21 14:17:11,349: ROS Slave URI: [http://FM00351-u:32891/]
+[rospy.impl.masterslave][INFO] 2021-12-21 14:17:11,350: _ready: http://FM00351-u:32891/
+[rospy.registration][INFO] 2021-12-21 14:17:11,355: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 14:17:11,355: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 14:17:11,450: registered with master
+[rospy.rosout][INFO] 2021-12-21 14:17:11,450: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 14:17:11,452: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 14:17:11,452: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 14:17:11,454: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 14:17:11,455: Connecting to /dev/ttyUSB0 at 57600 baud
+[rosout][ERROR] 2021-12-21 14:17:11,457: Error opening serial: [Errno 13] could not open port /dev/ttyUSB0: [Errno 13] Permission denied: '/dev/ttyUSB0'
+[rospy.internal][INFO] 2021-12-21 14:17:11,753: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2021-12-21 14:17:14,460: Error opening serial: [Errno 13] could not open port /dev/ttyUSB0: [Errno 13] Permission denied: '/dev/ttyUSB0'
+[rospy.core][INFO] 2021-12-21 14:17:16,655: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-21 14:17:16,659: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-21 14:17:16,659: signal-2
+[rospy.core][INFO] 2021-12-21 14:17:16,775: signal_shutdown [atexit]

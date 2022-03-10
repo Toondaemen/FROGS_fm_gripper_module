@@ -1,0 +1,54 @@
+[rospy.client][INFO] 2022-02-23 11:30:50,275: init_node, name[/gripper_action_server], pid[16024]
+[xmlrpc][INFO] 2022-02-23 11:30:50,275: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:30:50,275: Started XML-RPC server [http://FM00351-u:40441/]
+[rospy.init][INFO] 2022-02-23 11:30:50,276: ROS Slave URI: [http://FM00351-u:40441/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:30:50,276: _ready: http://FM00351-u:40441/
+[rospy.registration][INFO] 2022-02-23 11:30:50,277: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:30:50,277: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:30:50,376: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:30:50,377: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:30:50,381: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:30:50,382: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:30:50,619: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:01,413: topic[/rosout] adding connection to [/rostopic_16043_1645615861171], count 1
+[rospy.internal][INFO] 2022-02-23 11:31:10,672: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:41623/], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:10,675: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:41623/], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:10,680: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:10,680: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 11:31:10,680: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rosout][INFO] 2022-02-23 11:31:10,704: state: initializing
+[rosout][INFO] 2022-02-23 11:31:10,706: controller is started now
+[rospy.internal][INFO] 2022-02-23 11:31:10,799: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rosout][WARNING] 2022-02-23 11:36:02,552: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-02-23 11:36:02,554: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-02-23 11:36:02,865: topic[/rosout] removing connection to /rostopic_16043_1645615861171
+[rospy.core][INFO] 2022-02-23 11:36:05,206: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:36:05,210: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:36:05,211: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:36:05,211: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:36:05,211: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:36:05,211: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][INFO] 2022-02-23 11:36:05,211: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:41623/
+[rospy.internal][WARNING] 2022-02-23 11:36:05,212: Unknown error initiating TCP/IP socket to FM00351-u:36043 (http://FM00351-u:41623/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-02-23 11:36:05,212: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2022-02-23 11:36:05,212: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:41623/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:36:05,212: signal-2

@@ -1,0 +1,49 @@
+[rospy.client][INFO] 2022-02-14 14:37:28,531: init_node, name[/frogs], pid[2252]
+[xmlrpc][INFO] 2022-02-14 14:37:28,532: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 14:37:28,532: Started XML-RPC server [http://FM00351-u:44115/]
+[rospy.init][INFO] 2022-02-14 14:37:28,532: ROS Slave URI: [http://FM00351-u:44115/]
+[rospy.impl.masterslave][INFO] 2022-02-14 14:37:28,532: _ready: http://FM00351-u:44115/
+[rospy.registration][INFO] 2022-02-14 14:37:28,532: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 14:37:28,532: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 14:37:28,632: registered with master
+[rospy.rosout][INFO] 2022-02-14 14:37:28,633: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 14:37:28,637: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 14:37:28,639: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 14:37:28,700: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:41045/], count 0
+[rospy.internal][INFO] 2022-02-14 14:37:28,749: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2022-02-14 14:37:28,938: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2022-02-14 14:37:31,219: Unknown error initiating TCP/IP socket to FM00351-u:40201 (http://FM00351-u:41045/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-14 14:37:31,219: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:41045/
+[rospy.internal][INFO] 2022-02-14 14:37:31,700: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][INFO] 2022-02-14 14:37:34,345: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2022-02-14 14:37:34,370: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:34157/], count 0
+[rospy.core][INFO] 2022-02-14 14:52:20,188: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 14:52:20,194: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 14:52:20,194: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][INFO] 2022-02-14 14:52:20,194: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:34157/
+[rospy.impl.masterslave][INFO] 2022-02-14 14:52:20,194: signal-2
+[rospy.core][INFO] 2022-02-14 14:52:20,358: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-02-14 14:53:19,887: init_node, name[/frogs], pid[2999]
+[xmlrpc][INFO] 2022-02-14 14:53:19,887: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 14:53:19,887: Started XML-RPC server [http://FM00351-u:41369/]
+[rospy.impl.masterslave][INFO] 2022-02-14 14:53:19,887: _ready: http://FM00351-u:41369/
+[rospy.init][INFO] 2022-02-14 14:53:19,887: ROS Slave URI: [http://FM00351-u:41369/]
+[rospy.registration][INFO] 2022-02-14 14:53:19,888: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 14:53:19,888: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 14:53:19,988: registered with master
+[rospy.rosout][INFO] 2022-02-14 14:53:19,988: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 14:53:19,993: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 14:53:19,994: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 14:53:20,292: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-14 14:54:18,034: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2022-02-14 14:54:18,056: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:46741/], count 0
+[rospy.internal][INFO] 2022-02-14 14:57:31,310: topic[/Robotiq2FGripperRobotOutput] adding connection to [/rostopic_3232_1644850651077], count 1
+[rospy.internal][INFO] 2022-02-14 14:59:55,758: topic[/rosout] removing connection to /rosout

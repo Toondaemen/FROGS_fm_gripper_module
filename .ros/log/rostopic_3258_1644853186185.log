@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2022-02-14 15:39:46,246: init_node, name[/rostopic_3258_1644853186185], pid[3258]
+[xmlrpc][INFO] 2022-02-14 15:39:46,246: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 15:39:46,246: Started XML-RPC server [http://FM00351-u:45147/]
+[rospy.init][INFO] 2022-02-14 15:39:46,246: ROS Slave URI: [http://FM00351-u:45147/]
+[rospy.impl.masterslave][INFO] 2022-02-14 15:39:46,247: _ready: http://FM00351-u:45147/
+[rospy.registration][INFO] 2022-02-14 15:39:46,247: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 15:39:46,247: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 15:39:46,347: registered with master
+[rospy.rosout][INFO] 2022-02-14 15:39:46,347: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 15:39:46,351: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 15:39:46,353: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 15:39:46,416: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:39163/], count 0
+[rospy.internal][INFO] 2022-02-14 15:39:46,417: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:40347/], count 0
+[rospy.internal][INFO] 2022-02-14 15:39:46,625: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2022-02-14 15:40:38,450: Unknown error initiating TCP/IP socket to FM00351-u:44645 (http://FM00351-u:40347/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-14 15:40:38,451: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:40347/
+[rospy.internal][INFO] 2022-02-14 15:40:51,576: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:41399/], count 1
+[rospy.internal][WARNING] 2022-02-14 15:56:11,494: Unknown error initiating TCP/IP socket to FM00351-u:33061 (http://FM00351-u:41399/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-02-14 15:56:11,494: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:41399/
+[rospy.core][INFO] 2022-02-14 16:00:35,076: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 16:00:35,080: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 16:00:35,081: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:39163/
+[rospy.impl.masterslave][INFO] 2022-02-14 16:00:35,081: signal-2
+[rospy.core][INFO] 2022-02-14 16:00:35,214: signal_shutdown [atexit]

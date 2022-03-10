@@ -1,0 +1,38 @@
+#! /usr/bin/env python
+import rospy
+import actionlib
+from fm_gripper_msgs.msg import FmGripperAction, FmGripperGoal
+
+def gripper_action_client():
+
+  # Cast the data in the right format
+  trajectory = JointTrajectory()
+  trajectory.joint_names = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint', 'wrist_1_joint', 'wrist_2_joint', 'wrist_3_joint']
+  for i in range(len(trajectory_time)):
+    trajectory_point = JointTrajectoryPoint()
+    trajectory_point.positions = trajectory_joint_pos[i]
+    trajectory_point.velocities = trajectory_joint_vel[i]
+    trajectory_point.accelerations = trajectory_joint_acc[i]
+    trajectory_point.time_from_start.secs = int(trajectory_time[i])
+    trajectory_point.time_from_start.nsecs = int((trajectory_time[i] - int(trajectory_time[i])) * 1e9)
+    trajectory.points.append(trajectory_point)
+
+
+  # Establish connection with UR action server
+  client = actionlib.SimpleActionClient('FmGripper', FmGripperAction)
+  client.wait_for_server()
+
+ 
+  # Send the trajectory data over the action server
+  goal = FmGripperGoal()
+  #goal. = 
+  client.send_goal(goal)
+  client.wait_for_result()
+
+  return client.get_result()
+
+
+if __name__ == '__main__':
+  rospy.init_node('gripperg_action_client')
+  result = gripper_action_client()
+

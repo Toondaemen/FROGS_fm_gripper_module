@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-12-21 13:52:48,307: init_node, name[/sensor/tactile_pressure], pid[79]
+[xmlrpc][INFO] 2021-12-21 13:52:48,315: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 13:52:48,316: Started XML-RPC server [http://FM00351-u:35033/]
+[rospy.impl.masterslave][INFO] 2021-12-21 13:52:48,316: _ready: http://FM00351-u:35033/
+[rospy.init][INFO] 2021-12-21 13:52:48,317: ROS Slave URI: [http://FM00351-u:35033/]
+[rospy.registration][INFO] 2021-12-21 13:52:48,321: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 13:52:48,321: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 13:52:48,417: registered with master
+[rospy.rosout][INFO] 2021-12-21 13:52:48,418: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 13:52:48,419: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 13:52:48,420: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 13:52:48,421: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 13:52:48,423: Connecting to /dev/ttyUSB0 at 57600 baud
+[rosout][ERROR] 2021-12-21 13:52:48,425: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rospy.internal][INFO] 2021-12-21 13:52:48,816: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2021-12-21 13:52:51,428: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:52:54,432: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:52:57,437: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:00,443: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:03,449: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:06,456: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:09,461: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:12,464: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:15,468: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:18,472: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:21,476: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 13:53:24,482: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'

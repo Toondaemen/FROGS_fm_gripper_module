@@ -1,0 +1,23 @@
+[rosmaster.main][INFO] 2021-12-21 10:26:16,041: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-21 10:26:16,041: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-21 10:26:16,041: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-21 10:26:16,042: Started XML-RPC server [http://FM00351-u:11311/]
+[xmlrpc][INFO] 2021-12-21 10:26:16,042: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-21 10:26:16,042: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2021-12-21 10:26:16,141: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,143: +PARAM [/roslaunch/uris/host_fm00351_u__38659] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,250: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,250: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,251: +PARAM [/baud_pressure] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,251: +PARAM [/port_pressure] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 10:26:16,253: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:26:16,254: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:26:16,256: +PUB [/rosout_agg] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:26:16,260: +SUB [/rosout] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:28:12,089: -PUB [/rosout_agg] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:28:12,090: -SUB [/rosout] /rosout http://FM00351-u:38361/
+[rosmaster.master][INFO] 2021-12-21 10:28:12,092: -SERVICE [/rosout/get_loggers] /rosout rosrpc://FM00351-u:55925
+[rosmaster.master][INFO] 2021-12-21 10:28:12,093: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://FM00351-u:55925
+[rosmaster.main][INFO] 2021-12-21 10:28:12,187: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-12-21 10:28:12,187: stopping master...
+[rospy.core][INFO] 2021-12-21 10:28:12,188: signal_shutdown [atexit]

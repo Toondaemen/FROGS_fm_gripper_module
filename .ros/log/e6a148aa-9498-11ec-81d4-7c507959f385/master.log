@@ -1,0 +1,76 @@
+[rosmaster.main][INFO] 2022-02-23 11:08:17,328: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-02-23 11:08:17,328: Starting ROS Master Node
+[xmlrpc][INFO] 2022-02-23 11:08:17,329: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-02-23 11:08:17,329: Started XML-RPC server [http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2022-02-23 11:08:17,330: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[xmlrpc][INFO] 2022-02-23 11:08:17,330: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-02-23 11:08:17,358: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:08:17,359: +PARAM [/roslaunch/uris/host_fm00351_u__34065] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:08:17,631: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:08:17,631: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-02-23 11:08:17,636: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:17,636: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:17,637: +PUB [/rosout_agg] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:17,638: +SUB [/rosout] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,309: +PUB [/rosout] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,313: +SERVICE [/Robotiq2FGripperSlipController/get_loggers] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,314: +SERVICE [/Robotiq2FGripperSlipController/set_logger_level] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,316: +PUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,330: +PUB [/rosout] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,330: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:40653/']
+[rosmaster.master][INFO] 2022-02-23 11:08:18,334: +SERVICE [/Robotiq2FGripperRtuNode/get_loggers] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,336: +SERVICE [/Robotiq2FGripperRtuNode/set_logger_level] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,337: +PUB [/Robotiq2FGripperRobotInput] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,340: +SUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:18,348: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:40653/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:08:18,348: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:40653/', 'http://FM00351-u:33803/']
+[rosmaster.master][INFO] 2022-02-23 11:08:18,349: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:40653/', 'http://FM00351-u:33803/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:08:30,717: -PUB [/rosout] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:30,717: -PUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperSlipController http://FM00351-u:40653/
+[rosmaster.master][INFO] 2022-02-23 11:08:30,718: -SERVICE [/Robotiq2FGripperSlipController/get_loggers] /Robotiq2FGripperSlipController rosrpc://FM00351-u:41517
+[rosmaster.master][INFO] 2022-02-23 11:08:30,718: -SERVICE [/Robotiq2FGripperSlipController/set_logger_level] /Robotiq2FGripperSlipController rosrpc://FM00351-u:41517
+[rosmaster.master][INFO] 2022-02-23 11:08:30,720: -SUB [/Robotiq2FGripperRobotOutput] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:30,720: -PUB [/Robotiq2FGripperRobotInput] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:30,720: -PUB [/rosout] /Robotiq2FGripperRtuNode http://FM00351-u:33803/
+[rosmaster.master][INFO] 2022-02-23 11:08:30,720: -SERVICE [/Robotiq2FGripperRtuNode/get_loggers] /Robotiq2FGripperRtuNode rosrpc://FM00351-u:33065
+[rosmaster.master][INFO] 2022-02-23 11:08:30,720: -SERVICE [/Robotiq2FGripperRtuNode/set_logger_level] /Robotiq2FGripperRtuNode rosrpc://FM00351-u:33065
+[rosmaster.master][INFO] 2022-02-23 11:08:30,758: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:33803/']
+[rosmaster.master][INFO] 2022-02-23 11:08:30,758: publisherUpdate[/Robotiq2FGripperRobotOutput] -> http://FM00351-u:33803/ []
+[rosmaster.master][INFO] 2022-02-23 11:08:30,773: publisherUpdate[/rosout] -> http://FM00351-u:40121/ ['http://FM00351-u:33803/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:08:30,773: publisherUpdate[/rosout] -> http://FM00351-u:40121/ []
+[rosmaster.master][INFO] 2022-02-23 11:08:30,773: publisherUpdate[/rosout] -> http://FM00351-u:40121/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-02-23 11:08:30,864: publisherUpdate[/Robotiq2FGripperRobotOutput] -> http://FM00351-u:33803/ []: sec=0.11, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2022-02-23 11:08:30,866: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-02-23 11:08:33,076: -PUB [/rosout_agg] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:33,077: -SUB [/rosout] /rosout http://FM00351-u:40121/
+[rosmaster.master][INFO] 2022-02-23 11:08:33,077: -SERVICE [/rosout/get_loggers] /rosout rosrpc://FM00351-u:40333
+[rosmaster.master][INFO] 2022-02-23 11:08:33,077: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://FM00351-u:40333
+[rosmaster.main][INFO] 2022-02-23 11:08:33,123: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-02-23 11:08:33,123: stopping master...
+[rospy.core][INFO] 2022-02-23 11:08:33,123: signal_shutdown [atexit]

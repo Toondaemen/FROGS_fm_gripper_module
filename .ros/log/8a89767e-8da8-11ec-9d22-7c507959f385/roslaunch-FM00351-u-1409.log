@@ -1,0 +1,83 @@
+[roslaunch][INFO] 2022-02-14 15:12:36,060: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-02-14 15:12:36,063: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-02-14 15:12:36,063: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2022-02-14 15:12:36,063: roslaunch env is {'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'HOME': '/home/ros', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/8a89767e-8da8-11ec-9d22-7c507959f385/roslaunch-FM00351-u-1409.log', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roscore', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2022-02-14 15:12:36,063: starting in server mode
+[roslaunch.parent][INFO] 2022-02-14 15:12:36,063: starting roslaunch parent run
+[roslaunch][INFO] 2022-02-14 15:12:36,063: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-02-14 15:12:36,359: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,359: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,359: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,359: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-02-14 15:12:36,360: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-02-14 15:12:36,360: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-02-14 15:12:36,360: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-02-14 15:12:36,360: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 15:12:36,360: Started XML-RPC server [http://FM00351-u:33933/]
+[xmlrpc][INFO] 2022-02-14 15:12:36,360: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-02-14 15:12:36,371: started roslaunch server http://FM00351-u:33933/
+[roslaunch.parent][INFO] 2022-02-14 15:12:36,371: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-02-14 15:12:36,371: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,372: auto-starting new master
+[roslaunch][INFO] 2022-02-14 15:12:36,372: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2022-02-14 15:12:36,372: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,372: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,372: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2022-02-14 15:12:36,372: process[master]: starting os process
+[roslaunch][INFO] 2022-02-14 15:12:36,373: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/ros/.ros/log/8a89767e-8da8-11ec-9d22-7c507959f385/master.log']]
+[roslaunch][INFO] 2022-02-14 15:12:36,373: process[master]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 15:12:36,438: process[master]: started with pid [1419]
+[roslaunch][INFO] 2022-02-14 15:12:36,438: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,539: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,640: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,642: master.is_running[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,643: ROS_MASTER_URI=http://FM00351-u:11311/
+[roslaunch][INFO] 2022-02-14 15:12:36,644: setting /run_id to 8a89767e-8da8-11ec-9d22-7c507959f385
+[roslaunch][INFO] 2022-02-14 15:12:36,644: setting /roslaunch/uris/host_fm00351_u__33933' to http://FM00351-u:33933/
+[roslaunch][INFO] 2022-02-14 15:12:36,647: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2022-02-14 15:12:36,647: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://FM00351-u:11311/]
+[roslaunch][INFO] 2022-02-14 15:12:36,647: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/8a89767e-8da8-11ec-9d22-7c507959f385/roslaunch-FM00351-u-1409.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roscore', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros', 'ROS_MASTER_URI': 'http://FM00351-u:11311/', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-14 15:12:36,858: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2022-02-14 15:12:36,858: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,858: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,858: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2022-02-14 15:12:36,858: ... registered process [rosout-1]
+[roslaunch][INFO] 2022-02-14 15:12:36,858: process[rosout-1]: starting os process
+[roslaunch][INFO] 2022-02-14 15:12:36,862: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ros/.ros/log/8a89767e-8da8-11ec-9d22-7c507959f385/rosout-1.log']]
+[roslaunch][INFO] 2022-02-14 15:12:36,862: process[rosout-1]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 15:12:36,928: process[rosout-1]: started with pid [1430]
+[roslaunch][INFO] 2022-02-14 15:12:36,928: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2022-02-14 15:12:36,928: load_parameters starting ...
+[roslaunch][INFO] 2022-02-14 15:12:36,930: ... load_parameters complete
+[roslaunch][INFO] 2022-02-14 15:12:36,930: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-02-14 15:12:36,930: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-02-14 15:12:36,930: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140650750785280)>
+[roslaunch.parent][INFO] 2022-02-14 15:12:36,930: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-02-14 15:12:36,930: spin
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,503: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140650750785280)>
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,530: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140650750785280)>
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,530: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140650750785280)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7febce0d15d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7febce0ebe10>]
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,534: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2022-02-14 15:13:35,534: [rosout-1] killing on exit
+[roslaunch][INFO] 2022-02-14 15:13:35,534: process[rosout-1]: killing os process with pid[1430] pgid[1430]
+[roslaunch][INFO] 2022-02-14 15:13:35,534: [rosout-1] sending SIGINT to pgid [1430]
+[roslaunch][INFO] 2022-02-14 15:13:35,535: [rosout-1] sent SIGINT to pgid [1430]
+[roslaunch][INFO] 2022-02-14 15:13:35,735: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,736: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2022-02-14 15:13:35,736: [master] killing on exit
+[roslaunch][INFO] 2022-02-14 15:13:35,736: process[master]: killing os process with pid[1419] pgid[1419]
+[roslaunch][INFO] 2022-02-14 15:13:35,736: [master] sending SIGINT to pgid [1419]
+[roslaunch][INFO] 2022-02-14 15:13:35,736: [master] sent SIGINT to pgid [1419]
+[roslaunch][INFO] 2022-02-14 15:13:35,937: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,937: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,937: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-02-14 15:13:35,968: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-02-14 15:13:35,969: runner.stop()
+[roslaunch][INFO] 2022-02-14 15:13:35,969: shutting down processing monitor...
+[roslaunch][INFO] 2022-02-14 15:13:35,969: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140650750785280)>
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,969: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140650750785280)>
+[roslaunch][INFO] 2022-02-14 15:13:35,969: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-02-14 15:13:35,969: done
+[roslaunch.pmon][INFO] 2022-02-14 15:13:35,970: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140650750785280)>
+[rospy.core][INFO] 2022-02-14 15:13:35,970: signal_shutdown [atexit]

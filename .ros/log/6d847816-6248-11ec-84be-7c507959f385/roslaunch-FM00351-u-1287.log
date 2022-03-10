@@ -1,0 +1,116 @@
+[roslaunch][INFO] 2021-12-21 10:26:15,641: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2021-12-21 10:26:15,644: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2021-12-21 10:26:15,644: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'tactile_pressure_sensor', 'run_tactile_pressure.launch']
+[roslaunch][INFO] 2021-12-21 10:26:15,644: roslaunch env is {'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/kinetic/share', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/kinetic', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/roslaunch-FM00351-u-1287.log', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2021-12-21 10:26:15,644: starting in server mode
+[roslaunch.parent][INFO] 2021-12-21 10:26:15,644: starting roslaunch parent run
+[roslaunch][INFO] 2021-12-21 10:26:15,644: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2021-12-21 10:26:15,834: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2021-12-21 10:26:15,834: loading config file /home/ros/catkin_ws/src/tactile_pressure_sensor/launch/run_tactile_pressure.launch
+[roslaunch][INFO] 2021-12-21 10:26:15,834: Added node of type [rosserial_arduino/serial_node.py] in namespace [/sensor/]
+[roslaunch][INFO] 2021-12-21 10:26:15,834: Added node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py] in namespace [/sensor/]
+[roslaunch][INFO] 2021-12-21 10:26:15,835: ... selected machine [] for node of type [rosserial_arduino/serial_node.py]
+[roslaunch][INFO] 2021-12-21 10:26:15,835: ... selected machine [] for node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:15,835: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2021-12-21 10:26:15,836: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2021-12-21 10:26:15,836: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2021-12-21 10:26:15,836: starting parent XML-RPC server
+[roslaunch.server][INFO] 2021-12-21 10:26:15,836: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2021-12-21 10:26:15,836: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2021-12-21 10:26:15,836: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 10:26:15,837: Started XML-RPC server [http://FM00351-u:38659/]
+[xmlrpc][INFO] 2021-12-21 10:26:15,837: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2021-12-21 10:26:15,848: started roslaunch server http://FM00351-u:38659/
+[roslaunch.parent][INFO] 2021-12-21 10:26:15,848: ... parent XML-RPC server started
+[roslaunch][INFO] 2021-12-21 10:26:15,848: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:15,848: auto-starting new master
+[roslaunch][INFO] 2021-12-21 10:26:15,848: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2021-12-21 10:26:15,848: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:15,848: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:15,848: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2021-12-21 10:26:15,848: process[master]: starting os process
+[roslaunch][INFO] 2021-12-21 10:26:15,848: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/master.log']]
+[roslaunch][INFO] 2021-12-21 10:26:15,849: process[master]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2021-12-21 10:26:15,928: process[master]: started with pid [1297]
+[roslaunch][INFO] 2021-12-21 10:26:15,928: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,028: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,129: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,135: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,137: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2021-12-21 10:26:16,139: setting /run_id to 6d847816-6248-11ec-84be-7c507959f385
+[roslaunch][INFO] 2021-12-21 10:26:16,142: setting /roslaunch/uris/host_fm00351_u__38659' to http://FM00351-u:38659/
+[roslaunch][INFO] 2021-12-21 10:26:16,145: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2021-12-21 10:26:16,145: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,145: process[rosout-1]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/kinetic/share', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/roslaunch-FM00351-u-1287.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/kinetic/bin/roslaunch', 'DISPLAY': ':0', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2021-12-21 10:26:16,170: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2021-12-21 10:26:16,170: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,170: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,170: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2021-12-21 10:26:16,170: ... registered process [rosout-1]
+[roslaunch][INFO] 2021-12-21 10:26:16,170: process[rosout-1]: starting os process
+[roslaunch][INFO] 2021-12-21 10:26:16,171: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/rosout-1.log']]
+[roslaunch][INFO] 2021-12-21 10:26:16,171: process[rosout-1]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2021-12-21 10:26:16,247: process[rosout-1]: started with pid [1310]
+[roslaunch][INFO] 2021-12-21 10:26:16,247: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2021-12-21 10:26:16,247: load_parameters starting ...
+[roslaunch][INFO] 2021-12-21 10:26:16,251: ... load_parameters complete
+[roslaunch][INFO] 2021-12-21 10:26:16,251: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2021-12-21 10:26:16,251: ... preparing to launch node of type [rosserial_arduino/serial_node.py]
+[roslaunch][INFO] 2021-12-21 10:26:16,252: create_node_process: package[rosserial_arduino] type[serial_node.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,252: process[sensor/tactile_pressure-2]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/kinetic/share', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/roslaunch-FM00351-u-1287.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', 'ROS_NAMESPACE': '/sensor', '_': '/opt/ros/kinetic/bin/roslaunch', 'DISPLAY': ':0', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][ERROR] 2021-12-21 10:26:16,252: rosserial_arduino
+ROS path [0]=/opt/ros/kinetic/share/ros
+ROS path [1]=/home/ros/catkin_ws/src
+ROS path [2]=/opt/ros/kinetic/share
+[roslaunch][ERROR] 2021-12-21 10:26:16,252: ERROR: cannot launch node of type [rosserial_arduino/serial_node.py]: rosserial_arduino
+ROS path [0]=/opt/ros/kinetic/share/ros
+ROS path [1]=/home/ros/catkin_ws/src
+ROS path [2]=/opt/ros/kinetic/share
+[roslaunch][INFO] 2021-12-21 10:26:16,252: ... preparing to launch node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py]
+[roslaunch][INFO] 2021-12-21 10:26:16,252: create_node_process: package[tactile_pressure_sensor] type[pressure_LocAndForceEstimation.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2021-12-21 10:26:16,252: process[sensor/process_tactile_pressure-3]: env[{'ROS_DISTRO': 'kinetic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/kinetic/share', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/roslaunch-FM00351-u-1287.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'LC_ALL': 'C.UTF-8', 'ROS_NAMESPACE': '/sensor', '_': '/opt/ros/kinetic/bin/roslaunch', 'DISPLAY': ':0', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2021-12-21 10:26:16,253: process[sensor/process_tactile_pressure-3]: args[[u'/home/ros/catkin_ws/src/tactile_pressure_sensor/src/pressure_LocAndForceEstimation.py', u'/sensor/pressure_data:=/sensor/pressure_data', u'estimated_ForceAndLoc:=/sensor/estimated_ForceAndLoc', u'__name:=process_tactile_pressure']]
+[roslaunch][INFO] 2021-12-21 10:26:16,253: ... created process [sensor/process_tactile_pressure-3]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,253: ProcessMonitor.register[sensor/process_tactile_pressure-3]
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,253: ProcessMonitor.register[sensor/process_tactile_pressure-3] complete
+[roslaunch][INFO] 2021-12-21 10:26:16,253: ... registered process [sensor/process_tactile_pressure-3]
+[roslaunch][INFO] 2021-12-21 10:26:16,253: process[sensor/process_tactile_pressure-3]: starting os process
+[roslaunch][INFO] 2021-12-21 10:26:16,253: process[sensor/process_tactile_pressure-3]: start w/ args [[u'/home/ros/catkin_ws/src/tactile_pressure_sensor/src/pressure_LocAndForceEstimation.py', u'/sensor/pressure_data:=/sensor/pressure_data', u'estimated_ForceAndLoc:=/sensor/estimated_ForceAndLoc', u'__name:=process_tactile_pressure', u'__log:=/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/sensor-process_tactile_pressure-3.log']]
+[roslaunch][INFO] 2021-12-21 10:26:16,253: process[sensor/process_tactile_pressure-3]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2021-12-21 10:26:16,332: process[sensor/process_tactile_pressure-3]: started with pid [1318]
+[roslaunch][INFO] 2021-12-21 10:26:16,332: ... successfully launched [sensor/process_tactile_pressure-3]
+[roslaunch][INFO] 2021-12-21 10:26:16,332: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,333: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140146671273728)>
+[roslaunch.parent][INFO] 2021-12-21 10:26:16,333: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2021-12-21 10:26:16,333: spin
+[roslaunch][ERROR] 2021-12-21 10:26:16,438: [sensor/process_tactile_pressure-3] process has died [pid 1318, exit code 1, cmd /home/ros/catkin_ws/src/tactile_pressure_sensor/src/pressure_LocAndForceEstimation.py /sensor/pressure_data:=/sensor/pressure_data estimated_ForceAndLoc:=/sensor/estimated_ForceAndLoc __name:=process_tactile_pressure __log:=/home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/sensor-process_tactile_pressure-3.log].
+log file: /home/ros/.ros/log/6d847816-6248-11ec-84be-7c507959f385/sensor-process_tactile_pressure-3*.log
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,439: ProcessMonitor.unregister[sensor/process_tactile_pressure-3] starting
+[roslaunch.pmon][INFO] 2021-12-21 10:26:16,439: ProcessMonitor.unregister[sensor/process_tactile_pressure-3] complete
+[roslaunch.pmon][INFO] 2021-12-21 10:28:11,880: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140146671273728)>
+[roslaunch.pmon][INFO] 2021-12-21 10:28:11,980: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140146671273728)>
+[roslaunch.pmon][INFO] 2021-12-21 10:28:11,981: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140146671273728)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f7670b6ffd0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f7671497890>]
+[roslaunch.pmon][INFO] 2021-12-21 10:28:11,984: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2021-12-21 10:28:11,984: [rosout-1] killing on exit
+[roslaunch][INFO] 2021-12-21 10:28:11,985: process[rosout-1]: killing os process with pid[1310] pgid[1310]
+[roslaunch][INFO] 2021-12-21 10:28:11,985: [rosout-1] sending SIGINT to pgid [1310]
+[roslaunch][INFO] 2021-12-21 10:28:11,985: [rosout-1] sent SIGINT to pgid [1310]
+[roslaunch][INFO] 2021-12-21 10:28:12,186: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2021-12-21 10:28:12,186: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2021-12-21 10:28:12,186: [master] killing on exit
+[roslaunch][INFO] 2021-12-21 10:28:12,186: process[master]: killing os process with pid[1297] pgid[1297]
+[roslaunch][INFO] 2021-12-21 10:28:12,187: [master] sending SIGINT to pgid [1297]
+[roslaunch][INFO] 2021-12-21 10:28:12,187: [master] sent SIGINT to pgid [1297]
+[roslaunch][INFO] 2021-12-21 10:28:12,387: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2021-12-21 10:28:12,388: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2021-12-21 10:28:12,388: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2021-12-21 10:28:12,396: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2021-12-21 10:28:12,396: runner.stop()
+[roslaunch][INFO] 2021-12-21 10:28:12,396: shutting down processing monitor...
+[roslaunch][INFO] 2021-12-21 10:28:12,396: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140146671273728)>
+[roslaunch.pmon][INFO] 2021-12-21 10:28:12,397: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140146671273728)>
+[roslaunch][INFO] 2021-12-21 10:28:12,397: ... shutting down processing monitor complete
+[roslaunch][INFO] 2021-12-21 10:28:12,397: done
+[roslaunch.pmon][INFO] 2021-12-21 10:28:12,397: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140146671273728)>
+[rospy.core][INFO] 2021-12-21 10:28:12,397: signal_shutdown [atexit]

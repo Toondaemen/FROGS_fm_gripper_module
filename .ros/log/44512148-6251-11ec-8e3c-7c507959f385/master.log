@@ -1,0 +1,138 @@
+[rosmaster.main][INFO] 2021-12-21 11:29:32,500: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-21 11:29:32,500: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-21 11:29:32,501: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-21 11:29:32,502: Started XML-RPC server [http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2021-12-21 11:29:32,502: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[xmlrpc][INFO] 2021-12-21 11:29:32,502: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-21 11:29:32,550: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:32,551: +PARAM [/roslaunch/uris/host_fm00351_u__34499] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:32,667: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:32,667: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:32,674: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:46101/
+[rosmaster.master][INFO] 2021-12-21 11:29:32,674: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:46101/
+[rosmaster.master][INFO] 2021-12-21 11:29:32,675: +PUB [/rosout_agg] /rosout http://FM00351-u:46101/
+[rosmaster.master][INFO] 2021-12-21 11:29:32,677: +SUB [/rosout] /rosout http://FM00351-u:46101/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,070: +PUB [/rosout] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,073: +SERVICE [/frogs/get_loggers] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,073: +SERVICE [/frogs/set_logger_level] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,076: +PUB [/gripper_action_server/status] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,076: +PUB [/gripper_action_server/result] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,077: +PUB [/gripper_action_server/feedback] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,078: +SUB [/gripper_action_server/goal] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,080: +SUB [/gripper_action_server/cancel] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,082: +PUB [/Robotiq2FGripperRobotOutput] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,083: +SUB [/Robotiq2FGripperRobotInput] /frogs http://FM00351-u:46245/
+[rosmaster.master][INFO] 2021-12-21 11:29:33,102: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/']
+[rosmaster.master][INFO] 2021-12-21 11:29:33,111: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,037: +PARAM [/roslaunch/uris/host_fm00351_u__41205] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/infraflex_robot/libraries_list] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/infraflex_robot/primitive_list] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/wm/load_contexts] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/wm/init_scene] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,039: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/wm/verbose] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/infraflex_robot/verbose] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/tm/verbose] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/wm/workspace_dir] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/infraflex_robot/prefix] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/wm/reasoners_pkgs] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,040: +PARAM [/infraflex_robot/skill_list] by /roslaunch
+[rosmaster.master][INFO] 2021-12-21 11:29:39,193: +PUB [/rosout] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,193: +SERVICE [/rviz/get_loggers] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,194: +SERVICE [/rviz/set_logger_level] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,216: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/']
+[rosmaster.master][INFO] 2021-12-21 11:29:39,226: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,315: +SUB [/tf] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,317: +SUB [/tf_static] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,340: +PUB [/initialpose] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,341: +PUB [/goal] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,345: -PUB [/goal] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,346: -PUB [/initialpose] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,349: +PUB [/initialpose] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,349: +PUB [/goal] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,350: +PUB [/move_base_simple/goal] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,351: -PUB [/goal] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,351: +PUB [/clicked_point] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,376: +SERVICE [/rviz/reload_shaders] /rviz http://FM00351-u:37581/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,429: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-12-21 11:29:39,712: +PUB [/rosout] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,716: +SERVICE [/wm/get_loggers] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,717: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/']
+[rosmaster.master][INFO] 2021-12-21 11:29:39,717: +SERVICE [/wm/set_logger_level] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,727: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,777: +PUB [/rosout] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,779: +SERVICE [/infraflex_robot/get_loggers] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,780: +SERVICE [/infraflex_robot/set_logger_level] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,818: +PUB [/rosout] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,821: +SERVICE [/skiros_gui/get_loggers] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,822: +SERVICE [/skiros_gui/set_logger_level] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,827: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/']
+[rosmaster.master][INFO] 2021-12-21 11:29:39,828: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,828: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/', 'http://FM00351-u:34695/']
+[rosmaster.master][INFO] 2021-12-21 11:29:39,828: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/', 'http://FM00351-u:34695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,874: +PUB [/rosout] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,879: +SERVICE [/tm/get_loggers] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,880: +SERVICE [/tm/set_logger_level] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,927: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/', 'http://FM00351-u:34695/', 'http://FM00351-u:36029/']
+[rosmaster.master][INFO] 2021-12-21 11:29:39,928: publisherUpdate[/rosout] -> http://FM00351-u:46101/ ['http://FM00351-u:46245/', 'http://FM00351-u:37581/', 'http://FM00351-u:38365/', 'http://FM00351-u:39135/', 'http://FM00351-u:34695/', 'http://FM00351-u:36029/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:39,935: +PUB [/skiros_gui/update_full] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,937: +PUB [/skiros_gui/update] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:39,939: +SUB [/skiros_gui/feedback] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,584: +SERVICE [/wm/tf2_frames] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,587: +SUB [/tf] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,589: +SUB [/tf_static] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,591: +PUB [/tf] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,594: +SERVICE [/wm/scene/set_relation] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,601: +SERVICE [/wm/scene/query_relations] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,629: publisherUpdate[/tf] -> http://FM00351-u:37581/ ['http://FM00351-u:38365/']
+[rosmaster.master][INFO] 2021-12-21 11:29:40,629: publisherUpdate[/tf] -> http://FM00351-u:38365/ ['http://FM00351-u:38365/']
+[rosmaster.master][INFO] 2021-12-21 11:29:40,630: publisherUpdate[/tf] -> http://FM00351-u:37581/ ['http://FM00351-u:38365/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:40,630: +SERVICE [/wm/get] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,637: publisherUpdate[/tf] -> http://FM00351-u:38365/ ['http://FM00351-u:38365/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:40,638: +SERVICE [/wm/modify] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,643: +PUB [/wm/monitor] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,655: +PUB [/wm/status] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,657: +PUB [/wm/status_json_rel] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,659: +SERVICE [/wm/load_and_save] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,660: +SERVICE [/wm/lock] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,661: +SERVICE [/wm/ontology/query] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,662: +SERVICE [/wm/ontology/modify] /wm http://FM00351-u:38365/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,689: +SUB [/wm/monitor] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,789: +SUB [/wm/monitor] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,791: +PUB [/skill_managers/discovery] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,792: +SUB [/skill_managers/description] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,795: +PUB [/tm/task_plan/status] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,796: +PUB [/tm/task_plan/result] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,797: +PUB [/tm/task_plan/feedback] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,800: +SUB [/tm/task_plan/goal] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,801: +SUB [/tm/task_plan/cancel] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,847: +SUB [/wm/monitor] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,849: +PUB [/skill_managers/discovery] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,850: +SUB [/skill_managers/description] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,853: +SUB [/robot_output] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,946: +SERVICE [/infraflex_robot/get_skills] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:40,948: +SERVICE [/infraflex_robot/add_skills] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,347: +SERVICE [/skiros_gui/tf2_frames] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,349: +SUB [/tf] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,350: +SUB [/tf_static] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,923: +SERVICE [/infraflex_robot/command] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,925: +PUB [/infraflex_robot/monitor] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,927: +PUB [/infraflex_robot/tick_rate] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,929: +SUB [/infraflex_robot/set_debug] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,931: +SUB [/skill_managers/discovery] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,932: +PUB [/skill_managers/description] /infraflex_robot http://FM00351-u:39135/
+[rosmaster.master][INFO] 2021-12-21 11:29:41,934: publisherUpdate[/skill_managers/description] -> http://FM00351-u:36029/ ['http://FM00351-u:39135/']
+[rosmaster.master][INFO] 2021-12-21 11:29:41,935: publisherUpdate[/skill_managers/description] -> http://FM00351-u:36029/ ['http://FM00351-u:39135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:41,935: publisherUpdate[/skill_managers/description] -> http://FM00351-u:34695/ ['http://FM00351-u:39135/']
+[rosmaster.master][INFO] 2021-12-21 11:29:41,936: publisherUpdate[/skill_managers/description] -> http://FM00351-u:34695/ ['http://FM00351-u:39135/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:42,438: +SUB [/infraflex_robot/monitor] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,439: +SUB [/infraflex_robot/monitor] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,440: +SUB [/infraflex_robot/tick_rate] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,441: +SUB [/infraflex_robot/tick_rate] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,442: +PUB [/infraflex_robot/set_debug] /skiros_gui http://FM00351-u:34695/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,443: +PUB [/infraflex_robot/set_debug] /tm http://FM00351-u:36029/
+[rosmaster.master][INFO] 2021-12-21 11:29:42,444: publisherUpdate[/infraflex_robot/set_debug] -> http://FM00351-u:39135/ ['http://FM00351-u:34695/']
+[rosmaster.master][INFO] 2021-12-21 11:29:42,446: publisherUpdate[/infraflex_robot/set_debug] -> http://FM00351-u:39135/ ['http://FM00351-u:34695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-21 11:29:42,446: publisherUpdate[/infraflex_robot/set_debug] -> http://FM00351-u:39135/ ['http://FM00351-u:34695/', 'http://FM00351-u:36029/']
+[rosmaster.master][INFO] 2021-12-21 11:29:42,447: publisherUpdate[/infraflex_robot/set_debug] -> http://FM00351-u:39135/ ['http://FM00351-u:34695/', 'http://FM00351-u:36029/']: sec=0.00, result=[1, '', 0]

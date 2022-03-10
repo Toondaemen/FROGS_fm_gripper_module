@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-12-21 13:26:27,062: init_node, name[/frogs], pid[80]
+[xmlrpc][INFO] 2021-12-21 13:26:27,062: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 13:26:27,062: Started XML-RPC server [http://FM00351-u:41241/]
+[rospy.init][INFO] 2021-12-21 13:26:27,062: ROS Slave URI: [http://FM00351-u:41241/]
+[rospy.impl.masterslave][INFO] 2021-12-21 13:26:27,062: _ready: http://FM00351-u:41241/
+[rospy.registration][INFO] 2021-12-21 13:26:27,063: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 13:26:27,063: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 13:26:27,163: registered with master
+[rospy.rosout][INFO] 2021-12-21 13:26:27,163: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 13:26:27,164: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 13:26:27,164: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 13:26:27,177: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:37423/], count 0
+[rospy.internal][INFO] 2021-12-21 13:26:27,219: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2021-12-21 13:26:27,397: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2021-12-21 13:27:36,887: Unknown error initiating TCP/IP socket to FM00351-u:33275 (http://FM00351-u:37423/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-12-21 13:27:36,887: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:37423/
+[rospy.internal][INFO] 2021-12-21 13:27:37,199: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][INFO] 2021-12-21 13:29:41,368: topic[/rosout] adding connection to [/rostopic_285_1640093381237], count 1
+[rospy.internal][INFO] 2021-12-21 13:29:44,241: topic[/rosout] removing connection to /rostopic_285_1640093381237

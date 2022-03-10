@@ -1,0 +1,36 @@
+[rosmaster.main][INFO] 2021-12-13 09:33:01,744: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-13 09:33:01,744: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-13 09:33:01,745: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-13 09:33:01,745: Started XML-RPC server [http://FM00351-u:11311/]
+[rosmaster.master][INFO] 2021-12-13 09:33:01,745: Master initialized: port[11311], uri[http://FM00351-u:11311/]
+[xmlrpc][INFO] 2021-12-13 09:33:01,745: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-13 09:33:01,849: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-13 09:33:01,851: +PARAM [/roslaunch/uris/host_fm00351_u__35813] by /roslaunch
+[rosmaster.master][INFO] 2021-12-13 09:33:01,932: +PUB [/rosout] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,934: +SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,934: +SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,935: +PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,936: +SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,937: -SUB [/Robotiq2FGripperRobotOutput] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,937: -PUB [/Robotiq2FGripperRobotInput] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,937: -PUB [/rosout] /robotiq2FGripper http://FM00351-u:45329/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,938: -SERVICE [/robotiq2FGripper/set_logger_level] /robotiq2FGripper rosrpc://FM00351-u:46245
+[rosmaster.master][INFO] 2021-12-13 09:33:01,938: -SERVICE [/robotiq2FGripper/get_loggers] /robotiq2FGripper rosrpc://FM00351-u:46245
+[rosmaster.master][INFO] 2021-12-13 09:33:01,964: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-13 09:33:01,964: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-13 09:33:01,967: +SERVICE [/rosout/get_loggers] /rosout http://FM00351-u:36919/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,967: +SERVICE [/rosout/set_logger_level] /rosout http://FM00351-u:36919/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,968: +PUB [/rosout_agg] /rosout http://FM00351-u:36919/
+[rosmaster.master][INFO] 2021-12-13 09:33:01,971: +SUB [/rosout] /rosout http://FM00351-u:36919/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,262: +PUB [/rosout] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,264: +SERVICE [/frogs/get_loggers] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,265: +SERVICE [/frogs/set_logger_level] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,266: +PUB [/gripper_action_server/status] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,267: +PUB [/gripper_action_server/result] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,268: +PUB [/gripper_action_server/feedback] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,269: +SUB [/gripper_action_server/goal] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,270: +SUB [/gripper_action_server/cancel] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,273: +PUB [/Robotiq2FGripperRobotOutput] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,274: +SUB [/Robotiq2FGripperRobotInput] /frogs http://FM00351-u:36275/
+[rosmaster.master][INFO] 2021-12-13 09:33:02,346: publisherUpdate[/rosout] -> http://FM00351-u:36919/ ['http://FM00351-u:36275/']
+[rosmaster.master][INFO] 2021-12-13 09:33:02,349: publisherUpdate[/rosout] -> http://FM00351-u:36919/ ['http://FM00351-u:36275/']: sec=0.00, result=[1, '', 0]

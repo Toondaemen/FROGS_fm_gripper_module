@@ -1,0 +1,124 @@
+[roslaunch][INFO] 2022-02-14 13:36:40,566: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-02-14 13:36:40,569: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-02-14 13:36:40,569: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'tactile_pressure_sensor', 'run_tactile_pressure.launch']
+[roslaunch][INFO] 2022-02-14 13:36:40,569: roslaunch env is {'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'HOME': '/home/ros', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/roslaunch-FM00351-u-863.log', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2022-02-14 13:36:40,569: starting in server mode
+[roslaunch.parent][INFO] 2022-02-14 13:36:40,569: starting roslaunch parent run
+[roslaunch][INFO] 2022-02-14 13:36:40,570: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-02-14 13:36:40,865: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2022-02-14 13:36:40,865: loading config file /home/ros/catkin_ws/src/tactile_pressure_sensor/launch/run_tactile_pressure.launch
+[roslaunch][INFO] 2022-02-14 13:36:40,866: Added node of type [rosserial_arduino/serial_node.py] in namespace [/sensor/]
+[roslaunch][INFO] 2022-02-14 13:36:40,866: Added node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py] in namespace [/sensor/]
+[roslaunch][INFO] 2022-02-14 13:36:40,866: ... selected machine [] for node of type [rosserial_arduino/serial_node.py]
+[roslaunch][INFO] 2022-02-14 13:36:40,866: ... selected machine [] for node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:40,866: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-02-14 13:36:40,867: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-02-14 13:36:40,867: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-02-14 13:36:40,867: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-02-14 13:36:40,867: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-02-14 13:36:40,867: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-02-14 13:36:40,867: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 13:36:40,867: Started XML-RPC server [http://FM00351-u:39967/]
+[xmlrpc][INFO] 2022-02-14 13:36:40,867: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-02-14 13:36:40,879: started roslaunch server http://FM00351-u:39967/
+[roslaunch.parent][INFO] 2022-02-14 13:36:40,879: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-02-14 13:36:40,879: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:40,879: auto-starting new master
+[roslaunch][INFO] 2022-02-14 13:36:40,879: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2022-02-14 13:36:40,880: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:40,880: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:40,880: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2022-02-14 13:36:40,880: process[master]: starting os process
+[roslaunch][INFO] 2022-02-14 13:36:40,880: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/master.log']]
+[roslaunch][INFO] 2022-02-14 13:36:40,880: process[master]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 13:36:40,944: process[master]: started with pid [873]
+[roslaunch][INFO] 2022-02-14 13:36:40,944: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,045: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,145: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,147: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,148: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2022-02-14 13:36:41,149: setting /run_id to 23fe9400-8d9b-11ec-95e1-7c507959f385
+[roslaunch][INFO] 2022-02-14 13:36:41,150: setting /roslaunch/uris/host_fm00351_u__39967' to http://FM00351-u:39967/
+[roslaunch][INFO] 2022-02-14 13:36:41,153: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2022-02-14 13:36:41,153: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,153: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/roslaunch-FM00351-u-863.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-14 13:36:41,351: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2022-02-14 13:36:41,351: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,351: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,351: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2022-02-14 13:36:41,351: ... registered process [rosout-1]
+[roslaunch][INFO] 2022-02-14 13:36:41,351: process[rosout-1]: starting os process
+[roslaunch][INFO] 2022-02-14 13:36:41,351: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/rosout-1.log']]
+[roslaunch][INFO] 2022-02-14 13:36:41,351: process[rosout-1]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 13:36:41,417: process[rosout-1]: started with pid [884]
+[roslaunch][INFO] 2022-02-14 13:36:41,417: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2022-02-14 13:36:41,417: load_parameters starting ...
+[roslaunch][INFO] 2022-02-14 13:36:41,419: ... load_parameters complete
+[roslaunch][INFO] 2022-02-14 13:36:41,419: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-02-14 13:36:41,419: ... preparing to launch node of type [rosserial_arduino/serial_node.py]
+[roslaunch][INFO] 2022-02-14 13:36:41,419: create_node_process: package[rosserial_arduino] type[serial_node.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,419: process[sensor/tactile_pressure-2]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/roslaunch-FM00351-u-863.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', 'ROS_NAMESPACE': '/sensor', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-14 13:36:41,420: process[sensor/tactile_pressure-2]: args[[u'/home/ros/catkin_ws/src/rosserial/rosserial_arduino/nodes/serial_node.py', u'/sensor/Pressure:=/sensor/pressure_data', u'__name:=tactile_pressure']]
+[roslaunch][INFO] 2022-02-14 13:36:41,420: ... created process [sensor/tactile_pressure-2]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,420: ProcessMonitor.register[sensor/tactile_pressure-2]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,420: ProcessMonitor.register[sensor/tactile_pressure-2] complete
+[roslaunch][INFO] 2022-02-14 13:36:41,420: ... registered process [sensor/tactile_pressure-2]
+[roslaunch][INFO] 2022-02-14 13:36:41,421: process[sensor/tactile_pressure-2]: starting os process
+[roslaunch][INFO] 2022-02-14 13:36:41,421: process[sensor/tactile_pressure-2]: start w/ args [[u'/home/ros/catkin_ws/src/rosserial/rosserial_arduino/nodes/serial_node.py', u'/sensor/Pressure:=/sensor/pressure_data', u'__name:=tactile_pressure', u'__log:=/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/sensor-tactile_pressure-2.log']]
+[roslaunch][INFO] 2022-02-14 13:36:41,421: process[sensor/tactile_pressure-2]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 13:36:41,485: process[sensor/tactile_pressure-2]: started with pid [887]
+[roslaunch][INFO] 2022-02-14 13:36:41,485: ... successfully launched [sensor/tactile_pressure-2]
+[roslaunch][INFO] 2022-02-14 13:36:41,485: ... preparing to launch node of type [tactile_pressure_sensor/pressure_LocAndForceEstimation.py]
+[roslaunch][INFO] 2022-02-14 13:36:41,485: create_node_process: package[tactile_pressure_sensor] type[pressure_LocAndForceEstimation.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2022-02-14 13:36:41,485: process[sensor/process_tactile_pressure-3]: env[{'ROS_DISTRO': 'melodic', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/ros/catkin_ws/devel/share/common-lisp', 'LD_LIBRARY_PATH': '/home/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_PACKAGE_PATH': '/home/ros/catkin_ws/src:/opt/ros/melodic/share', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'CMAKE_PREFIX_PATH': '/home/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/roslaunch-FM00351-u-863.log', 'LANG': 'C.UTF-8', 'TERM': 'xterm', 'SHLVL': '1', 'DISPLAY': ':0', 'UNAME': 'ros', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'HOME': '/home/ros', 'ROS_PYTHON_VERSION': '2', 'PYTHONPATH': '/home/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'QT_X11_NO_MITSHM': '1', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LC_ALL': 'C.UTF-8', 'ROS_NAMESPACE': '/sensor', '_': '/opt/ros/melodic/bin/roslaunch', 'OLDPWD': '/home/ros', 'HOSTNAME': 'FM00351-u', 'PWD': '/home/ros/catkin_ws', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2022-02-14 13:36:41,486: process[sensor/process_tactile_pressure-3]: args[[u'/home/ros/catkin_ws/src/tactile_pressure_sensor/src/pressure_LocAndForceEstimation.py', u'/sensor/pressure_data:=/sensor/pressure_data', u'estimated_ForceAndLoc:=/sensor/estimated_ForceAndLoc', u'__name:=process_tactile_pressure']]
+[roslaunch][INFO] 2022-02-14 13:36:41,486: ... created process [sensor/process_tactile_pressure-3]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,486: ProcessMonitor.register[sensor/process_tactile_pressure-3]
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,486: ProcessMonitor.register[sensor/process_tactile_pressure-3] complete
+[roslaunch][INFO] 2022-02-14 13:36:41,486: ... registered process [sensor/process_tactile_pressure-3]
+[roslaunch][INFO] 2022-02-14 13:36:41,486: process[sensor/process_tactile_pressure-3]: starting os process
+[roslaunch][INFO] 2022-02-14 13:36:41,486: process[sensor/process_tactile_pressure-3]: start w/ args [[u'/home/ros/catkin_ws/src/tactile_pressure_sensor/src/pressure_LocAndForceEstimation.py', u'/sensor/pressure_data:=/sensor/pressure_data', u'estimated_ForceAndLoc:=/sensor/estimated_ForceAndLoc', u'__name:=process_tactile_pressure', u'__log:=/home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/sensor-process_tactile_pressure-3.log']]
+[roslaunch][INFO] 2022-02-14 13:36:41,486: process[sensor/process_tactile_pressure-3]: cwd will be [/home/ros/.ros]
+[roslaunch][INFO] 2022-02-14 13:36:41,551: process[sensor/process_tactile_pressure-3]: started with pid [892]
+[roslaunch][INFO] 2022-02-14 13:36:41,551: ... successfully launched [sensor/process_tactile_pressure-3]
+[roslaunch][INFO] 2022-02-14 13:36:41,552: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-02-14 13:36:41,552: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140308737435392)>
+[roslaunch.parent][INFO] 2022-02-14 13:36:41,552: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-02-14 13:36:41,552: spin
+[roslaunch][INFO] 2022-02-14 13:36:45,780: [sensor/process_tactile_pressure-3] process has finished cleanly
+log file: /home/ros/.ros/log/23fe9400-8d9b-11ec-95e1-7c507959f385/sensor-process_tactile_pressure-3*.log
+[roslaunch.pmon][INFO] 2022-02-14 13:36:45,780: ProcessMonitor.unregister[sensor/process_tactile_pressure-3] starting
+[roslaunch.pmon][INFO] 2022-02-14 13:36:45,780: ProcessMonitor.unregister[sensor/process_tactile_pressure-3] complete
+[roslaunch.pmon][INFO] 2022-02-14 13:38:49,923: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140308737435392)>
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,012: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140308737435392)>
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,013: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140308737435392)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f9c2cf68390>, <roslaunch.nodeprocess.LocalProcess object at 0x7f9c2ce8a350>, <roslaunch.nodeprocess.LocalProcess object at 0x7f9c2cf75190>]
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,013: ProcessMonitor exit: killing sensor/tactile_pressure-2
+[roslaunch][INFO] 2022-02-14 13:38:50,014: [sensor/tactile_pressure-2] killing on exit
+[roslaunch][INFO] 2022-02-14 13:38:50,014: process[sensor/tactile_pressure-2]: killing os process with pid[887] pgid[887]
+[roslaunch][INFO] 2022-02-14 13:38:50,014: [sensor/tactile_pressure-2] sending SIGINT to pgid [887]
+[roslaunch][INFO] 2022-02-14 13:38:50,015: [sensor/tactile_pressure-2] sent SIGINT to pgid [887]
+[roslaunch][INFO] 2022-02-14 13:38:50,216: process[sensor/tactile_pressure-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,217: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2022-02-14 13:38:50,217: [rosout-1] killing on exit
+[roslaunch][INFO] 2022-02-14 13:38:50,217: process[rosout-1]: killing os process with pid[884] pgid[884]
+[roslaunch][INFO] 2022-02-14 13:38:50,218: [rosout-1] sending SIGINT to pgid [884]
+[roslaunch][INFO] 2022-02-14 13:38:50,218: [rosout-1] sent SIGINT to pgid [884]
+[roslaunch][INFO] 2022-02-14 13:38:50,418: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,419: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2022-02-14 13:38:50,419: [master] killing on exit
+[roslaunch][INFO] 2022-02-14 13:38:50,419: process[master]: killing os process with pid[873] pgid[873]
+[roslaunch][INFO] 2022-02-14 13:38:50,419: [master] sending SIGINT to pgid [873]
+[roslaunch][INFO] 2022-02-14 13:38:50,419: [master] sent SIGINT to pgid [873]
+[roslaunch][INFO] 2022-02-14 13:38:50,620: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,620: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,620: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-02-14 13:38:50,639: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-02-14 13:38:50,640: runner.stop()
+[roslaunch][INFO] 2022-02-14 13:38:50,640: shutting down processing monitor...
+[roslaunch][INFO] 2022-02-14 13:38:50,640: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140308737435392)>
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,640: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140308737435392)>
+[roslaunch][INFO] 2022-02-14 13:38:50,640: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-02-14 13:38:50,640: done
+[roslaunch.pmon][INFO] 2022-02-14 13:38:50,640: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140308737435392)>
+[rospy.core][INFO] 2022-02-14 13:38:50,641: signal_shutdown [atexit]

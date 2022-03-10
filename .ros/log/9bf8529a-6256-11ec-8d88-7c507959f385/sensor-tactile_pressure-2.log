@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2021-12-21 12:07:47,392: init_node, name[/sensor/tactile_pressure], pid[553]
+[xmlrpc][INFO] 2021-12-21 12:07:47,397: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 12:07:47,397: Started XML-RPC server [http://FM00351-u:43145/]
+[rospy.init][INFO] 2021-12-21 12:07:47,397: ROS Slave URI: [http://FM00351-u:43145/]
+[rospy.impl.masterslave][INFO] 2021-12-21 12:07:47,398: _ready: http://FM00351-u:43145/
+[rospy.registration][INFO] 2021-12-21 12:07:47,402: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 12:07:47,403: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 12:07:47,498: registered with master
+[rospy.rosout][INFO] 2021-12-21 12:07:47,498: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 12:07:47,501: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 12:07:47,503: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 12:07:47,505: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 12:07:47,508: Connecting to /dev/ttyUSB0 at 57600 baud
+[rospy.internal][INFO] 2021-12-21 12:07:47,777: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-21 12:07:49,615: Requesting topics...
+[rosout][INFO] 2021-12-21 12:07:53,870: Send tx stop request
+[rospy.core][INFO] 2021-12-21 12:07:53,873: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-12-21 12:07:53,876: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-21 12:07:53,876: atexit

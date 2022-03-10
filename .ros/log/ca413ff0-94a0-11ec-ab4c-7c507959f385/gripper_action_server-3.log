@@ -1,0 +1,64 @@
+[rospy.client][INFO] 2022-02-23 12:04:46,594: init_node, name[/gripper_action_server], pid[16176]
+[xmlrpc][INFO] 2022-02-23 12:04:46,594: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:04:46,594: Started XML-RPC server [http://FM00351-u:37103/]
+[rospy.init][INFO] 2022-02-23 12:04:46,595: ROS Slave URI: [http://FM00351-u:37103/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:04:46,595: _ready: http://FM00351-u:37103/
+[rospy.registration][INFO] 2022-02-23 12:04:46,596: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:04:46,596: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:04:46,695: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:04:46,696: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:04:46,700: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:04:46,702: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:04:46,922: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:54,305: topic[/rosout] adding connection to [/rostopic_16195_1645617894065], count 1
+[rospy.internal][INFO] 2022-02-23 12:04:56,485: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:56,486: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:56,486: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:56,532: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:40757/], count 0
+[rospy.internal][INFO] 2022-02-23 12:04:56,533: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:40757/], count 0
+[rosout][INFO] 2022-02-23 12:04:56,537: state: initializing
+[rosout][INFO] 2022-02-23 12:04:56,539: controller is started now
+[rosout][INFO] 2022-02-23 12:04:56,541: Advanced 2F Gripper Controller
+-----
+Current command:  rACT = 0, rGTO = 0, rATR = 0, rPR = 0, rSP = 0, rFR = 0
+[rospy.internal][INFO] 2022-02-23 12:04:56,549: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.core][INFO] 2022-02-23 12:05:20,137: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 12:05:20,143: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:05:20,143: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:05:20,143: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 12:05:20,143: topic[/rosout] removing connection to /rostopic_16195_1645617894065
+[rospy.internal][INFO] 2022-02-23 12:05:20,144: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:05:20,144: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][INFO] 2022-02-23 12:05:20,144: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:40757/
+[rospy.internal][INFO] 2022-02-23 12:05:20,144: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:40757/
+[rospy.internal][WARNING] 2022-02-23 12:05:20,144: Unknown error initiating TCP/IP socket to FM00351-u:39365 (http://FM00351-u:40757/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-02-23 12:05:20,145: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2022-02-23 12:05:20,145: signal-2
+[rosout][ERROR] 2022-02-23 12:05:21,837: Exception in your execute callback: unexpected EOF while parsing (<string>, line 0)
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 38, in execute
+    Robotiq2FGripperSlipController().controller()
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 801, in controller
+    inputs = self.askForInput(self.command)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 774, in askForInput
+    return input(strAskForCommand)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+[rospy.core][INFO] 2022-02-23 12:05:21,940: signal_shutdown [atexit]

@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2021-12-21 14:24:26,139: init_node, name[/sensor/tactile_pressure], pid[1680]
+[xmlrpc][INFO] 2021-12-21 14:24:26,147: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 14:24:26,147: Started XML-RPC server [http://FM00351-u:33869/]
+[rospy.impl.masterslave][INFO] 2021-12-21 14:24:26,148: _ready: http://FM00351-u:33869/
+[rospy.init][INFO] 2021-12-21 14:24:26,148: ROS Slave URI: [http://FM00351-u:33869/]
+[rospy.registration][INFO] 2021-12-21 14:24:26,152: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 14:24:26,152: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 14:24:26,249: registered with master
+[rospy.rosout][INFO] 2021-12-21 14:24:26,249: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 14:24:26,251: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 14:24:26,252: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 14:24:26,253: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 14:24:26,255: Connecting to /dev/ttyUSB0 at 57600 baud
+[rospy.core][INFO] 2021-12-21 14:24:26,256: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2021-12-21 14:24:26,257: atexit

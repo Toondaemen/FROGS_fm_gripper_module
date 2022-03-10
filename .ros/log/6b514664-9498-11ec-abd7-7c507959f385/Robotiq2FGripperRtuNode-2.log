@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2022-02-23 11:04:51,267: init_node, name[/Robotiq2FGripperRtuNode], pid[11948]
+[xmlrpc][INFO] 2022-02-23 11:04:51,267: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:04:51,267: Started XML-RPC server [http://FM00351-u:45805/]
+[rospy.init][INFO] 2022-02-23 11:04:51,268: ROS Slave URI: [http://FM00351-u:45805/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:04:51,268: _ready: http://FM00351-u:45805/
+[rospy.registration][INFO] 2022-02-23 11:04:51,269: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:04:51,269: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:04:51,368: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:04:51,368: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:04:51,372: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:04:51,374: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:04:51,386: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:33947/], count 0
+[rospy.internal][INFO] 2022-02-23 11:04:51,667: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-02-23 11:06:26,472: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:06:26,475: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:06:26,476: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:33947/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:06:26,476: signal-2
+[rospy.internal][WARNING] 2022-02-23 11:06:26,476: Unknown error initiating TCP/IP socket to FM00351-u:46639 (http://FM00351-u:33947/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 561, in connect
+    self.write_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 642, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 417, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 32] Broken pipe
+
+[rospy.core][INFO] 2022-02-23 11:06:26,595: signal_shutdown [atexit]

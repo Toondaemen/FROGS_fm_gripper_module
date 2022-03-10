@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2021-12-21 10:46:38,808: init_node, name[/sensor/tactile_pressure], pid[555]
+[xmlrpc][INFO] 2021-12-21 10:46:38,817: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 10:46:38,818: Started XML-RPC server [http://FM00351-u:36203/]
+[rospy.init][INFO] 2021-12-21 10:46:38,818: ROS Slave URI: [http://FM00351-u:36203/]
+[rospy.impl.masterslave][INFO] 2021-12-21 10:46:38,818: _ready: http://FM00351-u:36203/
+[rospy.registration][INFO] 2021-12-21 10:46:38,823: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 10:46:38,823: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 10:46:38,919: registered with master
+[rospy.rosout][INFO] 2021-12-21 10:46:38,919: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 10:46:38,921: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 10:46:38,922: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-21 10:46:38,924: ROS Serial Python Node
+[rosout][INFO] 2021-12-21 10:46:38,928: Connecting to /dev/ttyUSB0 at 57600 baud
+[rosout][ERROR] 2021-12-21 10:46:38,930: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rospy.internal][INFO] 2021-12-21 10:46:39,182: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2021-12-21 10:46:41,934: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rosout][ERROR] 2021-12-21 10:46:44,941: Error opening serial: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[rospy.core][INFO] 2021-12-21 10:46:46,532: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-21 10:46:46,537: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-21 10:46:46,537: signal-2
+[rospy.core][INFO] 2021-12-21 10:46:46,645: signal_shutdown [atexit]

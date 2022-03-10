@@ -1,0 +1,54 @@
+[rospy.client][INFO] 2022-02-23 12:24:52,603: init_node, name[/gripper_action_server], pid[1763]
+[xmlrpc][INFO] 2022-02-23 12:24:52,603: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:24:52,604: Started XML-RPC server [http://FM00351-u:45997/]
+[rospy.init][INFO] 2022-02-23 12:24:52,604: ROS Slave URI: [http://FM00351-u:45997/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:24:52,604: _ready: http://FM00351-u:45997/
+[rospy.registration][INFO] 2022-02-23 12:24:52,605: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:24:52,605: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:24:52,704: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:24:52,705: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:24:52,709: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:24:52,711: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:24:52,961: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:01,544: topic[/rosout] adding connection to [/rostopic_1782_1645619101305], count 1
+[rospy.internal][INFO] 2022-02-23 12:25:07,627: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:07,627: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:07,628: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:07,693: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:43837/], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:07,693: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:43837/], count 0
+[rosout][INFO] 2022-02-23 12:25:07,716: state: initializing
+[rosout][INFO] 2022-02-23 12:25:07,717: controller is started now
+[rosout][INFO] 2022-02-23 12:25:07,720: -----
+Available commands
+
+r: Reset
+a: Activate
+cal obit cbit width: Calibrate return 1 bit in mm
+c: Close (full speed & force)
+o: Open (full speed & force)
+g: Grap (minimal speed & force)
+GoTo pos speed force
+f x: Set force during trajectory to x
+sin amplitude period duration
+trap height small_b large_b duration
+tri amplitude period duration
+samplePoints t_list pos_list
+fg: Grap with force detection (minimal speed & 1 N force)
+fg x: Grap with x Newton (minimal speed)
+sfg: Grap with force detection (minimal speed & 1 N force)
+sfg x: Grap with x Newton (minimal speed)
+sq x: Squeeze x positions
+fc x: Force control @ x N
+sc x: Slip Control @ x N
+
+[rospy.internal][INFO] 2022-02-23 12:25:07,813: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.core][INFO] 2022-02-23 12:25:23,056: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 12:25:23,059: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/rosout] removing connection to /rostopic_1782_1645619101305
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:43837/
+[rospy.internal][INFO] 2022-02-23 12:25:23,060: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:43837/
+[rospy.impl.masterslave][INFO] 2022-02-23 12:25:23,061: signal-2

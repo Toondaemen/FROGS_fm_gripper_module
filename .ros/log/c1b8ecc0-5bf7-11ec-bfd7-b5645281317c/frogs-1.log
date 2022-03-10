@@ -1,0 +1,69 @@
+[rospy.client][INFO] 2021-12-13 09:33:48,048: init_node, name[/frogs], pid[64]
+[xmlrpc][INFO] 2021-12-13 09:33:48,048: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-13 09:33:48,049: ROS Slave URI: [http://FM00351-u:39947/]
+[xmlrpc][INFO] 2021-12-13 09:33:48,049: Started XML-RPC server [http://FM00351-u:39947/]
+[rospy.impl.masterslave][INFO] 2021-12-13 09:33:48,049: _ready: http://FM00351-u:39947/
+[rospy.registration][INFO] 2021-12-13 09:33:48,049: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-13 09:33:48,049: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-13 09:33:48,149: registered with master
+[rospy.rosout][INFO] 2021-12-13 09:33:48,150: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-13 09:33:48,154: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-13 09:33:48,157: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-13 09:33:48,361: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2021-12-13 09:34:16,595: init_node, name[/frogs], pid[64]
+[xmlrpc][INFO] 2021-12-13 09:34:16,595: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-13 09:34:16,595: Started XML-RPC server [http://FM00351-u:41293/]
+[rospy.init][INFO] 2021-12-13 09:34:16,595: ROS Slave URI: [http://FM00351-u:41293/]
+[rospy.impl.masterslave][INFO] 2021-12-13 09:34:16,595: _ready: http://FM00351-u:41293/
+[rospy.registration][INFO] 2021-12-13 09:34:16,596: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-13 09:34:16,596: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-13 09:34:16,696: registered with master
+[rospy.rosout][INFO] 2021-12-13 09:34:16,696: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-13 09:34:16,701: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-13 09:34:16,704: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-13 09:34:16,818: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2021-12-13 09:38:08,246: init_node, name[/frogs], pid[64]
+[xmlrpc][INFO] 2021-12-13 09:38:08,246: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-13 09:38:08,246: Started XML-RPC server [http://FM00351-u:44437/]
+[rospy.init][INFO] 2021-12-13 09:38:08,246: ROS Slave URI: [http://FM00351-u:44437/]
+[rospy.impl.masterslave][INFO] 2021-12-13 09:38:08,246: _ready: http://FM00351-u:44437/
+[rospy.registration][INFO] 2021-12-13 09:38:08,247: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-13 09:38:08,247: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-13 09:38:08,347: registered with master
+[rospy.rosout][INFO] 2021-12-13 09:38:08,347: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-13 09:38:08,348: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-13 09:38:08,349: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-13 09:38:08,555: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2021-12-13 09:49:53,973: init_node, name[/frogs], pid[65]
+[xmlrpc][INFO] 2021-12-13 09:49:53,973: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-13 09:49:53,973: Started XML-RPC server [http://FM00351-u:44551/]
+[rospy.init][INFO] 2021-12-13 09:49:53,973: ROS Slave URI: [http://FM00351-u:44551/]
+[rospy.impl.masterslave][INFO] 2021-12-13 09:49:53,974: _ready: http://FM00351-u:44551/
+[rospy.registration][INFO] 2021-12-13 09:49:53,974: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-13 09:49:53,974: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-13 09:49:54,074: registered with master
+[rospy.rosout][INFO] 2021-12-13 09:49:54,074: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-13 09:49:54,079: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-13 09:49:54,082: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-13 09:49:54,142: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:41553/], count 0
+[rospy.internal][INFO] 2021-12-13 09:49:54,192: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2021-12-13 09:49:54,295: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2021-12-13 09:54:54,095: Unable to initiate TCP/IP socket to FM00351-u:41851 (http://FM00351-u:41553/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 594, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-13 09:54:54,299: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][WARNING] 2021-12-13 09:54:55,098: Unknown error initiating TCP/IP socket to FM00351-u:41851 (http://FM00351-u:41553/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-13 09:54:55,098: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:41553/
+[rospy.internal][INFO] 2021-12-13 09:55:02,805: topic[/rosout] removing connection to /rosout

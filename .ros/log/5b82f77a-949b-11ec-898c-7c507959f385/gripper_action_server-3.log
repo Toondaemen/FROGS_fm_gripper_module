@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2022-02-23 11:25:53,334: init_node, name[/gripper_action_server], pid[15748]
+[xmlrpc][INFO] 2022-02-23 11:25:53,335: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 11:25:53,335: Started XML-RPC server [http://FM00351-u:44223/]
+[rospy.init][INFO] 2022-02-23 11:25:53,335: ROS Slave URI: [http://FM00351-u:44223/]
+[rospy.impl.masterslave][INFO] 2022-02-23 11:25:53,335: _ready: http://FM00351-u:44223/
+[rospy.registration][INFO] 2022-02-23 11:25:53,337: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 11:25:53,337: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 11:25:53,436: registered with master
+[rospy.rosout][INFO] 2022-02-23 11:25:53,436: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 11:25:53,440: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 11:25:53,442: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 11:25:53,678: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 11:25:55,683: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 11:25:55,683: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 11:25:55,684: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-02-23 11:25:55,717: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:44583/], count 0
+[rospy.internal][INFO] 2022-02-23 11:25:55,719: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:44583/], count 0
+[rosout][INFO] 2022-02-23 11:25:55,752: state: initializing
+[rospy.internal][INFO] 2022-02-23 11:25:55,776: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.core][INFO] 2022-02-23 11:27:24,421: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 11:27:24,426: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:27:24,427: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:27:24,427: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 11:27:24,428: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-02-23 11:27:24,428: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][INFO] 2022-02-23 11:27:24,428: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:44583/
+[rospy.internal][INFO] 2022-02-23 11:27:24,428: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:44583/
+[rospy.impl.masterslave][INFO] 2022-02-23 11:27:24,428: signal-2
+[rospy.internal][WARNING] 2022-02-23 11:27:24,429: Unknown error initiating TCP/IP socket to FM00351-u:40569 (http://FM00351-u:44583/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rosout][ERROR] 2022-02-23 11:27:28,864: Exception in your execute callback: invalid syntax (<string>, line 1)
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 38, in execute
+    Robotiq2FGripperSlipController().controller()
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 800, in controller
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/Robotiq2FGripperSlipController.py", line 774, in askForInput
+    return input(strAskForCommand)
+  File "<string>", line 1
+    [A
+    ^
+SyntaxError: invalid syntax
+
+[rospy.core][INFO] 2022-02-23 11:27:28,967: signal_shutdown [atexit]

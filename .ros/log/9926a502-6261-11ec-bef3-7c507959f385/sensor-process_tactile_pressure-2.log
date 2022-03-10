@@ -1,0 +1,16 @@
+[rospy.client][INFO] 2021-12-21 13:27:34,432: init_node, name[/sensor/process_tactile_pressure], pid[185]
+[xmlrpc][INFO] 2021-12-21 13:27:34,432: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-21 13:27:34,432: Started XML-RPC server [http://FM00351-u:36617/]
+[rospy.init][INFO] 2021-12-21 13:27:34,433: ROS Slave URI: [http://FM00351-u:36617/]
+[rospy.impl.masterslave][INFO] 2021-12-21 13:27:34,433: _ready: http://FM00351-u:36617/
+[rospy.registration][INFO] 2021-12-21 13:27:34,434: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-12-21 13:27:34,434: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-21 13:27:34,533: registered with master
+[rospy.rosout][INFO] 2021-12-21 13:27:34,533: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-21 13:27:34,539: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-21 13:27:34,541: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-21 13:27:34,716: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-21 13:27:37,551: pressure data processing package started 
+[rospy.core][INFO] 2021-12-21 13:27:37,552: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-12-21 13:27:37,554: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-21 13:27:37,554: atexit

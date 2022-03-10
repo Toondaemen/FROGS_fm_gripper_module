@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2022-02-14 15:13:44,963: init_node, name[/frogs], pid[1584]
+[xmlrpc][INFO] 2022-02-14 15:13:44,964: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 15:13:44,964: Started XML-RPC server [http://FM00351-u:41961/]
+[rospy.init][INFO] 2022-02-14 15:13:44,964: ROS Slave URI: [http://FM00351-u:41961/]
+[rospy.impl.masterslave][INFO] 2022-02-14 15:13:44,964: _ready: http://FM00351-u:41961/
+[rospy.registration][INFO] 2022-02-14 15:13:44,965: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 15:13:44,965: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 15:13:45,064: registered with master
+[rospy.rosout][INFO] 2022-02-14 15:13:45,064: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 15:13:45,066: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 15:13:45,066: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-14 15:13:45,309: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-14 15:13:49,211: topic[/Robotiq2FGripperRobotOutput] adding connection to [/robotiq2FGripper], count 0
+[rospy.internal][INFO] 2022-02-14 15:13:49,248: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:39251/], count 0
+[rospy.impl.masterslave][INFO] 2022-02-14 15:21:55,569: external shutdown request from [/master]: [/frogs] Reason: new node registered with same name
+[rospy.core][INFO] 2022-02-14 15:21:55,569: signal_shutdown [external shutdown request from [/master]: [[/frogs] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2022-02-14 15:21:55,574: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 15:21:55,574: topic[/Robotiq2FGripperRobotOutput] removing connection to /robotiq2FGripper
+[rospy.internal][INFO] 2022-02-14 15:21:55,574: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:39251/
+[rospy.core][INFO] 2022-02-14 15:21:55,672: signal_shutdown [atexit]

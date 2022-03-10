@@ -1,0 +1,4 @@
+
+
+1640096561.431080085  Node Startup
+1640096565.066567182 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /rosout, /sensor/pressure_reset, /sensor/estimated_ForceAndLoc, /sensor/pressure_data] pressure data processing package started 

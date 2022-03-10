@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2022-02-23 12:24:52,520: init_node, name[/Robotiq2FGripperRtuNode], pid[1759]
+[xmlrpc][INFO] 2022-02-23 12:24:52,521: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-23 12:24:52,521: Started XML-RPC server [http://FM00351-u:42887/]
+[rospy.init][INFO] 2022-02-23 12:24:52,521: ROS Slave URI: [http://FM00351-u:42887/]
+[rospy.impl.masterslave][INFO] 2022-02-23 12:24:52,521: _ready: http://FM00351-u:42887/
+[rospy.registration][INFO] 2022-02-23 12:24:52,522: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-23 12:24:52,522: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-23 12:24:52,621: registered with master
+[rospy.rosout][INFO] 2022-02-23 12:24:52,622: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-23 12:24:52,623: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-23 12:24:52,624: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-02-23 12:24:52,859: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-02-23 12:25:01,544: topic[/rosout] adding connection to [/rostopic_1782_1645619101305], count 1
+[rospy.internal][INFO] 2022-02-23 12:25:07,811: topic[/Robotiq2FGripperRobotOutput] adding connection to [http://FM00351-u:45997/], count 0
+[rospy.core][INFO] 2022-02-23 12:25:23,058: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-23 12:25:23,061: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-23 12:25:23,062: topic[/rosout] removing connection to /rostopic_1782_1645619101305
+[rospy.internal][INFO] 2022-02-23 12:25:23,062: topic[/Robotiq2FGripperRobotOutput] removing connection to http://FM00351-u:45997/
+[rospy.impl.masterslave][INFO] 2022-02-23 12:25:23,063: signal-2
+[rospy.internal][WARNING] 2022-02-23 12:25:23,063: Unknown error initiating TCP/IP socket to FM00351-u:46247 (http://FM00351-u:45997/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.core][INFO] 2022-02-23 12:25:23,195: signal_shutdown [atexit]

@@ -1,0 +1,5 @@
+[INFO] [1644847904.202642]: ROS Serial Python Node
+[INFO] [1644847904.204665]: Connecting to /dev/ttyACM0 at 57600 baud
+[INFO] [1644847906.309529]: Requesting topics...
+[INFO] [1644847906.320085]: Note: publish buffer size is 512 bytes
+[INFO] [1644847906.322318]: Setup publisher on Pressure [std_msgs/Float64MultiArray]

@@ -1,0 +1,13 @@
+#goal         
+int64 distance
+int64 velocity
+int64 force
+bool calibrate
+bool reset
+---
+#result
+int64 result
+---
+#feedback
+float64 status
+

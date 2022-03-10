@@ -1,0 +1,61 @@
+[rospy.client][INFO] 2022-02-14 13:36:41,711: init_node, name[/sensor/tactile_pressure], pid[887]
+[xmlrpc][INFO] 2022-02-14 13:36:41,711: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 13:36:41,711: Started XML-RPC server [http://FM00351-u:35275/]
+[rospy.init][INFO] 2022-02-14 13:36:41,711: ROS Slave URI: [http://FM00351-u:35275/]
+[rospy.impl.masterslave][INFO] 2022-02-14 13:36:41,711: _ready: http://FM00351-u:35275/
+[rospy.registration][INFO] 2022-02-14 13:36:41,712: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 13:36:41,712: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 13:36:41,812: registered with master
+[rospy.rosout][INFO] 2022-02-14 13:36:41,812: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 13:36:41,818: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 13:36:41,819: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-02-14 13:36:41,822: ROS Serial Python Node
+[rosout][INFO] 2022-02-14 13:36:41,824: Connecting to /dev/ttyACM0 at 57600 baud
+[rosout][ERROR] 2022-02-14 13:36:41,826: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rospy.internal][INFO] 2022-02-14 13:36:42,136: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-02-14 13:36:44,829: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:36:47,836: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:36:50,842: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:36:53,846: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:36:56,852: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:36:59,857: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:02,861: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:05,867: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:08,872: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:11,877: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:14,881: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:17,886: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:20,892: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:23,898: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:26,907: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:29,914: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:32,920: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:35,924: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:38,929: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:41,938: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:44,944: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:47,948: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:50,952: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:53,958: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:56,964: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:37:59,968: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:02,972: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:05,980: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:08,984: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:11,990: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:14,995: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:17,999: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:21,005: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:24,008: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:27,012: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:30,018: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:33,024: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:36,029: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:39,035: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:42,041: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:45,047: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rosout][ERROR] 2022-02-14 13:38:48,051: Error opening serial: [Errno 21] could not open port /dev/ttyACM0: [Errno 21] Is a directory: '/dev/ttyACM0'
+[rospy.core][INFO] 2022-02-14 13:38:50,015: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-02-14 13:38:50,019: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-02-14 13:38:50,019: signal-2
+[rospy.core][INFO] 2022-02-14 13:38:50,152: signal_shutdown [atexit]

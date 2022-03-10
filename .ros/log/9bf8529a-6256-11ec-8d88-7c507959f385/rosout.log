@@ -1,0 +1,7 @@
+
+
+1640088467.138280952  Node Startup
+1640088467.509493112 INFO /sensor/tactile_pressure [serial_node.py:65(<module>)] [topics: /rosout] Connecting to /dev/ttyUSB0 at 57600 baud
+1640088469.617830991 INFO /sensor/tactile_pressure [SerialClient.py:404(SerialClient.requestTopics)] [topics: /diagnostics, /rosout] Requesting topics...
+1640088470.812037944 INFO /sensor/process_tactile_pressure [pressure_LocAndForceEstimation.py:95(LocAndForceEstimation.start)] [topics: /sensor/pressure_reset, /rosout, /sensor/pressure_data, /sensor/estimated_ForceAndLoc] pressure data processing package started 
+1640088473.872701883 INFO /sensor/tactile_pressure [SerialClient.py:423(SerialClient.txStopRequest)] [topics: /diagnostics, /rosout] Send tx stop request

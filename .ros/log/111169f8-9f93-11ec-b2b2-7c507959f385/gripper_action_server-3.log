@@ -1,0 +1,273 @@
+[rospy.client][INFO] 2022-03-09 10:24:15,190: init_node, name[/gripper_action_server], pid[5477]
+[xmlrpc][INFO] 2022-03-09 10:24:15,191: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-09 10:24:15,191: Started XML-RPC server [http://FM00351-u:36983/]
+[rospy.init][INFO] 2022-03-09 10:24:15,191: ROS Slave URI: [http://FM00351-u:36983/]
+[rospy.impl.masterslave][INFO] 2022-03-09 10:24:15,191: _ready: http://FM00351-u:36983/
+[rospy.registration][INFO] 2022-03-09 10:24:15,192: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-03-09 10:24:15,192: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-09 10:24:15,291: registered with master
+[rospy.rosout][INFO] 2022-03-09 10:24:15,292: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-09 10:24:15,295: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-09 10:24:15,297: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-09 10:24:15,565: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,647: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,647: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,647: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,676: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:36411/], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,676: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:36411/], count 0
+[rosout][INFO] 2022-03-09 10:24:23,686: state: initializing
+[rosout][INFO] 2022-03-09 10:24:23,687: controller is started now
+[rospy.internal][INFO] 2022-03-09 10:24:23,692: topic[/Robotiq2FGripperRobotInput] adding connection to [http://FM00351-u:46323/], count 0
+[rospy.internal][INFO] 2022-03-09 10:24:23,787: topic[/Robotiq2FGripperRobotOutput] adding connection to [/Robotiq2FGripperRtuNode], count 0
+[rospy.internal][WARNING] 2022-03-09 10:24:46,263: Unknown error initiating TCP/IP socket to FM00351-u:37993 (http://FM00351-u:36411/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2022-03-09 10:24:46,265: Unknown error initiating TCP/IP socket to FM00351-u:37993 (http://FM00351-u:36411/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:24:46,269: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:36411/
+[rospy.internal][INFO] 2022-03-09 10:24:46,280: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:36411/
+[rosout][WARNING] 2022-03-09 10:24:46,430: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-03-09 10:24:46,441: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-09 10:24:46,456: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:24:46,459: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:24:46,460: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:09,559: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:09,707: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:10,014: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:33517/], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:10,081: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:33517/], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:10,109: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:28:10,288: Unknown error initiating TCP/IP socket to FM00351-u:36233 (http://FM00351-u:33517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:28:10,312: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:33517/
+[rospy.internal][WARNING] 2022-03-09 10:28:10,327: Unknown error initiating TCP/IP socket to FM00351-u:36233 (http://FM00351-u:33517/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:28:10,348: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:33517/
+[rospy.internal][INFO] 2022-03-09 10:28:10,571: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:10,571: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:10,574: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:34,096: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:35917/], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:34,117: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:35917/], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:34,147: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:34,237: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:28:34,766: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:28:34,869: Unknown error initiating TCP/IP socket to FM00351-u:46811 (http://FM00351-u:35917/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:28:34,905: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:35917/
+[rospy.internal][WARNING] 2022-03-09 10:28:34,910: Unknown error initiating TCP/IP socket to FM00351-u:46811 (http://FM00351-u:35917/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:28:35,056: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:35917/
+[rospy.internal][INFO] 2022-03-09 10:28:35,125: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:35,125: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:28:35,126: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:12,456: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:12,457: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:35795/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:12,492: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:12,552: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:35795/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:12,569: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:29:12,880: Unknown error initiating TCP/IP socket to FM00351-u:46721 (http://FM00351-u:35795/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2022-03-09 10:29:12,896: Unknown error initiating TCP/IP socket to FM00351-u:46721 (http://FM00351-u:35795/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:29:13,044: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:35795/
+[rospy.internal][INFO] 2022-03-09 10:29:13,058: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:35795/
+[rospy.internal][INFO] 2022-03-09 10:29:13,060: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:13,064: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:13,082: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:24,810: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:36283/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:24,863: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:36283/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:24,958: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:25,201: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:25,316: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:29:25,666: Unknown error initiating TCP/IP socket to FM00351-u:35807 (http://FM00351-u:36283/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2022-03-09 10:29:25,675: Unknown error initiating TCP/IP socket to FM00351-u:35807 (http://FM00351-u:36283/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-03-09 10:29:25,649: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][INFO] 2022-03-09 10:29:25,776: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:36283/
+[rospy.internal][INFO] 2022-03-09 10:29:25,807: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:25,920: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:36283/
+[rospy.internal][INFO] 2022-03-09 10:29:25,920: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][ERROR] 2022-03-09 10:29:25,921: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-09 10:29:25,927: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:56,502: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:56,568: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:40537/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:56,599: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:56,619: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:40537/], count 0
+[rospy.internal][INFO] 2022-03-09 10:29:56,664: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:29:56,859: Unknown error initiating TCP/IP socket to FM00351-u:38561 (http://FM00351-u:40537/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:29:56,934: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:40537/
+[rospy.internal][WARNING] 2022-03-09 10:29:56,962: Unknown error initiating TCP/IP socket to FM00351-u:38561 (http://FM00351-u:40537/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-03-09 10:29:56,952: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][INFO] 2022-03-09 10:29:56,974: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:40537/
+[rospy.internal][INFO] 2022-03-09 10:29:57,170: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:29:57,170: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][ERROR] 2022-03-09 10:29:57,171: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-09 10:29:57,184: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:00,615: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:00,658: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:46577/], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:00,669: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:46577/], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:01,025: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:01,188: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rosout][WARNING] 2022-03-09 10:30:01,228: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][WARNING] 2022-03-09 10:30:01,249: Unknown error initiating TCP/IP socket to FM00351-u:36477 (http://FM00351-u:46577/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2022-03-09 10:30:01,244: Unknown error initiating TCP/IP socket to FM00351-u:36477 (http://FM00351-u:46577/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:30:01,340: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:46577/
+[rospy.internal][ERROR] 2022-03-09 10:30:01,492: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-09 10:30:01,701: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:46577/
+[rospy.internal][INFO] 2022-03-09 10:30:01,763: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:01,806: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:01,815: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:07,453: topic[/gripper_action_server/cancel] adding connection to [http://FM00351-u:44945/], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:07,459: topic[/gripper_action_server/goal] adding connection to [http://FM00351-u:44945/], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:07,474: topic[/gripper_action_server/feedback] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:07,773: topic[/gripper_action_server/result] adding connection to [/gripper_action_client], count 0
+[rospy.internal][INFO] 2022-03-09 10:30:07,926: topic[/gripper_action_server/status] adding connection to [/gripper_action_client], count 0
+[rospy.internal][WARNING] 2022-03-09 10:30:08,012: Unknown error initiating TCP/IP socket to FM00351-u:41445 (http://FM00351-u:44945/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][WARNING] 2022-03-09 10:30:08,048: Unknown error initiating TCP/IP socket to FM00351-u:41445 (http://FM00351-u:44945/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 10:30:08,215: topic[/gripper_action_server/cancel] removing connection to http://FM00351-u:44945/
+[rosout][WARNING] 2022-03-09 10:30:08,214: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][INFO] 2022-03-09 10:30:08,437: topic[/gripper_action_server/status] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:08,437: topic[/gripper_action_server/feedback] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 10:30:08,438: topic[/gripper_action_server/goal] removing connection to http://FM00351-u:44945/
+[rospy.internal][ERROR] 2022-03-09 10:30:08,438: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 325, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-03-09 10:30:08,439: topic[/gripper_action_server/result] removing connection to /gripper_action_client
+[rospy.internal][INFO] 2022-03-09 15:08:17,625: topic[/Robotiq2FGripperRobotOutput] removing connection to /Robotiq2FGripperRtuNode
+[rospy.internal][WARNING] 2022-03-09 15:09:20,590: Unknown error initiating TCP/IP socket to FM00351-u:36389 (http://FM00351-u:46323/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-03-09 15:09:20,977: topic[/Robotiq2FGripperRobotInput] removing connection to http://FM00351-u:46323/
+[rospy.core][INFO] 2022-03-09 15:11:17,180: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-03-09 15:11:18,957: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-03-09 15:11:19,069: signal-2
+[rosout][INFO] 2022-03-09 15:11:19,070: state: inactive
+[rospy.core][INFO] 2022-03-09 15:11:19,584: signal_shutdown [atexit]

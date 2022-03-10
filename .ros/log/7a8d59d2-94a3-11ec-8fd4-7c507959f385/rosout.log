@@ -1,0 +1,28 @@
+
+
+1645619040.816921603  Node Startup
+1645619043.368765115 INFO /gripper_action_server [gripper_action_server.py:31(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645619043.369975090 INFO /gripper_action_server [Robotiq2FGripperSlipController.py:776(Robotiq2FGripperSlipController.controller)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] controller is started now
+1645619043.371386051 INFO /gripper_action_server [Robotiq2FGripperSlipController.py:771(Robotiq2FGripperSlipController.askForInput)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /Robotiq2FGripperRobotOutput, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] -----
+Available commands
+
+r: Reset
+a: Activate
+cal obit cbit width: Calibrate return 1 bit in mm
+c: Close (full speed & force)
+o: Open (full speed & force)
+g: Grap (minimal speed & force)
+GoTo pos speed force
+f x: Set force during trajectory to x
+sin amplitude period duration
+trap height small_b large_b duration
+tri amplitude period duration
+samplePoints t_list pos_list
+fg: Grap with force detection (minimal speed & 1 N force)
+fg x: Grap with x Newton (minimal speed)
+sfg: Grap with force detection (minimal speed & 1 N force)
+sfg x: Grap with x Newton (minimal speed)
+sq x: Squeeze x positions
+fc x: Force control @ x N
+sc x: Slip Control @ x N
+

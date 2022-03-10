@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2022-02-14 13:52:24,345: init_node, name[/sensor/tactile_pressure], pid[750]
+[xmlrpc][INFO] 2022-02-14 13:52:24,345: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 13:52:24,345: Started XML-RPC server [http://FM00351-u:46189/]
+[rospy.init][INFO] 2022-02-14 13:52:24,345: ROS Slave URI: [http://FM00351-u:46189/]
+[rospy.impl.masterslave][INFO] 2022-02-14 13:52:24,345: _ready: http://FM00351-u:46189/
+[xmlrpc][INFO] 2022-02-14 13:52:24,346: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-02-14 13:52:24,346: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-02-14 13:52:24,445: registered with master
+[rospy.rosout][INFO] 2022-02-14 13:52:24,446: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 13:52:24,451: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 13:52:24,452: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-02-14 13:52:24,457: ROS Serial Python Node
+[rosout][INFO] 2022-02-14 13:52:24,460: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2022-02-14 13:52:24,672: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-02-14 13:52:26,564: Requesting topics...
+[rosout][INFO] 2022-02-14 13:52:26,596: Note: publish buffer size is 512 bytes
+[rosout][INFO] 2022-02-14 13:52:26,596: Setup publisher on Pressure [std_msgs/Float64MultiArray]
+[rospy.internal][INFO] 2022-02-14 13:52:26,672: topic[/sensor/pressure_data] adding connection to [/sensor/process_tactile_pressure], count 0
+[rospy.core][INFO] 2022-02-14 14:07:45,153: signal_shutdown [signal-2]
+[rosout][INFO] 2022-02-14 14:07:45,153: Sending tx stop request
+[rosout][INFO] 2022-02-14 14:07:45,154: shutdown hook activated
+[rospy.internal][INFO] 2022-02-14 14:07:45,156: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 14:07:45,156: topic[/sensor/pressure_data] removing connection to /sensor/process_tactile_pressure
+[rospy.impl.masterslave][INFO] 2022-02-14 14:07:45,156: signal-2
+[rospy.core][INFO] 2022-02-14 14:07:45,320: signal_shutdown [atexit]

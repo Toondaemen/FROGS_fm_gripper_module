@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2022-02-14 14:11:44,098: init_node, name[/sensor/tactile_pressure], pid[419]
+[xmlrpc][INFO] 2022-02-14 14:11:44,098: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-02-14 14:11:44,098: Started XML-RPC server [http://FM00351-u:37297/]
+[rospy.init][INFO] 2022-02-14 14:11:44,098: ROS Slave URI: [http://FM00351-u:37297/]
+[rospy.impl.masterslave][INFO] 2022-02-14 14:11:44,098: _ready: http://FM00351-u:37297/
+[rospy.registration][INFO] 2022-02-14 14:11:44,099: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-02-14 14:11:44,099: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-02-14 14:11:44,199: registered with master
+[rospy.rosout][INFO] 2022-02-14 14:11:44,199: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-02-14 14:11:44,200: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-02-14 14:11:44,201: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-02-14 14:11:44,202: ROS Serial Python Node
+[rosout][INFO] 2022-02-14 14:11:44,204: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2022-02-14 14:11:44,419: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-02-14 14:11:46,309: Requesting topics...
+[rosout][INFO] 2022-02-14 14:11:46,319: Note: publish buffer size is 512 bytes
+[rosout][INFO] 2022-02-14 14:11:46,322: Setup publisher on Pressure [std_msgs/Float64MultiArray]
+[rospy.internal][INFO] 2022-02-14 14:11:46,329: topic[/sensor/pressure_data] adding connection to [/sensor/process_tactile_pressure], count 0
+[rospy.internal][INFO] 2022-02-14 14:12:48,150: topic[/sensor/pressure_data] adding connection to [/rostopic_993_1644847967972], count 1
+[rospy.internal][INFO] 2022-02-14 14:13:02,822: topic[/sensor/pressure_data] removing connection to /rostopic_993_1644847967972
+[rosout][WARNING] 2022-02-14 14:14:51,981: Last read step: data checksum
+[rosout][WARNING] 2022-02-14 14:14:51,984: Run loop error: [Errno 5] Input/output error
+[rospy.core][INFO] 2022-02-14 14:14:51,993: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-02-14 14:14:51,995: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-02-14 14:14:51,995: topic[/sensor/pressure_data] removing connection to /sensor/process_tactile_pressure
+[rospy.impl.masterslave][INFO] 2022-02-14 14:14:51,995: atexit

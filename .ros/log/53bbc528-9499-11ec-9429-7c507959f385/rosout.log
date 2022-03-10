@@ -1,0 +1,26 @@
+
+
+1645614680.693670769  Node Startup
+1645614962.569674968 INFO /gripper_action_server [gripper_action_server.py:32(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645614962.571413040 ERROR /gripper_action_server [simple_action_server.py:298(SimpleActionServer.executeLoop)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Exception in your execute callback: 'module' object has no attribute 'controller'
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 39, in execute
+    Robotiq2FGripperSlipController.controller()
+AttributeError: 'module' object has no attribute 'controller'
+
+1645614962.576466083 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1645614962.577378034 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1645614962.699453115 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1645615086.564028978 INFO /gripper_action_server [gripper_action_server.py:32(GripperActionServer.execute)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] state: initializing
+1645615086.565188884 ERROR /gripper_action_server [simple_action_server.py:298(SimpleActionServer.executeLoop)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Exception in your execute callback: 'module' object has no attribute 'controller'
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/actionlib/simple_action_server.py", line 289, in executeLoop
+    self.execute_callback(goal)
+  File "/home/ros/catkin_ws/src/fm_gripper_module/src/gripper_action_server.py", line 39, in execute
+    self.result.result = 1
+AttributeError: 'module' object has no attribute 'controller'
+
+1645615086.579164028 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1645615086.759249925 WARN /gripper_action_server [tcpros_base.py:355(TCPROSServer._tcp_server_callback)] [topics: /gripper_action_server/goal, /gripper_action_server/status, /gripper_action_server/result, /gripper_action_server/feedback, /gripper_action_server/cancel, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
